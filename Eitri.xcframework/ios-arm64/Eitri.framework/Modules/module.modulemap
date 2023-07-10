@@ -1,0 +1,11 @@
+framework module Eitri {
+  umbrella header "Eitri.h"
+
+  export *
+  module * { export * }
+}
+
+module Eitri.Swift {
+  header "Eitri-Swift.h"
+  requires objc
+}

@@ -1,0 +1,102 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Eitri
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Cache
+@_exported import Eitri
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public struct RunInput {
+  public init(deeplink: Swift.String? = nil, workspaceId: Swift.String? = nil, slug: Swift.String? = nil, initParams: Foundation.NSDictionary? = nil, navControllerToPush: UIKit.UINavigationController? = nil)
+  public var deeplink: Swift.String?
+  public var workspaceId: Swift.String?
+  public var slug: Swift.String?
+  public var initParams: Foundation.NSDictionary?
+  public var navControllerToPush: UIKit.UINavigationController?
+}
+public struct SharedMethodParams {
+  public let data: Foundation.NSDictionary
+  public let slug: Swift.String
+}
+#if compiler(>=5.3) && $AsyncAwait
+public typealias SharedMethod = (_ params: Eitri.SharedMethodParams) async throws -> Any?
+#endif
+public struct DynamicMethodAddressableMessage {
+  public var promiseId: Swift.String
+  public var slug: Swift.String
+  public var rawMessageFromOrigin: Swift.String
+}
+public typealias DynamicMethodRawEventListener = (_ params: Eitri.DynamicMethodAddressableMessage) throws -> Swift.Void
+public struct ExposedMethodDescriptor {
+  public init(_ namespace: Swift.String, _ methodName: Swift.String)
+}
+public class SuperApp {
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func configure(input: Eitri.ConfigureInput) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func run(options: Eitri.RunInput) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getInitializationInfos() async -> Foundation.NSDictionary?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getEnvironmentConfig() async -> Eitri.ConfigureEitriEnvironmentResponse?
+  #endif
+  @objc deinit
+}
+public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
+public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ConfigureInput {
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, certPinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
+}
+public struct Bridge {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
+  #endif
+}
+public struct RawBridge {
+  public func exposeMethodsWithListener(methods: [Eitri.ExposedMethodDescriptor], listener: @escaping Eitri.DynamicMethodRawEventListener) throws
+  public func resolveMethodExecution(promiseId: Swift.String, data: Swift.String) throws
+  public func rejectMethodExecution(promiseId: Swift.String, data: Swift.String) throws
+}
+public struct EitriMachine {
+  public let bridge: Eitri.Bridge
+  public let rawBrige: Eitri.RawBridge
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func configure(input: Eitri.ConfigureInput) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func run(options: Eitri.RunInput) async throws
+  #endif
+}
+public struct SafeAreaInsets {
+}
+public struct SuperAppContext {
+  public var version: Swift.String
+  public var environmentKey: Swift.String
+  public var safeAreaInsets: Eitri.SafeAreaInsets?
+}
+public enum SuperAppErrors : Swift.Error {
+  case alreadyInitialized
+  case mustCallStartBeforeOpenMiniApp
+  case eitriEnvironmentKeyMissing
+  case invalidResourceToOpen
+  public static func == (a: Eitri.SuperAppErrors, b: Eitri.SuperAppErrors) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Eitri.SuperAppErrors : Swift.Equatable {}
+extension Eitri.SuperAppErrors : Swift.Hashable {}

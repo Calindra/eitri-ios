@@ -1,0 +1,5693 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RunInput",
+        "printedName": "RunInput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deeplink:workspaceId:slug:initParams:navControllerToPush:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RunInput",
+                "printedName": "Eitri.RunInput",
+                "usr": "s:5Eitri8RunInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri8RunInputV8deeplink11workspaceId4slug10initParams19navControllerToPushACSSSg_A2ISo12NSDictionaryCSgSo012UINavigationK0CSgtcfc",
+            "mangledName": "$s5Eitri8RunInputV8deeplink11workspaceId4slug10initParams19navControllerToPushACSSSg_A2ISo12NSDictionaryCSgSo012UINavigationK0CSgtcfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "deeplink",
+            "printedName": "deeplink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri8RunInputV8deeplinkSSSgvp",
+            "mangledName": "$s5Eitri8RunInputV8deeplinkSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV8deeplinkSSSgvg",
+                "mangledName": "$s5Eitri8RunInputV8deeplinkSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV8deeplinkSSSgvs",
+                "mangledName": "$s5Eitri8RunInputV8deeplinkSSSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV8deeplinkSSSgvM",
+                "mangledName": "$s5Eitri8RunInputV8deeplinkSSSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "workspaceId",
+            "printedName": "workspaceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri8RunInputV11workspaceIdSSSgvp",
+            "mangledName": "$s5Eitri8RunInputV11workspaceIdSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV11workspaceIdSSSgvg",
+                "mangledName": "$s5Eitri8RunInputV11workspaceIdSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV11workspaceIdSSSgvs",
+                "mangledName": "$s5Eitri8RunInputV11workspaceIdSSSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV11workspaceIdSSSgvM",
+                "mangledName": "$s5Eitri8RunInputV11workspaceIdSSSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri8RunInputV4slugSSSgvp",
+            "mangledName": "$s5Eitri8RunInputV4slugSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV4slugSSSgvg",
+                "mangledName": "$s5Eitri8RunInputV4slugSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV4slugSSSgvs",
+                "mangledName": "$s5Eitri8RunInputV4slugSSSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV4slugSSSgvM",
+                "mangledName": "$s5Eitri8RunInputV4slugSSSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initParams",
+            "printedName": "initParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvp",
+            "mangledName": "$s5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSDictionary?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDictionary",
+                        "printedName": "Foundation.NSDictionary",
+                        "usr": "c:objc(cs)NSDictionary"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvg",
+                "mangledName": "$s5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSDictionary?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSDictionary",
+                        "printedName": "Foundation.NSDictionary",
+                        "usr": "c:objc(cs)NSDictionary"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvs",
+                "mangledName": "$s5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvM",
+                "mangledName": "$s5Eitri8RunInputV10initParamsSo12NSDictionaryCSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navControllerToPush",
+            "printedName": "navControllerToPush",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvp",
+            "mangledName": "$s5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvg",
+                "mangledName": "$s5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvs",
+                "mangledName": "$s5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvM",
+                "mangledName": "$s5Eitri8RunInputV19navControllerToPushSo012UINavigationE0CSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri8RunInputV",
+        "mangledName": "$s5Eitri8RunInputV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SharedMethodParams",
+        "printedName": "SharedMethodParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri18SharedMethodParamsV4dataSo12NSDictionaryCvp",
+            "mangledName": "$s5Eitri18SharedMethodParamsV4dataSo12NSDictionaryCvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri18SharedMethodParamsV4dataSo12NSDictionaryCvg",
+                "mangledName": "$s5Eitri18SharedMethodParamsV4dataSo12NSDictionaryCvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri18SharedMethodParamsV4slugSSvp",
+            "mangledName": "$s5Eitri18SharedMethodParamsV4slugSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri18SharedMethodParamsV4slugSSvg",
+                "mangledName": "$s5Eitri18SharedMethodParamsV4slugSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri18SharedMethodParamsV",
+        "mangledName": "$s5Eitri18SharedMethodParamsV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DynamicMethodAddressableMessage",
+        "printedName": "DynamicMethodAddressableMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "promiseId",
+            "printedName": "promiseId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvp",
+            "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvg",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvs",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvM",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV9promiseIdSSvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri31DynamicMethodAddressableMessageV4slugSSvp",
+            "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV4slugSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV4slugSSvg",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV4slugSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV4slugSSvs",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV4slugSSvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV4slugSSvM",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV4slugSSvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawMessageFromOrigin",
+            "printedName": "rawMessageFromOrigin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvp",
+            "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvg",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvs",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvM",
+                "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV03rawE10FromOriginSSvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri31DynamicMethodAddressableMessageV",
+        "mangledName": "$s5Eitri31DynamicMethodAddressableMessageV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExposedMethodDescriptor",
+        "printedName": "ExposedMethodDescriptor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExposedMethodDescriptor",
+                "printedName": "Eitri.ExposedMethodDescriptor",
+                "usr": "s:5Eitri23ExposedMethodDescriptorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri23ExposedMethodDescriptorVyACSS_SStcfc",
+            "mangledName": "$s5Eitri23ExposedMethodDescriptorVyACSS_SStcfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri23ExposedMethodDescriptorV",
+        "mangledName": "$s5Eitri23ExposedMethodDescriptorV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuperApp",
+        "printedName": "SuperApp",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SuperApp",
+                "printedName": "Eitri.SuperApp",
+                "usr": "s:5Eitri8SuperAppC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri8SuperAppCACycfc",
+            "mangledName": "$s5Eitri8SuperAppCACycfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(input:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigureInput",
+                "printedName": "Eitri.ConfigureInput",
+                "usr": "s:5Eitri14ConfigureInputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri8SuperAppC9configure5inputyAA14ConfigureInputV_tYaKF",
+            "mangledName": "$s5Eitri8SuperAppC9configure5inputyAA14ConfigureInputV_tYaKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RunInput",
+                "printedName": "Eitri.RunInput",
+                "usr": "s:5Eitri8RunInputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri8SuperAppC3run7optionsyAA8RunInputV_tYaKF",
+            "mangledName": "$s5Eitri8SuperAppC3run7optionsyAA8RunInputV_tYaKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInitializationInfos",
+            "printedName": "getInitializationInfos()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri8SuperAppC22getInitializationInfosSo12NSDictionaryCSgyYaF",
+            "mangledName": "$s5Eitri8SuperAppC22getInitializationInfosSo12NSDictionaryCSgyYaF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnvironmentConfig",
+            "printedName": "getEnvironmentConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.ConfigureEitriEnvironmentResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigureEitriEnvironmentResponse",
+                    "printedName": "Eitri.ConfigureEitriEnvironmentResponse",
+                    "usr": "s:5Eitri09ConfigureA19EnvironmentResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri8SuperAppC20getEnvironmentConfigAA09ConfigureaE8ResponseVSgyYaF",
+            "mangledName": "$s5Eitri8SuperAppC20getEnvironmentConfigAA09ConfigureaE8ResponseVSgyYaF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Eitri8SuperAppC",
+        "mangledName": "$s5Eitri8SuperAppC",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Cache",
+        "printedName": "Cache",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigureEitriEnvironmentResponse",
+        "printedName": "ConfigureEitriEnvironmentResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigureEitriEnvironmentResponse",
+                "printedName": "Eitri.ConfigureEitriEnvironmentResponse",
+                "usr": "s:5Eitri09ConfigureA19EnvironmentResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri09ConfigureA19EnvironmentResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Eitri09ConfigureA19EnvironmentResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri09ConfigureA19EnvironmentResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Eitri09ConfigureA19EnvironmentResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri09ConfigureA19EnvironmentResponseV",
+        "mangledName": "$s5Eitri09ConfigureA19EnvironmentResponseV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigureInput",
+        "printedName": "ConfigureInput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(version:environmentKey:sandbox:certPinningChallengeFunction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigureInput",
+                "printedName": "Eitri.ConfigureInput",
+                "usr": "s:5Eitri14ConfigureInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URLAuthenticationChallenge, (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLAuthenticationChallenge",
+                            "printedName": "Foundation.URLAuthenticationChallenge",
+                            "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "AuthChallengeDisposition",
+                                    "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                                    "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "Foundation.URLCredential?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "URLCredential",
+                                        "printedName": "Foundation.URLCredential",
+                                        "usr": "c:objc(cs)NSURLCredential"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri14ConfigureInputV7version14environmentKey7sandbox28certPinningChallengeFunctionACSS_SSSbySo019NSURLAuthenticationJ0C_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctcSgtcfc",
+            "mangledName": "$s5Eitri14ConfigureInputV7version14environmentKey7sandbox28certPinningChallengeFunctionACSS_SSSbySo019NSURLAuthenticationJ0C_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctcSgtcfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri14ConfigureInputV",
+        "mangledName": "$s5Eitri14ConfigureInputV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Cache",
+        "printedName": "Cache",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bridge",
+        "printedName": "Bridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "exposeMethod",
+            "printedName": "exposeMethod(namespace:methodName:fn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.SharedMethodParams) async throws -> Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedMethodParams",
+                    "printedName": "Eitri.SharedMethodParams",
+                    "usr": "s:5Eitri18SharedMethodParamsV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri6BridgeV12exposeMethod9namespace10methodName2fnySS_SSypSgAA06SharedD6ParamsVYaKctKF",
+            "mangledName": "$s5Eitri6BridgeV12exposeMethod9namespace10methodName2fnySS_SSypSgAA06SharedD6ParamsVYaKctKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri6BridgeV",
+        "mangledName": "$s5Eitri6BridgeV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RawBridge",
+        "printedName": "RawBridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "exposeMethodsWithListener",
+            "printedName": "exposeMethodsWithListener(methods:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Eitri.ExposedMethodDescriptor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExposedMethodDescriptor",
+                    "printedName": "Eitri.ExposedMethodDescriptor",
+                    "usr": "s:5Eitri23ExposedMethodDescriptorV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.DynamicMethodAddressableMessage) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicMethodAddressableMessage",
+                    "printedName": "Eitri.DynamicMethodAddressableMessage",
+                    "usr": "s:5Eitri31DynamicMethodAddressableMessageV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri9RawBridgeV25exposeMethodsWithListener7methods8listenerySayAA23ExposedMethodDescriptorVG_yAA07DynamicK18AddressableMessageVKctKF",
+            "mangledName": "$s5Eitri9RawBridgeV25exposeMethodsWithListener7methods8listenerySayAA23ExposedMethodDescriptorVG_yAA07DynamicK18AddressableMessageVKctKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveMethodExecution",
+            "printedName": "resolveMethodExecution(promiseId:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri9RawBridgeV22resolveMethodExecution9promiseId4dataySS_SStKF",
+            "mangledName": "$s5Eitri9RawBridgeV22resolveMethodExecution9promiseId4dataySS_SStKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rejectMethodExecution",
+            "printedName": "rejectMethodExecution(promiseId:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri9RawBridgeV21rejectMethodExecution9promiseId4dataySS_SStKF",
+            "mangledName": "$s5Eitri9RawBridgeV21rejectMethodExecution9promiseId4dataySS_SStKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri9RawBridgeV",
+        "mangledName": "$s5Eitri9RawBridgeV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EitriMachine",
+        "printedName": "EitriMachine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bridge",
+            "printedName": "bridge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bridge",
+                "printedName": "Eitri.Bridge",
+                "usr": "s:5Eitri6BridgeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri0A7MachineV6bridgeAA6BridgeVvp",
+            "mangledName": "$s5Eitri0A7MachineV6bridgeAA6BridgeVvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bridge",
+                    "printedName": "Eitri.Bridge",
+                    "usr": "s:5Eitri6BridgeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri0A7MachineV6bridgeAA6BridgeVvg",
+                "mangledName": "$s5Eitri0A7MachineV6bridgeAA6BridgeVvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawBrige",
+            "printedName": "rawBrige",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RawBridge",
+                "printedName": "Eitri.RawBridge",
+                "usr": "s:5Eitri9RawBridgeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri0A7MachineV8rawBrigeAA9RawBridgeVvp",
+            "mangledName": "$s5Eitri0A7MachineV8rawBrigeAA9RawBridgeVvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RawBridge",
+                    "printedName": "Eitri.RawBridge",
+                    "usr": "s:5Eitri9RawBridgeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri0A7MachineV8rawBrigeAA9RawBridgeVvg",
+                "mangledName": "$s5Eitri0A7MachineV8rawBrigeAA9RawBridgeVvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachine",
+                "printedName": "Eitri.EitriMachine",
+                "usr": "s:5Eitri0A7MachineV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri0A7MachineVACycfc",
+            "mangledName": "$s5Eitri0A7MachineVACycfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(input:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigureInput",
+                "printedName": "Eitri.ConfigureInput",
+                "usr": "s:5Eitri14ConfigureInputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A7MachineV9configure5inputyAA14ConfigureInputV_tYaKF",
+            "mangledName": "$s5Eitri0A7MachineV9configure5inputyAA14ConfigureInputV_tYaKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RunInput",
+                "printedName": "Eitri.RunInput",
+                "usr": "s:5Eitri8RunInputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A7MachineV3run7optionsyAA8RunInputV_tYaKF",
+            "mangledName": "$s5Eitri0A7MachineV3run7optionsyAA8RunInputV_tYaKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri0A7MachineV",
+        "mangledName": "$s5Eitri0A7MachineV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SafeAreaInsets",
+        "printedName": "SafeAreaInsets",
+        "declKind": "Struct",
+        "usr": "s:5Eitri14SafeAreaInsetsV",
+        "mangledName": "$s5Eitri14SafeAreaInsetsV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuperAppContext",
+        "printedName": "SuperAppContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri15SuperAppContextV7versionSSvp",
+            "mangledName": "$s5Eitri15SuperAppContextV7versionSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV7versionSSvg",
+                "mangledName": "$s5Eitri15SuperAppContextV7versionSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV7versionSSvs",
+                "mangledName": "$s5Eitri15SuperAppContextV7versionSSvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV7versionSSvM",
+                "mangledName": "$s5Eitri15SuperAppContextV7versionSSvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environmentKey",
+            "printedName": "environmentKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri15SuperAppContextV14environmentKeySSvp",
+            "mangledName": "$s5Eitri15SuperAppContextV14environmentKeySSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV14environmentKeySSvg",
+                "mangledName": "$s5Eitri15SuperAppContextV14environmentKeySSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV14environmentKeySSvs",
+                "mangledName": "$s5Eitri15SuperAppContextV14environmentKeySSvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV14environmentKeySSvM",
+                "mangledName": "$s5Eitri15SuperAppContextV14environmentKeySSvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "safeAreaInsets",
+            "printedName": "safeAreaInsets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.SafeAreaInsets?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SafeAreaInsets",
+                    "printedName": "Eitri.SafeAreaInsets",
+                    "usr": "s:5Eitri14SafeAreaInsetsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvp",
+            "mangledName": "$s5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.SafeAreaInsets?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SafeAreaInsets",
+                        "printedName": "Eitri.SafeAreaInsets",
+                        "usr": "s:5Eitri14SafeAreaInsetsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvg",
+                "mangledName": "$s5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.SafeAreaInsets?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SafeAreaInsets",
+                        "printedName": "Eitri.SafeAreaInsets",
+                        "usr": "s:5Eitri14SafeAreaInsetsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvs",
+                "mangledName": "$s5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvM",
+                "mangledName": "$s5Eitri15SuperAppContextV14safeAreaInsetsAA04SafefG0VSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri15SuperAppContextV",
+        "mangledName": "$s5Eitri15SuperAppContextV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuperAppErrors",
+        "printedName": "SuperAppErrors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "alreadyInitialized",
+            "printedName": "alreadyInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.SuperAppErrors.Type) -> Eitri.SuperAppErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SuperAppErrors",
+                    "printedName": "Eitri.SuperAppErrors",
+                    "usr": "s:5Eitri14SuperAppErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.SuperAppErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SuperAppErrors",
+                        "printedName": "Eitri.SuperAppErrors",
+                        "usr": "s:5Eitri14SuperAppErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri14SuperAppErrorsO18alreadyInitializedyA2CmF",
+            "mangledName": "$s5Eitri14SuperAppErrorsO18alreadyInitializedyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "mustCallStartBeforeOpenMiniApp",
+            "printedName": "mustCallStartBeforeOpenMiniApp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.SuperAppErrors.Type) -> Eitri.SuperAppErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SuperAppErrors",
+                    "printedName": "Eitri.SuperAppErrors",
+                    "usr": "s:5Eitri14SuperAppErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.SuperAppErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SuperAppErrors",
+                        "printedName": "Eitri.SuperAppErrors",
+                        "usr": "s:5Eitri14SuperAppErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri14SuperAppErrorsO027mustCallStartBeforeOpenMiniC0yA2CmF",
+            "mangledName": "$s5Eitri14SuperAppErrorsO027mustCallStartBeforeOpenMiniC0yA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "eitriEnvironmentKeyMissing",
+            "printedName": "eitriEnvironmentKeyMissing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.SuperAppErrors.Type) -> Eitri.SuperAppErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SuperAppErrors",
+                    "printedName": "Eitri.SuperAppErrors",
+                    "usr": "s:5Eitri14SuperAppErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.SuperAppErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SuperAppErrors",
+                        "printedName": "Eitri.SuperAppErrors",
+                        "usr": "s:5Eitri14SuperAppErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri14SuperAppErrorsO26eitriEnvironmentKeyMissingyA2CmF",
+            "mangledName": "$s5Eitri14SuperAppErrorsO26eitriEnvironmentKeyMissingyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResourceToOpen",
+            "printedName": "invalidResourceToOpen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.SuperAppErrors.Type) -> Eitri.SuperAppErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SuperAppErrors",
+                    "printedName": "Eitri.SuperAppErrors",
+                    "usr": "s:5Eitri14SuperAppErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.SuperAppErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SuperAppErrors",
+                        "printedName": "Eitri.SuperAppErrors",
+                        "usr": "s:5Eitri14SuperAppErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri14SuperAppErrorsO21invalidResourceToOpenyA2CmF",
+            "mangledName": "$s5Eitri14SuperAppErrorsO21invalidResourceToOpenyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SuperAppErrors",
+                "printedName": "Eitri.SuperAppErrors",
+                "usr": "s:5Eitri14SuperAppErrorsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SuperAppErrors",
+                "printedName": "Eitri.SuperAppErrors",
+                "usr": "s:5Eitri14SuperAppErrorsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri14SuperAppErrorsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Eitri14SuperAppErrorsO2eeoiySbAC_ACtFZ",
+            "moduleName": "Eitri",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14SuperAppErrorsO9hashValueSivp",
+            "mangledName": "$s5Eitri14SuperAppErrorsO9hashValueSivp",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14SuperAppErrorsO9hashValueSivg",
+                "mangledName": "$s5Eitri14SuperAppErrorsO9hashValueSivg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri14SuperAppErrorsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Eitri14SuperAppErrorsO4hash4intoys6HasherVz_tF",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Eitri14SuperAppErrorsO",
+        "mangledName": "$s5Eitri14SuperAppErrorsO",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/AnyToBasicElementMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 917,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/AnyToBasicElementMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 760,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 829,
+      "length": 9,
+      "value": "\"#EDEDED\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 847,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 9,
+      "value": "\"#535353\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 914,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1002,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 30,
+      "value": "\"Não foi possível continuar\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 9,
+      "value": "\"#535353\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 1316,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1356,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1513,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1825,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 1863,
+      "length": 202,
+      "value": "\"Toque no botão abaixo para voltar ao\nponto onde estava anteriormente.\nVerifique a conexão com a internet do seu\ncelular ou atualizações do aplicativo.\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 2116,
+      "length": 9,
+      "value": "\"#5b5a5a\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 2134,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2197,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 2595,
+      "length": 10,
+      "value": "\"Cancelar\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 2657,
+      "length": 9,
+      "value": "\"#535353\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 2675,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2791,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3489,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3753,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 4644,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4738,
+      "length": 3,
+      "value": "210"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4832,
+      "length": 3,
+      "value": "210"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5075,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5191,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5309,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5569,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5691,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5815,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 6131,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6224,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6316,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/ErrorScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 11,
+      "value": "\"Eitri.ErrorScreen\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "Dictionary",
+      "offset": 1140,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 1712,
+      "length": 21,
+      "value": "\"api.already.exposed\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 2985,
+      "length": 21,
+      "value": "\"api.already.exposed\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 3823,
+      "length": 26,
+      "value": "\"dynamic.method.not.found\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3857,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "Array",
+      "offset": 4064,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 4375,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 4388,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 4402,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 27,
+      "value": "\">>> start loading webView\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 32,
+      "value": "\">>> getAlbCookieScript.error: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 28,
+      "value": "\">>> finish loading webView\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 41,
+      "value": "\"error.loading.webview.didFail: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 61,
+      "value": "\"error.loading.webview.didFailProvisionalNavigation \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 39,
+      "value": "\"error.loading.webview.decidePolicyFor\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2154,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 2532,
+      "length": 78,
+      "value": "\"MiniAppWebViewCoordinator.userContentController.ignore.processorNotAvailable\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 2730,
+      "length": 73,
+      "value": "\"MiniAppWebViewCoordinator.userContentController.ignore.NonStringMessage\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 3192,
+      "length": 55,
+      "value": "\"MiniAppWebViewCoordinator.userContentController.error\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3552,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 3779,
+      "length": 482,
+      "value": "\"   let mustReload = document.querySelector(\"body\").innerText === \"Ops: tela em branco.\";\n\n   \/\/ console.log(\"configurando alb...\")\n\n   if(mustReload){\n       console.debug(\"document.cookie\", \"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 4019,
+      "length": 2,
+      "value": "\"\")\n       document.cookie = \"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 4068,
+      "length": 1,
+      "value": "\"; path=\/;\";\n       document.cookie = \"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 4151,
+      "length": 8,
+      "value": "\"AWSALB\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 4167,
+      "length": 12,
+      "value": "\"AWSALBCORS\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 4181,
+      "length": 1,
+      "value": "\"; path=\/;\"\n       window.location.reload(true);\n   }\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 25,
+      "value": "\"Eitri.MiniAppWebViewCoordinator\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 251,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 342,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3422,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3663,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3817,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 4,
+      "value": "-998"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 4,
+      "value": "-999"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 5,
+      "value": "-1000"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 5,
+      "value": "-1001"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 5,
+      "value": "-1002"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 5,
+      "value": "-1003"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "-1004"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 5,
+      "value": "-1005"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 5,
+      "value": "-1006"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 540,
+      "length": 5,
+      "value": "-1007"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 5,
+      "value": "-1008"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 5,
+      "value": "-1009"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 5,
+      "value": "-1010"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 5,
+      "value": "-1011"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 806,
+      "length": 5,
+      "value": "-1012"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 862,
+      "length": 5,
+      "value": "-1013"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 5,
+      "value": "-1014"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 5,
+      "value": "-1015"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 5,
+      "value": "-1016"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1062,
+      "length": 5,
+      "value": "-1017"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1112,
+      "length": 5,
+      "value": "-1018"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1165,
+      "length": 5,
+      "value": "-1019"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 5,
+      "value": "-1020"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 5,
+      "value": "-1021"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1324,
+      "length": 5,
+      "value": "-1100"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1377,
+      "length": 5,
+      "value": "-1101"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 5,
+      "value": "-1102"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1483,
+      "length": 5,
+      "value": "-1103"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 1,
+      "value": "-998"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "-999"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 1,
+      "value": "-1000"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "-1001"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 1,
+      "value": "-1002"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "-1003"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "-1004"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "-1005"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "-1006"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 540,
+      "length": 1,
+      "value": "-1007"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "-1008"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 1,
+      "value": "-1009"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 1,
+      "value": "-1010"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 1,
+      "value": "-1011"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 806,
+      "length": 1,
+      "value": "-1012"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 862,
+      "length": 1,
+      "value": "-1013"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 1,
+      "value": "-1014"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 1,
+      "value": "-1015"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 1,
+      "value": "-1016"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1062,
+      "length": 1,
+      "value": "-1017"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1112,
+      "length": 1,
+      "value": "-1018"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1165,
+      "length": 1,
+      "value": "-1019"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "-1020"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 1,
+      "value": "-1021"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1324,
+      "length": 1,
+      "value": "-1100"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1377,
+      "length": 1,
+      "value": "-1101"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 1,
+      "value": "-1102"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1483,
+      "length": 1,
+      "value": "-1103"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 1,
+      "value": "-998"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "-999"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 1,
+      "value": "-1000"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "-1001"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 1,
+      "value": "-1002"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "-1003"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "-1004"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "-1005"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "-1006"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 540,
+      "length": 1,
+      "value": "-1007"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "-1008"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 1,
+      "value": "-1009"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 1,
+      "value": "-1010"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 1,
+      "value": "-1011"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 806,
+      "length": 1,
+      "value": "-1012"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 862,
+      "length": 1,
+      "value": "-1013"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 1,
+      "value": "-1014"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 1,
+      "value": "-1015"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1012,
+      "length": 1,
+      "value": "-1016"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1062,
+      "length": 1,
+      "value": "-1017"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1112,
+      "length": 1,
+      "value": "-1018"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1165,
+      "length": 1,
+      "value": "-1019"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "-1020"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 1,
+      "value": "-1021"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1324,
+      "length": 1,
+      "value": "-1100"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1377,
+      "length": 1,
+      "value": "-1101"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 1,
+      "value": "-1102"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/NSErrorCodes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1483,
+      "length": 1,
+      "value": "-1103"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 10,
+      "value": "\"miniapp_\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1421,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1884,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 2352,
+      "length": 37,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 2374,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 2381,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 2388,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 2522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/StringExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 130,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/StringExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CertificatePinnerService.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 23,
+      "value": "\"Eitri.EitriUrlSessionDelegate\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 7,
+      "value": "\"local\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 9,
+      "value": "\"staging\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 7,
+      "value": "\"local\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 9,
+      "value": "\"staging\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 247,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 69,
+      "value": "\"https:\/\/prod.eitri.calindra.com.br\/miniapp-manager-api\/o\/mini-apps\/\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 55,
+      "value": "\"https:\/\/prod.eitri.calindra.com.br\/share-api\/share\/%@\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 84,
+      "value": "\"https:\/\/prod.eitri.calindra.com.br\/miniapp-manager-api\/o\/environments\/%@\/configure\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 9,
+      "value": "\"staging\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 68,
+      "value": "\"https:\/\/dev.eitri.calindra.com.br\/miniapp-manager-api\/o\/mini-apps\/\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 54,
+      "value": "\"https:\/\/dev.eitri.calindra.com.br\/share-api\/share\/%@\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 83,
+      "value": "\"https:\/\/dev.eitri.calindra.com.br\/miniapp-manager-api\/o\/environments\/%@\/configure\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 7,
+      "value": "\"local\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 52,
+      "value": "\"https:\/\/localhost\/miniapp-manager-api\/o\/mini-apps\/\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 38,
+      "value": "\"https:\/\/localhost\/share-api\/share\/%@\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 67,
+      "value": "\"https:\/\/localhost\/miniapp-manager-api\/o\/environments\/%@\/configure\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1456,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1486,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1674,
+      "length": 29,
+      "value": "\"XCTestConfigurationFilePath\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/BridgeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 12,
+      "value": "\"methodName\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/BridgeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/BridgeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 11,
+      "value": "\"promiseId\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/BridgeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/BridgeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 6,
+      "value": "\"args\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/BridgeUtils.swift",
+      "kind": "Dictionary",
+      "offset": 1054,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/ArithmeticService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 85,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 20,
+      "value": "\"Invalid color code\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 504,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 517,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 523,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 569,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 582,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 587,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Extensions\/ColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 643,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Model\/ConfigureInput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 103,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Model\/ConfigureInput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 82,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 12,
+      "value": "\"eitriCache\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 28,
+      "value": "\">>> no cache found for key\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 22,
+      "value": "\">>> fetching sync...\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1570,
+      "length": 52,
+      "value": "\">>> is expired? \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 43,
+      "value": "\">>> force expiring = \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1834,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1863,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 25,
+      "value": "\">>> refreshing async...\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/EitriMachine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1643,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/EitriMachine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/EitriMachine.swift",
+      "kind": "StringLiteral",
+      "offset": 2233,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/EitriMachine.swift",
+      "kind": "StringLiteral",
+      "offset": 2250,
+      "length": 27,
+      "value": "\"EitriMachine.init(\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/EitriMachine.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 100,
+      "length": 8,
+      "value": "\"Eitri.\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 24,
+      "value": "\"window.EITRI.connector\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 669,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 47,
+      "value": "\"MiniAppMessageProcessor.processMiniAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 44,
+      "value": "\"processMiniAppMessage.SuperAppServiceError\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 37,
+      "value": "\"processMiniAppMessage.generic.error\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1573,
+      "length": 69,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1613,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1641,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 154,
+      "value": "\"{\n    \"methodName\": \"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2085,
+      "length": 2,
+      "value": "\"\",\n    \"promiseId\": \"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2126,
+      "length": 2,
+      "value": "\"\",\n    \"res\": \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2154,
+      "length": 1,
+      "value": "\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2216,
+      "length": 345,
+      "value": "\"    try {\n        \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2318,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2333,
+      "length": 1,
+      "value": "\");\n    } catch(e) {\n        console.debug('Error SuperApp.\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
+      "length": 1,
+      "value": "\"({methodName: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2447,
+      "length": 1,
+      "value": "\", promiseId: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2472,
+      "length": 1,
+      "value": "\", res: {\/*...*\/}})');\n        console.debug(e.message);\n    }\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2892,
+      "length": 376,
+      "value": "\"    try {\n        \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2988,
+      "length": 1,
+      "value": "\".resolvePromise(\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3018,
+      "length": 1,
+      "value": "\");\n    } catch(e) {\n        console.debug('Error SuperApp.resolvePromise({methodName: resolvePromise, promiseId: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3167,
+      "length": 1,
+      "value": "\", res: {\/*...*\/}})');\n        console.debug(e.message);\n    }\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3374,
+      "length": 54,
+      "value": "\"resolvePromise.error.toBridgeMessageOutput =\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3427,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3795,
+      "length": 374,
+      "value": "\"    try {\n        \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3891,
+      "length": 1,
+      "value": "\".rejectPromise(\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3920,
+      "length": 1,
+      "value": "\");\n    } catch(e) {\n        console.debug('Error SuperApp.rejectPromise({methodName: resolvePromise, promiseId: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4068,
+      "length": 1,
+      "value": "\", res: {\/*...*\/}})');\n        console.debug(e.message);\n    }\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4275,
+      "length": 53,
+      "value": "\"rejectPromise.error.toBridgeMessageOutput =\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4327,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4593,
+      "length": 216,
+      "value": "\"    try {\n        \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4681,
+      "length": 1,
+      "value": "\".rejectPromise(\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4713,
+      "length": 3,
+      "value": "\"\");\n    } catch(e) {\n        console.debug(e.message);\n    }\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 4898,
+      "length": 571,
+      "value": "\"    try {\n        \n        if(window.EITRI){\n            window.EITRI.navigation.back()\n        } else {\n            const eitriBridgeIos = window.webkit?.messageHandlers?.eitriBridge;\n            if (eitriBridgeIos) {\n                eitriBridgeIos.postMessage(JSON.stringify( { \"methodName\": \"close\"} ));\n            }\n        }\n    } catch(e) {\n        console.debug('Error Eitri.navigation.back()');\n        console.debug(e.message);\n    }\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 5634,
+      "length": 167,
+      "value": "\"    try {\n       \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppMessageProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 5678,
+      "length": 1,
+      "value": "\"\n    } catch(e) {\n        console.debug(\"injectJS error: \", e);\n    }\n    true;\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/GetConfigsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 501,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 722,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 28,
+      "value": "\"findDataOnShareApi.error: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 1522,
+      "length": 9,
+      "value": "\"envConf\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 2028,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 2083,
+      "length": 36,
+      "value": "\"getEnvironmentConfigForKey.error: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 2530,
+      "length": 36,
+      "value": "\"getEnvironmentConfigForKey.error: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppPlayerService.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 7,
+      "value": "\"share\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppPlayerService.swift",
+      "kind": "StringLiteral",
+      "offset": 2393,
+      "length": 32,
+      "value": "\"buscando workspace com shareId\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppPlayerService.swift",
+      "kind": "StringLiteral",
+      "offset": 2706,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppPlayerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppPlayerService.swift",
+      "kind": "StringLiteral",
+      "offset": 3882,
+      "length": 29,
+      "value": "\"findSharedDataError.error: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppPlayerComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 13,
+      "value": "\"eitriBridge\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppPlayerComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
+      "length": 40,
+      "value": "\"bootstrapURL \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppPlayerComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppPlayerComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 1754,
+      "length": 13,
+      "value": "\"url.invalid\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppPlayerComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2237,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/MiniAppPlayerComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/BridgeDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 12,
+      "value": "\"methodName\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/BridgeDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 11,
+      "value": "\"promiseId\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/BridgeDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 5,
+      "value": "\"res\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 72,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 7,
+      "value": "\"http:\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 56,
+      "value": "\"Protocolo HTTP não permitido.\nUse o protocolo HTTPS.\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1339,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 14,
+      "value": "\"content-type\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1755,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2036,
+      "length": 14,
+      "value": "\"content-type\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "Array",
+      "offset": 2373,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2743,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2829,
+      "length": 25,
+      "value": "\"unrecognizable.response\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2864,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2962,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3020,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 3370,
+      "length": 54,
+      "value": "\"callHttpMethod.\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 3415,
+      "length": 1,
+      "value": "\".error: \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/Components\/ExclamationMark.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "\"!\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/Components\/ExclamationMark.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/Components\/ExclamationMark.swift",
+      "kind": "FloatLiteral",
+      "offset": 975,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/Components\/ExclamationMark.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1336,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/Components\/ExclamationMark.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1381,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/Components\/ExclamationMark.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 19,
+      "value": "\"Eitri.ExclamationMarkView\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 8,
+      "value": "\"eitri_\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 43,
+      "value": "\">> Storage has been successfully cleared!\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 1506,
+      "length": 45,
+      "value": "\">> Invalid suit identifier of UserDefaults.\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 9,
+      "value": "\"OPTIONS\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2512,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2628,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2807,
+      "length": 9,
+      "value": "\"headers\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2868,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 2910,
+      "length": 9,
+      "value": "\"timeout\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 3174,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 3474,
+      "length": 14,
+      "value": "\"content-type\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 3585,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppHttpService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/MiniAppDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/MiniAppDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/MiniAppDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 981,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/MiniAppDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1027,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Model\/MiniAppDataModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 30,
+      "value": "\"MessageProcessor.parse.error\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1030,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 5,
+      "value": "\"sum\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 9,
+      "value": "\"httpGet\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
+      "length": 10,
+      "value": "\"httpPost\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1541,
+      "length": 12,
+      "value": "\"httpDelete\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 9,
+      "value": "\"httpPut\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 11,
+      "value": "\"httpPatch\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 10,
+      "value": "\"httpHead\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 13,
+      "value": "\"httpOptions\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 16,
+      "value": "\"storageSetItem\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 16,
+      "value": "\"storageGetItem\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2197,
+      "length": 19,
+      "value": "\"storageRemoveItem\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 13,
+      "value": "\"storageKeys\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 14,
+      "value": "\"storageClear\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2492,
+      "length": 12,
+      "value": "\"getConfigs\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2566,
+      "length": 23,
+      "value": "\"setStatusBarTextWhite\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2652,
+      "length": 23,
+      "value": "\"setStatusBarTextBlack\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2738,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 2803,
+      "length": 24,
+      "value": "\"getInitializationInfos\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3051,
+      "length": 34,
+      "value": "\"METHOD_NOT_FOUND = \""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3084,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3701,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3807,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 4137,
+      "length": 11,
+      "value": "\"namespace\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 4164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 4197,
+      "length": 12,
+      "value": "\"methodName\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 4225,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 4541,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 4743,
+      "length": 6,
+      "value": "\"args\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "Dictionary",
+      "offset": 4771,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5089,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5209,
+      "length": 99,
+      "value": "\"viewControllerToDismiss (\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5306,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5324,
+      "length": 27,
+      "value": "\"superAppService (\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5349,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5694,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5843,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5912,
+      "length": 11,
+      "value": "\"close.end\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6076,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 6546,
+      "length": 42,
+      "value": "\"UIViewControllerBasedStatusBarAppearance\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 6969,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 15,
+      "value": "\"Eitri.SuperAppService\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 23,
+      "value": "\"eitri.calindra.com.br\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1345,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1366,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1596,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1673,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppUrlResolver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2200,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

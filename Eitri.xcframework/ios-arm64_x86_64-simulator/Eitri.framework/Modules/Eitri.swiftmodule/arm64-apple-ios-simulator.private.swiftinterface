@@ -57,7 +57,7 @@ public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, certPinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
 }
 public struct Bridge {
   #if compiler(>=5.3) && $AsyncAwait

@@ -1448,7 +1448,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(version:environmentKey:sandbox:certPinningChallengeFunction:)",
+            "printedName": "init(version:environmentKey:sandbox:certificatePinningChallengeFunction:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1550,8 +1550,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5Eitri14ConfigureInputV7version14environmentKey7sandbox28certPinningChallengeFunctionACSS_SSSbySo019NSURLAuthenticationJ0C_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctcSgtcfc",
-            "mangledName": "$s5Eitri14ConfigureInputV7version14environmentKey7sandbox28certPinningChallengeFunctionACSS_SSSbySo019NSURLAuthenticationJ0C_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctcSgtcfc",
+            "usr": "s:5Eitri14ConfigureInputV7version14environmentKey7sandbox35certificatePinningChallengeFunctionACSS_SSSbySo019NSURLAuthenticationJ0C_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctcSgtcfc",
+            "mangledName": "$s5Eitri14ConfigureInputV7version14environmentKey7sandbox35certificatePinningChallengeFunctionACSS_SSSbySo019NSURLAuthenticationJ0C_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctcSgtcfc",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -3312,28 +3312,28 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 2345,
+      "offset": 2352,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3422,
+      "offset": 3429,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3663,
+      "offset": 3670,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3817,
+      "offset": 3824,
       "length": 5,
       "value": "false"
     },
@@ -4341,14 +4341,14 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Model\/ConfigureInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 103,
+      "offset": 108,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Model\/ConfigureInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 448,
+      "offset": 474,
       "length": 5,
       "value": "false"
     },

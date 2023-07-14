@@ -5447,168 +5447,210 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3051,
+      "offset": 2901,
+      "length": 13,
+      "value": "\"openBrowser\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 3164,
       "length": 34,
       "value": "\"METHOD_NOT_FOUND = \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3084,
+      "offset": 3197,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3584,
+      "offset": 3697,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3701,
+      "offset": 3814,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3920,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3870,
+      "offset": 3983,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4137,
+      "offset": 4250,
       "length": 11,
       "value": "\"namespace\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4164,
+      "offset": 4277,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4197,
+      "offset": 4310,
       "length": 12,
       "value": "\"methodName\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4225,
+      "offset": 4338,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4541,
+      "offset": 4654,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4743,
+      "offset": 4856,
       "length": 6,
       "value": "\"args\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "Dictionary",
-      "offset": 4771,
+      "offset": 4884,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5089,
+      "offset": 5202,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5209,
+      "offset": 5322,
       "length": 99,
       "value": "\"viewControllerToDismiss (\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 5419,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5324,
+      "offset": 5437,
       "length": 27,
       "value": "\"superAppService (\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5349,
+      "offset": 5462,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5694,
+      "offset": 5807,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5843,
+      "offset": 5956,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5912,
+      "offset": 6025,
       "length": 11,
       "value": "\"close.end\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6076,
+      "offset": 6189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6546,
+      "offset": 6550,
+      "length": 14,
+      "value": "\"required.url\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6572,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 6630,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 6679,
+      "length": 16,
+      "value": "\"required.https\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 7096,
       "length": 42,
       "value": "\"UIViewControllerBasedStatusBarAppearance\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6969,
+      "offset": 7519,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },

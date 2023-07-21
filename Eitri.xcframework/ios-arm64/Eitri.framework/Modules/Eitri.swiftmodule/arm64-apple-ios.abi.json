@@ -1312,6 +1312,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "Cache",
         "printedName": "Cache",
         "declKind": "Import",
@@ -1566,6 +1573,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
       },
       {
         "kind": "Import",
@@ -3312,28 +3326,28 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 2352,
+      "offset": 2579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3429,
+      "offset": 3656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3670,
+      "offset": 3897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3824,
+      "offset": 4051,
       "length": 5,
       "value": "false"
     },
@@ -3928,64 +3942,57 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 185,
       "length": 10,
       "value": "\"miniapp_\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 402,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 590,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1143,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1401,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1719,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1884,
+      "offset": 1882,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
+      "offset": 2359,
       "length": 37,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
-      "kind": "StringLiteral",
-      "offset": 2374,
-      "length": 1,
       "value": "\"\""
     },
     {
@@ -3993,19 +4000,26 @@
       "kind": "StringLiteral",
       "offset": 2381,
       "length": 1,
-      "value": "\"_\""
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
       "offset": 2388,
       "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 2395,
+      "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/Implementation\/MiniAppStorageService.swift",
       "kind": "StringLiteral",
-      "offset": 2522,
+      "offset": 2529,
       "length": 2,
       "value": "\"\""
     },
@@ -4104,83 +4118,104 @@
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
       "offset": 523,
-      "length": 84,
-      "value": "\"https:\/\/prod.eitri.calindra.com.br\/miniapp-manager-api\/o\/environments\/%@\/configure\""
+      "length": 96,
+      "value": "\"https:\/\/prod.eitri.calindra.com.br\/miniapp-manager-api\/o\/environments\/%@\/configure?bundleId=%@\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 643,
+      "length": 60,
+      "value": "\"https:\/\/analytics.dev.eitri.calindra.com.br\/analytics\/send\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
       "length": 9,
       "value": "\"staging\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 809,
       "length": 68,
       "value": "\"https:\/\/dev.eitri.calindra.com.br\/miniapp-manager-api\/o\/mini-apps\/\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 897,
       "length": 54,
       "value": "\"https:\/\/dev.eitri.calindra.com.br\/share-api\/share\/%@\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 877,
-      "length": 83,
-      "value": "\"https:\/\/dev.eitri.calindra.com.br\/miniapp-manager-api\/o\/environments\/%@\/configure\""
+      "offset": 972,
+      "length": 95,
+      "value": "\"https:\/\/dev.eitri.calindra.com.br\/miniapp-manager-api\/o\/environments\/%@\/configure?bundleId=%@\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 1030,
+      "offset": 1091,
+      "length": 60,
+      "value": "\"https:\/\/analytics.dev.eitri.calindra.com.br\/analytics\/send\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
       "length": 7,
       "value": "\"local\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 1062,
+      "offset": 1253,
       "length": 52,
       "value": "\"https:\/\/localhost\/miniapp-manager-api\/o\/mini-apps\/\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1325,
       "length": 38,
       "value": "\"https:\/\/localhost\/share-api\/share\/%@\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 1193,
-      "length": 67,
-      "value": "\"https:\/\/localhost\/miniapp-manager-api\/o\/environments\/%@\/configure\""
+      "offset": 1384,
+      "length": 79,
+      "value": "\"https:\/\/localhost\/miniapp-manager-api\/o\/environments\/%@\/configure?bundleId=%@\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1487,
+      "length": 60,
+      "value": "\"https:\/\/analytics.dev.eitri.calindra.com.br\/analytics\/send\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1456,
+      "offset": 1743,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1486,
+      "offset": 1773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Config\/EnvironmentService.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 1961,
       "length": 29,
       "value": "\"XCTestConfigurationFilePath\""
     },
@@ -4353,6 +4388,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/AnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/AnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 36,
+      "value": "\"AnalyticsService.sendEvent.error: \""
+    },
+    {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "IntegerLiteral",
       "offset": 82,
@@ -4362,91 +4411,91 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 297,
+      "offset": 253,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 339,
+      "offset": 295,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 474,
       "length": 12,
       "value": "\"eitriCache\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1299,
+      "offset": 1255,
       "length": 28,
       "value": "\">>> no cache found for key\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1347,
+      "offset": 1303,
       "length": 22,
       "value": "\">>> fetching sync...\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1526,
       "length": 52,
       "value": "\">>> is expired? \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1616,
+      "offset": 1572,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1577,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1742,
+      "offset": 1698,
       "length": 43,
       "value": "\">>> force expiring = \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1784,
+      "offset": 1740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1834,
+      "offset": 1790,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1863,
+      "offset": 1819,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 1945,
+      "offset": 1901,
       "length": 25,
       "value": "\">>> refreshing async...\""
     },
@@ -4817,21 +4866,28 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
       "kind": "StringLiteral",
-      "offset": 2028,
+      "offset": 1979,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
       "kind": "StringLiteral",
-      "offset": 2083,
+      "offset": 2088,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 2143,
       "length": 36,
       "value": "\"getEnvironmentConfigForKey.error: \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/MiniAppApiService.swift",
       "kind": "StringLiteral",
-      "offset": 2530,
+      "offset": 2590,
       "length": 36,
       "value": "\"getEnvironmentConfigForKey.error: \""
     },
@@ -5097,49 +5153,49 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 165,
+      "offset": 127,
       "length": 8,
       "value": "\"eitri_\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 276,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 349,
+      "offset": 303,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 309,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1042,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1427,
+      "offset": 1351,
       "length": 43,
       "value": "\">> Storage has been successfully cleared!\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
-      "offset": 1506,
+      "offset": 1430,
       "length": 45,
       "value": "\">> Invalid suit identifier of UserDefaults.\""
     },
@@ -5650,7 +5706,7 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 7519,
+      "offset": 7529,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },

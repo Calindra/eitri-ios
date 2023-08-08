@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-eitri-ios
+eitri-ios cocoapods distribution
                        DESC
 
   s.homepage         = 'https://github.com/Calindra/eitri-ios'
@@ -27,7 +27,6 @@ eitri-ios
   s.source           = { :git => 'https://github.com/Calindra/eitri-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13'
-  s.source_files = 'eitri-ios/Classes/**/*'
   s.vendored_frameworks = 'Eitri.xcframework'
   
 end

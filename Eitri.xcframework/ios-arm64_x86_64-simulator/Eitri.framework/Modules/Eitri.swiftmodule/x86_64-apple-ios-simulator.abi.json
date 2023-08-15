@@ -1189,6 +1189,90 @@
           },
           {
             "kind": "Function",
+            "name": "enableCertificatePinning",
+            "printedName": "enableCertificatePinning(challengeFunction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLAuthenticationChallenge, (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLAuthenticationChallenge",
+                        "printedName": "Foundation.URLAuthenticationChallenge",
+                        "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AuthChallengeDisposition",
+                                "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                                "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Foundation.URLCredential?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "URLCredential",
+                                    "printedName": "Foundation.URLCredential",
+                                    "usr": "c:objc(cs)NSURLCredential"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri8SuperAppC24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctc_tF",
+            "mangledName": "$s5Eitri8SuperAppC24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctc_tF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "run",
             "printedName": "run(options:)",
             "children": [
@@ -1956,9 +2040,95 @@
             "mangledName": "$s5Eitri0A7MachineV9configure5inputyAA14ConfigureInputV_tYaKF",
             "moduleName": "Eitri",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableCertificatePinning",
+            "printedName": "enableCertificatePinning(challengeFunction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLAuthenticationChallenge, (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLAuthenticationChallenge",
+                        "printedName": "Foundation.URLAuthenticationChallenge",
+                        "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AuthChallengeDisposition",
+                                "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                                "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Foundation.URLCredential?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "URLCredential",
+                                    "printedName": "Foundation.URLCredential",
+                                    "usr": "c:objc(cs)NSURLCredential"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A7MachineV24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthI11DispositionV_So15NSURLCredentialCSgtctc_tF",
+            "mangledName": "$s5Eitri0A7MachineV24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthI11DispositionV_So15NSURLCredentialCSgtctc_tF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1983,7 +2153,8 @@
             "mangledName": "$s5Eitri0A7MachineV3run7optionsyAA8RunInputV_tYaKF",
             "moduleName": "Eitri",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -3347,28 +3518,28 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 2671,
+      "offset": 2900,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3825,
+      "offset": 4054,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 4066,
+      "offset": 4295,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 4220,
+      "offset": 4449,
       "length": 5,
       "value": "false"
     },

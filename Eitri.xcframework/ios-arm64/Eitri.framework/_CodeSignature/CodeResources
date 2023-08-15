@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/yxL6ZNh3vmzDXOxTMcBNCxiifM=
+		V7K+DtrsM66n70Ltbbi5dUA1lF4=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/nfg00Qs+vIT45yUUTxz11jQxDY=
+		84V8OYs0BrM0lFbuQ6hi6W0eSpI=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		glVo+8MHk47VSa8sXbnDQcDa5uY=
+		dgyHKPHdiHTiS63kRvE+7Wjb6zo=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		dSwMoKYfg0SZZd290Y0LnNs05BM=
+		emOoAUkngh8bDdVHBqr7otQWpjE=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		glVo+8MHk47VSa8sXbnDQcDa5uY=
+		dgyHKPHdiHTiS63kRvE+7Wjb6zo=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		20oya7b0aHTYYC+wjd03rQk+Ta0=
+		jS/hgdZWEuikjodFu2qZIQkEmSc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N8wvak0pEhgnO6PrZ4O2idt+Mhdk6tg03S8F/FeOLgc=
+			XRZfZpu645NKMtFsA2JrG7KlX4wTpDzjbNhmH0RofD0=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSNiI7RXteLCQWA61dFJFpWZT1FnPi6gaHgLExpYdt8=
+			5uM9zpD+VQ5ATQEM6poqJ2/U2Ee12/iW0QAMYmlTvdA=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oc/5JdpdpDYD/W8yfZrNMupWNOvSw/fNpsDUC2QyC4=
+			zKlxeOrTwBtMszbwlS4QfLh1zOHyppT9nJb2VHri1j8=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSNiI7RXteLCQWA61dFJFpWZT1FnPi6gaHgLExpYdt8=
+			5uM9zpD+VQ5ATQEM6poqJ2/U2Ee12/iW0QAMYmlTvdA=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQupKugjSwWNNIWzwOcf7f8PCt6vQWsldn4+3ybojMM=
+			0hMi1+6QM9Qfp4+pUKYR2VwKQZkl2RwHV6GrpOsHW7Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

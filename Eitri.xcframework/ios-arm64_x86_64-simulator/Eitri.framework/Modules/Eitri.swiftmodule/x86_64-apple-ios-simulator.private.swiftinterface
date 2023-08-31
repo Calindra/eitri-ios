@@ -5,8 +5,8 @@
 import Cache
 @_exported import Eitri
 import Foundation
+import Network
 import Swift
-import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
@@ -50,12 +50,20 @@ public class SuperApp {
   #if compiler(>=5.3) && $AsyncAwait
   public func getEnvironmentConfig() async -> Eitri.ConfigureEitriEnvironmentResponse?
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func openEitriAppOnCurrentNativeView(runInput: Eitri.RunInput) async throws
+  #endif
   @objc deinit
 }
 public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
 public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct OpenInput {
+  public var slug: Swift.String
+  public var initParams: Foundation.NSDictionary?
+  public var restorationContext: Foundation.NSDictionary?
 }
 public struct ConfigureInput {
   public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)

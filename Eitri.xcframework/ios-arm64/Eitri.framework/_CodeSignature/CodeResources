@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V7K+DtrsM66n70Ltbbi5dUA1lF4=
+		OVEw2bC6aMZL6D/dakFQzLtwmXI=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		84V8OYs0BrM0lFbuQ6hi6W0eSpI=
+		BcPG0xNkdDS35Yd5kquXxesAKIg=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		dgyHKPHdiHTiS63kRvE+7Wjb6zo=
+		fK6IOebNfb2Xms596pyNq/0osHA=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		emOoAUkngh8bDdVHBqr7otQWpjE=
+		WZ5Nl/XntNSC0c1qNUc8owqdJRo=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		dgyHKPHdiHTiS63kRvE+7Wjb6zo=
+		fK6IOebNfb2Xms596pyNq/0osHA=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jS/hgdZWEuikjodFu2qZIQkEmSc=
+		uqUZww1HsCP2dp+oENAmofsXPJs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRZfZpu645NKMtFsA2JrG7KlX4wTpDzjbNhmH0RofD0=
+			YmqmFhRINE2pbaHyC4RL9sZrmbz+iaMMD8KZaGBaHcc=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5uM9zpD+VQ5ATQEM6poqJ2/U2Ee12/iW0QAMYmlTvdA=
+			ULDMFG4PgN/+GIqQuSX5cMY9NQo5Qqk+L0W8Z/wWX/0=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zKlxeOrTwBtMszbwlS4QfLh1zOHyppT9nJb2VHri1j8=
+			1sXbbKJCH/BpQg2SHN8l/h15ODw+25PDsE9JZM37F0A=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5uM9zpD+VQ5ATQEM6poqJ2/U2Ee12/iW0QAMYmlTvdA=
+			ULDMFG4PgN/+GIqQuSX5cMY9NQo5Qqk+L0W8Z/wWX/0=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0hMi1+6QM9Qfp4+pUKYR2VwKQZkl2RwHV6GrpOsHW7Q=
+			ZquIXvbOQFEzI3nuWKFIkk4BmVzDg3vkhs4LeNBHhsA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

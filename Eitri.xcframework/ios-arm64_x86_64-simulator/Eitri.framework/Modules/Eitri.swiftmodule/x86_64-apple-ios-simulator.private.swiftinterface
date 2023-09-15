@@ -45,6 +45,9 @@ public class SuperApp {
   public func run(options: Eitri.RunInput) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  public func stop() async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public func getInitializationInfos() async -> Foundation.NSDictionary?
   #endif
   #if compiler(>=5.3) && $AsyncAwait
@@ -64,6 +67,7 @@ public struct OpenInput {
   public var slug: Swift.String
   public var initParams: Foundation.NSDictionary?
   public var restorationContext: Foundation.NSDictionary?
+  public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {
   public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
@@ -89,6 +93,9 @@ public struct EitriMachine {
   #if compiler(>=5.3) && $AsyncAwait
   public func run(options: Eitri.RunInput) async throws
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func stop() async throws
+  #endif
 }
 public struct SafeAreaInsets {
 }
@@ -99,7 +106,8 @@ public struct SuperAppContext {
 }
 public enum SuperAppErrors : Swift.Error {
   case alreadyInitialized
-  case mustCallStartBeforeOpenMiniApp
+  case unableToConfigureWhileRunningEitriApps
+  case mustCallStartBeforeRunEitriApp
   case eitriEnvironmentKeyMissing
   case invalidResourceToOpen
   public static func == (a: Eitri.SuperAppErrors, b: Eitri.SuperAppErrors) -> Swift.Bool

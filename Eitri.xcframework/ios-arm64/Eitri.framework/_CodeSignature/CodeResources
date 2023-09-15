@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OVEw2bC6aMZL6D/dakFQzLtwmXI=
+		hGf6UJHj6DlxVia7z26mFsY9EVY=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BcPG0xNkdDS35Yd5kquXxesAKIg=
+		veFoRKG/sdzEMNBT9dXTLHMTohk=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fK6IOebNfb2Xms596pyNq/0osHA=
+		1yubcZSrmj9XSqp/E4yNp2dRzUM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WZ5Nl/XntNSC0c1qNUc8owqdJRo=
+		QisqNxl44x7byFU8kho4oQbMQv0=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fK6IOebNfb2Xms596pyNq/0osHA=
+		1yubcZSrmj9XSqp/E4yNp2dRzUM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uqUZww1HsCP2dp+oENAmofsXPJs=
+		3VEXEASCgcY6S4HMS5oAnAYrwiI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YmqmFhRINE2pbaHyC4RL9sZrmbz+iaMMD8KZaGBaHcc=
+			tW+Dn2Y+HFy4ItsCSb2QqThItABfNQRYn4De1Ra5FPA=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULDMFG4PgN/+GIqQuSX5cMY9NQo5Qqk+L0W8Z/wWX/0=
+			/C01tPaB0Q23pN6OS1bv9BD6G/Usk39Ceh92a12Tghg=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1sXbbKJCH/BpQg2SHN8l/h15ODw+25PDsE9JZM37F0A=
+			gB4Xq48uzs7M7jX38bjFqXB5VoYjkFe1rr6y2J0TIt4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULDMFG4PgN/+GIqQuSX5cMY9NQo5Qqk+L0W8Z/wWX/0=
+			/C01tPaB0Q23pN6OS1bv9BD6G/Usk39Ceh92a12Tghg=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZquIXvbOQFEzI3nuWKFIkk4BmVzDg3vkhs4LeNBHhsA=
+			A3r3T0ZqliqUpqWMPa6YIvxFVlyq8q1+TYBHCOK0dLI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

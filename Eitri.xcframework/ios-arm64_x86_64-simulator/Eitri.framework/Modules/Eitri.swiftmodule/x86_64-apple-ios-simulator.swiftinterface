@@ -70,7 +70,7 @@ public struct OpenInput {
   public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
 }
 public struct Bridge {
   #if compiler(>=5.3) && $AsyncAwait
@@ -102,6 +102,7 @@ public struct SafeAreaInsets {
 public struct SuperAppContext {
   public var version: Swift.String
   public var environmentKey: Swift.String
+  public var debugMode: Swift.Bool
   public var safeAreaInsets: Eitri.SafeAreaInsets?
 }
 public enum SuperAppErrors : Swift.Error {

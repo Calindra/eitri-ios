@@ -13,6 +13,7 @@ import _Concurrency
 import _StringProcessing
 public struct RunInput {
   public init(deeplink: Swift.String? = nil, workspaceId: Swift.String? = nil, slug: Swift.String? = nil, initParams: Foundation.NSDictionary? = nil, navControllerToPush: UIKit.UINavigationController? = nil)
+  @available(*, deprecated, message: "Please use 'workspaceId' or 'slug' instead of 'deeplink'")
   public var deeplink: Swift.String?
   public var workspaceId: Swift.String?
   public var slug: Swift.String?
@@ -30,10 +31,14 @@ public struct DynamicMethodAddressableMessage {
   public var promiseId: Swift.String
   public var slug: Swift.String
   public var rawMessageFromOrigin: Swift.String
+  public var eitriMachineInstanceId: Swift.String
 }
 public typealias DynamicMethodRawEventListener = (_ params: Eitri.DynamicMethodAddressableMessage) throws -> Swift.Void
 public struct ExposedMethodDescriptor {
   public init(_ namespace: Swift.String, _ methodName: Swift.String)
+}
+public protocol WebViewCoodinatorListener : ObjectiveC.NSObjectProtocol {
+  func onLoadFinished(webView: WebKit.WKWebView)
 }
 public class SuperApp {
   public init()
@@ -42,7 +47,7 @@ public class SuperApp {
   #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   #if compiler(>=5.3) && $AsyncAwait
-  public func run(options: Eitri.RunInput) async throws
+  public func run(runInput: Eitri.RunInput) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func stop() async throws
@@ -72,20 +77,11 @@ public struct OpenInput {
 public struct ConfigureInput {
   public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
 }
-public struct Bridge {
-  #if compiler(>=5.3) && $AsyncAwait
-  public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
-  #endif
-}
-public struct RawBridge {
-  public func exposeMethodsWithListener(methods: [Eitri.ExposedMethodDescriptor], listener: @escaping Eitri.DynamicMethodRawEventListener) throws
-  public func resolveMethodExecution(promiseId: Swift.String, data: Swift.String) throws
-  public func rejectMethodExecution(promiseId: Swift.String, data: Swift.String) throws
-}
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge
   public init()
+  public func instanceId() -> Swift.String
   #if compiler(>=5.3) && $AsyncAwait
   public func configure(input: Eitri.ConfigureInput) async throws
   #endif
@@ -96,9 +92,24 @@ public struct EitriMachine {
   #if compiler(>=5.3) && $AsyncAwait
   public func stop() async throws
   #endif
+  public func addOnStopListener(fn: @escaping Eitri.OnStopListener)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func createReplica() async throws -> Eitri.EitriMachine
+  #endif
+}
+public struct Bridge {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
+  #endif
+}
+public struct RawBridge {
+  public func exposeMethodsWithListener(methods: [Eitri.ExposedMethodDescriptor], listener: @escaping Eitri.DynamicMethodRawEventListener) throws
+  public func resolveMethodExecution(promiseId: Swift.String, data: Swift.String) throws
+  public func rejectMethodExecution(promiseId: Swift.String, data: Swift.String) throws
 }
 public struct SafeAreaInsets {
 }
+public typealias OnStopListener = (_ instanceId: Swift.String) throws -> Swift.Void
 public struct SuperAppContext {
   public var version: Swift.String
   public var environmentKey: Swift.String

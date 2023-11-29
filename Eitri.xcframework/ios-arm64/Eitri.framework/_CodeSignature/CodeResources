@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tyw8xyFdkd4nwgPNWuyEqhxxPTY=
+		ZEspZ7BCb2V7K2rPu9Gn3B7CThw=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zL45Wxx9nJvvVlUeld8E+LsPx40=
+		iVejpU8VOG4wO8Ffz++wlU7JkRs=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ThX5FPFPDo+YrJtC/hjuC2InARg=
+		AHTOKOox+R+23/Sti867k/GrfUI=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		QisqNxl44x7byFU8kho4oQbMQv0=
+		HOtl96jD6fy8jlineJBUJSz+Vws=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ThX5FPFPDo+YrJtC/hjuC2InARg=
+		AHTOKOox+R+23/Sti867k/GrfUI=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+CcN4AUBJ4fhiuL+7OgRDDesHBg=
+		ovVTq2R0yXK51WN2gDfmSqFKkbw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7tXSlyrwiJDwNCxM01i5AXk2QXtbiwLwO0r0TsX92/c=
+			1M7aLzAPEYyr8PaMyCDuzSKMAwVRWPC3zEkkq3aFYY4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dsGV+yv8Ae6ikRCZ4i+ESq+BnFvWPfyPaYqXNYmQ1Ws=
+			BdI4UDZFPyII2/liRRcDUbChx2+VvhfUB41Dd+TVhgQ=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gB4Xq48uzs7M7jX38bjFqXB5VoYjkFe1rr6y2J0TIt4=
+			yyXQL0m0SToa9UEbmN08VNN+LzPY+gPQUX+UUci8G/A=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dsGV+yv8Ae6ikRCZ4i+ESq+BnFvWPfyPaYqXNYmQ1Ws=
+			BdI4UDZFPyII2/liRRcDUbChx2+VvhfUB41Dd+TVhgQ=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E2Qca9iQozCvKHjVxR4VEceSV5KIpqe6SC/D5SB3FJ8=
+			zPqI0mTMo+O8ZMgHi+lE0YXenYpRV+a2PJd/Mm+b2GI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

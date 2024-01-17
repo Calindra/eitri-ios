@@ -4327,35 +4327,35 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/DocumentPickerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2231,
+      "offset": 2233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/DocumentPickerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2345,
+      "offset": 2347,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/DocumentPickerService.swift",
       "kind": "Array",
-      "offset": 2531,
+      "offset": 2533,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/DocumentPickerService.swift",
       "kind": "Array",
-      "offset": 3147,
+      "offset": 3149,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/DocumentPickerService.swift",
       "kind": "Array",
-      "offset": 3319,
+      "offset": 3321,
       "length": 2,
       "value": "[]"
     },

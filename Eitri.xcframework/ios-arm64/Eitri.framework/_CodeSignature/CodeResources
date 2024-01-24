@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rfQg+W8hm8M5Ur8fSNoEW8Im3mw=
+		Q2c1P9tHwfAhNevLN/36c1s+yQY=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		C9zITe/m2qtsSkutRkJ1PXmoo0Q=
+		W0BTX/WbwNdTzUMScZZG6O9aC3M=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Uy1rKOakaD2e9/Qc2h2p+KIibqA=
+		mBafQUEUZ5BC2mNrFkGPBIjE9W0=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HOtl96jD6fy8jlineJBUJSz+Vws=
+		mCI37Qq8tq1VbNuawLtNgKjVUJ0=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Uy1rKOakaD2e9/Qc2h2p+KIibqA=
+		mBafQUEUZ5BC2mNrFkGPBIjE9W0=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		WgMXX85ilocO//FbEnkrF9hS+PI=
+		cx8Nn7KO2HRWYn6vbyhw68aQTKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8XjYfRxaqrmeq1jTc9z7EYm8wSEbqAiMc6b+lZzYMGE=
+			2sN5egWZ/Rh/967h5X6vtCAsLRd4wWZmBh+vEI1qV00=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uXKDAL4Ok12W6l92G3W0SENBAbKRGlSrjotj25UN1I8=
+			PX8yFJ9nrN/6v+xZ4+PizOMadNtfLo6q28W4d3HGu7U=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yyXQL0m0SToa9UEbmN08VNN+LzPY+gPQUX+UUci8G/A=
+			7uxrRe/8ndfU7cLL6yQGpLu4onvN4OY0ODciRjhY8ac=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uXKDAL4Ok12W6l92G3W0SENBAbKRGlSrjotj25UN1I8=
+			PX8yFJ9nrN/6v+xZ4+PizOMadNtfLo6q28W4d3HGu7U=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8rDVQZWqLgdF7DuaGqx08mwOJR1RRXA6Zmmia6s/2F8=
+			pnj6b0HJhHYbO5kyWmSXyTUAgBhtWRGTrMuSdRUBdWQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

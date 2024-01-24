@@ -84,6 +84,7 @@ public struct ConfigureInput {
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge
+  public let currentEitriApp: Eitri.EitriApp
   public init()
   public func instanceId() -> Swift.String
   #if compiler(>=5.3) && $AsyncAwait
@@ -101,10 +102,17 @@ public struct EitriMachine {
   public func createReplica() async throws -> Eitri.EitriMachine
   #endif
 }
+public struct EitriApp {
+  public let eventBus: Eitri.EventBus
+}
+public struct EventBus {
+  public func publish(channel: Swift.String, data: Any?) throws
+}
 public struct Bridge {
   #if compiler(>=5.3) && $AsyncAwait
   public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
   #endif
+  public func exposeNativeNavigationApi(eitriMachineStack: Eitri.EitriMachineStack) throws
 }
 public struct RawBridge {
   public func exposeMethodsWithListener(methods: [Eitri.ExposedMethodDescriptor], listener: @escaping Eitri.DynamicMethodRawEventListener) throws
@@ -118,6 +126,9 @@ public class EitriMachineStack {
   public func get(id: Swift.String) -> Eitri.EitriMachine?
   #if compiler(>=5.3) && $AsyncAwait
   public func createReplicaInstance() async throws -> Eitri.EitriMachine
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
   #endif
   @objc deinit
 }

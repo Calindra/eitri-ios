@@ -43,6 +43,7 @@ public struct ExposedMethodDescriptor {
 }
 public protocol WebViewCoodinatorListener : ObjectiveC.NSObjectProtocol {
   func onLoadFinished(webView: WebKit.WKWebView)
+  func onError()
 }
 public class SuperApp {
   public init()
@@ -52,6 +53,12 @@ public class SuperApp {
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   #if compiler(>=5.3) && $AsyncAwait
   public func run(runInput: Eitri.RunInput) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func runInFrame(parentUI: UIKit.UIViewController, runInput: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func prepareToRun(runInput: Eitri.RunInput, forRunningAsFrame: Swift.Bool = false) async throws -> UIKit.UIViewController
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func stop() async throws
@@ -81,6 +88,15 @@ public struct OpenInput {
 public struct ConfigureInput {
   public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
 }
+public struct TabViewInput {
+  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem])
+}
+public struct TabViewLayout {
+  public init(customTab: any Eitri.EitriCustomTabUI)
+}
+public struct TabViewItem {
+  public init(runInput: Eitri.RunInput)
+}
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge
@@ -93,6 +109,9 @@ public struct EitriMachine {
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   #if compiler(>=5.3) && $AsyncAwait
   public func run(options: Eitri.RunInput) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func runInFrame(parentUI: UIKit.UIViewController, options: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func stop() async throws
@@ -119,6 +138,14 @@ public struct RawBridge {
   public func resolveMethodExecution(promiseId: Swift.String, data: Swift.String) throws
   public func rejectMethodExecution(promiseId: Swift.String, data: Swift.String) throws
 }
+public protocol EitriTabViewDelegate : AnyObject {
+  func reportSelectedItem(idx: Swift.Int)
+  func reportSafeArea(height: Swift.Double)
+}
+public protocol EitriCustomTabUI : UIKit.UIView {
+  func receiveDelegate(delegate: any Eitri.EitriTabViewDelegate)
+  func adjustPosition(parentView: UIKit.UIView)
+}
 public class EitriMachineStack {
   public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
   public func peek() -> Eitri.EitriMachine?
@@ -132,6 +159,8 @@ public class EitriMachineStack {
   #endif
   @objc deinit
 }
+public struct RunInFrameOutput {
+}
 public struct SafeAreaInsets {
 }
 public typealias OnStopListener = (_ instanceId: Swift.String) throws -> Swift.Void
@@ -140,6 +169,13 @@ public struct SuperAppContext {
   public var environmentKey: Swift.String
   public var debugMode: Swift.Bool
   public var safeAreaInsets: Eitri.SafeAreaInsets?
+}
+public class EitriBottomTabView {
+  public init(_ mainEitriMachine: Eitri.EitriMachine)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func run(_ tabViewInput: Eitri.TabViewInput) async throws
+  #endif
+  @objc deinit
 }
 public enum SuperAppErrors : Swift.Error {
   case alreadyInitialized

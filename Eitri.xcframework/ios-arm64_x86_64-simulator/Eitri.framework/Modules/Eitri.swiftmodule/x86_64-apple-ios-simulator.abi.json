@@ -9118,21 +9118,21 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
       "kind": "Array",
-      "offset": 4865,
+      "offset": 4913,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5164,
+      "offset": 5246,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/HttpService.swift",
       "kind": "StringLiteral",
-      "offset": 5868,
+      "offset": 5950,
       "length": 18,
       "value": "\"application\/json\""
     },

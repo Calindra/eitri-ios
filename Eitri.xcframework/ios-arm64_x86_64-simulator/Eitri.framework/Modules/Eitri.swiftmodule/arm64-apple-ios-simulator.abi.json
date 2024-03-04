@@ -1897,6 +1897,20 @@
       },
       {
         "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3653,6 +3667,13 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Eitri"
       },
@@ -5767,7 +5788,7 @@
       "kind": "IntegerLiteral",
       "offset": 132,
       "length": 1,
-      "value": "6"
+      "value": "7"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
@@ -7314,6 +7335,20 @@
       "kind": "Dictionary",
       "offset": 696,
       "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/NotificationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2386,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/NotificationService.swift",
+      "kind": "Array",
+      "offset": 2432,
+      "length": 2,
       "value": "[]"
     },
     {
@@ -9482,378 +9517,392 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1768,
       "length": 5,
       "value": "\"sum\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 1783,
+      "offset": 1889,
       "length": 9,
       "value": "\"httpGet\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 1977,
       "length": 10,
       "value": "\"httpPost\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 2067,
       "length": 12,
       "value": "\"httpDelete\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2055,
+      "offset": 2161,
       "length": 9,
       "value": "\"httpPut\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2143,
+      "offset": 2249,
       "length": 11,
       "value": "\"httpPatch\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2235,
+      "offset": 2341,
       "length": 10,
       "value": "\"httpHead\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2325,
+      "offset": 2431,
       "length": 13,
       "value": "\"httpOptions\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2421,
+      "offset": 2527,
       "length": 16,
       "value": "\"storageSetItem\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2573,
+      "offset": 2679,
       "length": 16,
       "value": "\"storageGetItem\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2714,
+      "offset": 2820,
       "length": 19,
       "value": "\"storageRemoveItem\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 2981,
       "length": 13,
       "value": "\"storageKeys\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3014,
+      "offset": 3120,
       "length": 14,
       "value": "\"storageClear\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3166,
+      "offset": 3272,
       "length": 12,
       "value": "\"getConfigs\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3240,
+      "offset": 3346,
       "length": 23,
       "value": "\"setStatusBarTextWhite\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3326,
+      "offset": 3432,
       "length": 23,
       "value": "\"setStatusBarTextBlack\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3412,
+      "offset": 3518,
       "length": 24,
       "value": "\"getInitializationInfos\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3510,
+      "offset": 3616,
       "length": 13,
       "value": "\"openBrowser\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3633,
+      "offset": 3739,
       "length": 17,
       "value": "\"canOpenDeeplink\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 3872,
       "length": 14,
       "value": "\"openDeeplink\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 3897,
+      "offset": 4003,
       "length": 14,
       "value": "\"openEitriApp\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4122,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4176,
+      "offset": 4282,
       "length": 18,
       "value": "\"clipboardSetText\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4275,
+      "offset": 4381,
       "length": 18,
       "value": "\"clipboardGetText\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 4465,
       "length": 14,
       "value": "\"fileDownload\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4495,
+      "offset": 4601,
       "length": 10,
       "value": "\"fileList\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4617,
+      "offset": 4723,
       "length": 12,
       "value": "\"fileDelete\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4745,
+      "offset": 4851,
       "length": 10,
       "value": "\"fileOpen\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4867,
+      "offset": 4973,
       "length": 11,
       "value": "\"fileShare\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 4992,
+      "offset": 5098,
       "length": 16,
       "value": "\"filePickerOpen\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5142,
+      "offset": 5248,
       "length": 12,
       "value": "\"fileEncode\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5266,
+      "offset": 5372,
       "length": 17,
       "value": "\"keyboardDismiss\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5348,
+      "offset": 5454,
       "length": 11,
       "value": "\"shareLink\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5619,
+      "offset": 5575,
+      "length": 31,
+      "value": "\"notificationRequestPermission\""
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 5749,
+      "length": 29,
+      "value": "\"notificationCheckPermission\""
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 6001,
       "length": 34,
       "value": "\"METHOD_NOT_FOUND = \""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 5652,
+      "offset": 6034,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6157,
+      "offset": 6539,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6274,
+      "offset": 6656,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6380,
+      "offset": 6762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6446,
+      "offset": 6828,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6713,
+      "offset": 7095,
       "length": 11,
       "value": "\"namespace\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6740,
+      "offset": 7122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6773,
+      "offset": 7155,
       "length": 12,
       "value": "\"methodName\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 6801,
+      "offset": 7183,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 7121,
+      "offset": 7503,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 7323,
+      "offset": 7705,
       "length": 6,
       "value": "\"args\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "Dictionary",
-      "offset": 7351,
+      "offset": 7733,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 7673,
+      "offset": 8055,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 8087,
+      "offset": 8469,
       "length": 14,
       "value": "\"required.url\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8109,
+      "offset": 8491,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 8167,
+      "offset": 8549,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 8216,
+      "offset": 8598,
       "length": 16,
       "value": "\"required.https\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8240,
+      "offset": 8622,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 8690,
+      "offset": 9072,
       "length": 42,
       "value": "\"UIViewControllerBasedStatusBarAppearance\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/SuperAppService.swift",
       "kind": "StringLiteral",
-      "offset": 9110,
+      "offset": 9492,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },

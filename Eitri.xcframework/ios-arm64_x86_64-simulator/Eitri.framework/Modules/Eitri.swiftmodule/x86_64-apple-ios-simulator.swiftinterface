@@ -42,7 +42,7 @@ public typealias DynamicMethodRawEventListener = (_ params: Eitri.DynamicMethodA
 public struct ExposedMethodDescriptor {
   public init(_ namespace: Swift.String, _ methodName: Swift.String)
 }
-public protocol WebViewCoodinatorListener : ObjectiveC.NSObjectProtocol {
+public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
   func onLoadFinished(webView: WebKit.WKWebView)
   func onError()
 }
@@ -146,6 +146,7 @@ public protocol EitriTabViewDelegate : AnyObject {
 public protocol EitriCustomTabUI : UIKit.UIView {
   func receiveDelegate(delegate: any Eitri.EitriTabViewDelegate)
   func adjustPosition(parentView: UIKit.UIView)
+  func scrollDirectionChanged(infos: Eitri.ScrollDirectionChangedModel)
 }
 public class EitriMachineStack {
   public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
@@ -161,6 +162,11 @@ public class EitriMachineStack {
   @objc deinit
 }
 public struct RunInFrameOutput {
+}
+public struct ScrollDirectionChangedModel : Swift.Codable {
+  public var direction: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SafeAreaInsets {
 }

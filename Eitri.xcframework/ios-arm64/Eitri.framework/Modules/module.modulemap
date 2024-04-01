@@ -1,7 +1,7 @@
 framework module Eitri {
   umbrella header "Eitri.h"
-
   export *
+
   module * { export * }
 }
 

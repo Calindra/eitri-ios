@@ -31,6 +31,7 @@ public struct RunInput {
 public struct SharedMethodParams {
   public let data: Foundation.NSDictionary
   public let slug: Swift.String
+  public var currentNavController: UIKit.UINavigationController?
 }
 #if compiler(>=5.3) && $AsyncAwait
 public typealias SharedMethod = (_ params: Eitri.SharedMethodParams) async throws -> Any?

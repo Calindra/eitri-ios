@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BYcGoRIappVyBvrOe/yGF0VCqOs=
+		v7Rz8iJocefmIdrPUQYhhzrKDUI=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nkX0N4ZhYv1AKmW3sS8oahcpw+Y=
+		2FhG25YcBx7NdQB+kf6YeFN24N8=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lsU4JwyidoujFjzjalqX7yjxN6o=
+		EgZ6qrwotmVyPvgEj2pI6l2bx4w=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Qz750fQMQRXINZSwm0qmXTk+G2Y=
+		4i3ZqCvfrTwN5q1usjEouDJa7l4=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lsU4JwyidoujFjzjalqX7yjxN6o=
+		EgZ6qrwotmVyPvgEj2pI6l2bx4w=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		SZqeRv6PE6jWcsgDhLRVnQdz1x8=
+		nwOPuhLL00YOfivMrPXsFvispU4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoACsntJy4itgk6pDS9LS8N9/LkD7ECcEL6pjRxaQsQ=
+			twQGQ8XKNP/KjjRkgYZrpodAIyqo5vzZJN9jcWQ4OWU=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qp/a0xvYqZemIz5OKanTQUCugM5dV+Svnki25KRahUo=
+			UAX2YL9S6A2khe9bz1GeNAr5SW78Fpb2qh9gEFw9GxY=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zm6ZzpBcyHdJRepjk3mNzhrGXGOx2ve2ZtJ8nsfdiDs=
+			e5ip2ovyv1e1hsrKKCxxE+7oXhOyV8h0LK4wMKpVOgo=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qp/a0xvYqZemIz5OKanTQUCugM5dV+Svnki25KRahUo=
+			UAX2YL9S6A2khe9bz1GeNAr5SW78Fpb2qh9gEFw9GxY=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TzjY8GtNJk3nifM8UVpazd/wgPjb4k5icl8OulZ8jj4=
+			1ll+tAiFoQ2CjmIs0716skGYG7yUG5kG0iHVQTnmfGI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

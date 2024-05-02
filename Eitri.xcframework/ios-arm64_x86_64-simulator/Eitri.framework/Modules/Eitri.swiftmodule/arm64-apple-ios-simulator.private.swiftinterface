@@ -50,12 +50,14 @@ public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
   func onLoadFinished(webView: WebKit.WKWebView)
   func onError()
 }
+public typealias LoadingAnimationGeneratorFunction = (_ slug: Swift.String, _ parentView: UIKit.UIView) -> UIKit.UIView
 public class SuperApp {
   public init()
   #if compiler(>=5.3) && $AsyncAwait
   public func configure(input: Eitri.ConfigureInput) async throws
   #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
+  public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
   #if compiler(>=5.3) && $AsyncAwait
   public func run(runInput: Eitri.RunInput) async throws
   #endif
@@ -128,6 +130,7 @@ public struct EitriMachine {
   #if compiler(>=5.3) && $AsyncAwait
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
   #endif
+  public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
 }
 public struct EitriApp {
   public let eventBus: Eitri.EventBus

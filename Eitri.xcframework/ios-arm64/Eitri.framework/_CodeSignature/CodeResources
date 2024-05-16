@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v7Rz8iJocefmIdrPUQYhhzrKDUI=
+		RZ6gX4CAi2UPK0rTWXOps0+xjXQ=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2FhG25YcBx7NdQB+kf6YeFN24N8=
+		+lsP/22K/fzf4sI9eEyDLpt+3fs=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EgZ6qrwotmVyPvgEj2pI6l2bx4w=
+		4tXudgsHolPyxGYWA0makurgaeU=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4i3ZqCvfrTwN5q1usjEouDJa7l4=
+		v/Bm3RUj076111D9FostwNCJ/js=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EgZ6qrwotmVyPvgEj2pI6l2bx4w=
+		4tXudgsHolPyxGYWA0makurgaeU=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nwOPuhLL00YOfivMrPXsFvispU4=
+		uZbnQK2Q+oHv5ty9I8jEDQOEnsY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			twQGQ8XKNP/KjjRkgYZrpodAIyqo5vzZJN9jcWQ4OWU=
+			XWTgXF+MtSOn0d2+4rFHxEYUpgwcmaBAPuiNn/XUxBM=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UAX2YL9S6A2khe9bz1GeNAr5SW78Fpb2qh9gEFw9GxY=
+			Cs7nNeQ6uAQzxqpMro3sZpyOr26Hj7gIGd/NcUCQyk4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e5ip2ovyv1e1hsrKKCxxE+7oXhOyV8h0LK4wMKpVOgo=
+			nkJ6nzyojwkkMtHHz7ZNhwUL/r2Ne6MSIHXBIAn444E=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UAX2YL9S6A2khe9bz1GeNAr5SW78Fpb2qh9gEFw9GxY=
+			Cs7nNeQ6uAQzxqpMro3sZpyOr26Hj7gIGd/NcUCQyk4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ll+tAiFoQ2CjmIs0716skGYG7yUG5kG0iHVQTnmfGI=
+			sEqG3hm2onkKCwgprtOX9ysjTpPD3eV3Zw1SrqJrTpE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

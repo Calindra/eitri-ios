@@ -53,8 +53,9 @@ public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
 public typealias LoadingAnimationGeneratorFunction = (_ slug: Swift.String, _ parentView: UIKit.UIView) -> UIKit.UIView
 public class SuperApp {
   public init()
+  @objc deinit
   #if compiler(>=5.3) && $AsyncAwait
-  public func configure(input: Eitri.ConfigureInput) async throws
+  public func configure(input: Eitri.ConfigureInput, isReplica: Swift.Bool = false) async throws
   #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
@@ -79,7 +80,6 @@ public class SuperApp {
   #if compiler(>=5.3) && $AsyncAwait
   public func openEitriAppOnCurrentNativeView(runInput: Eitri.RunInput) async throws
   #endif
-  @objc deinit
 }
 public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
 public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
@@ -93,10 +93,10 @@ public struct OpenInput {
   public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil)
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil)
 }
 public struct TabViewInput {
-  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem])
+  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil)
 }
 public struct TabViewLayout {
   public init(customTab: any Eitri.EitriCustomTabUI)
@@ -131,6 +131,8 @@ public struct EitriMachine {
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
   #endif
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
+  public func setNavControllerForNativeNavigation(_ navController: UIKit.UINavigationController?)
+  public func getNavControllerForNativeNavigation() -> UIKit.UINavigationController?
 }
 public struct EitriApp {
   public let eventBus: Eitri.EventBus
@@ -181,6 +183,9 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
 public struct SafeAreaInsets {
 }
 public typealias OnStopListener = (_ instanceId: Swift.String) throws -> Swift.Void
+public struct AlternativeInfrastructure {
+  public init(configEndpoint: Swift.String? = nil)
+}
 public struct SuperAppContext {
   public var version: Swift.String
   public var environmentKey: Swift.String
@@ -192,6 +197,9 @@ public class EitriBottomTabView {
   #if compiler(>=5.3) && $AsyncAwait
   public func run(_ tabViewInput: Eitri.TabViewInput) async throws
   #endif
+  public func getEitriMachineList() -> [Eitri.EitriMachine]
+  public func getCurrentEitriMachine() -> Eitri.EitriMachine?
+  public func getMainView() -> UIKit.UIViewController?
   @objc deinit
 }
 public enum SuperAppErrors : Swift.Error {

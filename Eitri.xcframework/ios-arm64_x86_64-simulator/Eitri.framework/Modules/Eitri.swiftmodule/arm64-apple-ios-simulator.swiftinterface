@@ -80,6 +80,9 @@ public class SuperApp {
   #if compiler(>=5.3) && $AsyncAwait
   public func openEitriAppOnCurrentNativeView(runInput: Eitri.RunInput) async throws
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func prefetchResources(prefetchResources: Swift.Bool) async
+  #endif
 }
 public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
 public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
@@ -133,6 +136,9 @@ public struct EitriMachine {
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
   public func setNavControllerForNativeNavigation(_ navController: UIKit.UINavigationController?)
   public func getNavControllerForNativeNavigation() -> UIKit.UINavigationController?
+  #if compiler(>=5.3) && $AsyncAwait
+  public func prefetchResources() async
+  #endif
 }
 public struct EitriApp {
   public let eventBus: Eitri.EventBus
@@ -205,7 +211,7 @@ public class EitriBottomTabView {
 public enum SuperAppErrors : Swift.Error {
   case alreadyInitialized
   case unableToConfigureWhileRunningEitriApps
-  case mustCallStartBeforeRunEitriApp
+  case mustCallConfigureBeforeRunEitriApp
   case eitriEnvironmentKeyMissing
   case invalidResourceToOpen
   public static func == (a: Eitri.SuperAppErrors, b: Eitri.SuperAppErrors) -> Swift.Bool

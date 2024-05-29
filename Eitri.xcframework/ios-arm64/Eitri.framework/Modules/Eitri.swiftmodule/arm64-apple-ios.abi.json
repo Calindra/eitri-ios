@@ -10010,175 +10010,189 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1161,
+      "offset": 1156,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1172,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1340,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1398,
       "length": 97,
       "value": "\"EitriAppLoader.state.onResume = \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1315,
+      "offset": 1494,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 2005,
       "length": 115,
       "value": "\"EitriAppLoader.state.applicationDidBecomeActive = \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 2119,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2318,
       "length": 105,
       "value": "\"EitriAppLoader.state.keyboardAppeared = \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2422,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 2686,
       "length": 108,
       "value": "\"EitriAppLoader.state.keyboardDisappeared = \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 2793,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 3866,
+      "offset": 4045,
       "length": 29,
       "value": "\"EitriAppLoader.state.deinit\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 4211,
+      "offset": 4390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 4575,
+      "offset": 4754,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 6006,
+      "offset": 6185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 6414,
+      "offset": 6593,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7005,
+      "offset": 7184,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7041,
+      "offset": 7220,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8254,
+      "offset": 8433,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8345,
+      "offset": 8524,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 8359,
+      "offset": 8538,
       "length": 24,
       "value": "\"developerExtrasEnabled\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8466,
+      "offset": 8645,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 8726,
+      "offset": 8905,
       "length": 41,
       "value": "\"bootstrapURL \""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 8766,
+      "offset": 8945,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "StringLiteral",
-      "offset": 8864,
+      "offset": 9043,
       "length": 13,
       "value": "\"url.invalid\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 10131,
+      "offset": 10310,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 10478,
+      "offset": 10657,
       "length": 5,
       "value": "false"
     },

@@ -192,10 +192,15 @@ public typealias OnStopListener = (_ instanceId: Swift.String) throws -> Swift.V
 public struct AlternativeInfrastructure {
   public init(configEndpoint: Swift.String? = nil)
 }
+public struct MultiWorkspaceContext {
+  public var enabled: Swift.Bool
+  public var albCookie: Swift.String?
+}
 public struct SuperAppContext {
   public var version: Swift.String
   public var environmentKey: Swift.String
   public var debugMode: Swift.Bool
+  public var multiWorkspaceContext: Eitri.MultiWorkspaceContext
   public var safeAreaInsets: Eitri.SafeAreaInsets?
 }
 public class EitriBottomTabView {

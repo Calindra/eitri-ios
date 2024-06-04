@@ -117,6 +117,7 @@ public struct EitriMachine {
   public func configure(input: Eitri.ConfigureInput) async throws
   #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
+  public func forceLanguage(language: Swift.String) throws
   #if compiler(>=5.3) && $AsyncAwait
   public func run(options: Eitri.RunInput) async throws
   #endif
@@ -201,6 +202,7 @@ public struct SuperAppContext {
   public var environmentKey: Swift.String
   public var debugMode: Swift.Bool
   public var multiWorkspaceContext: Eitri.MultiWorkspaceContext
+  public var forceLanguage: Swift.String?
   public var safeAreaInsets: Eitri.SafeAreaInsets?
 }
 public class EitriBottomTabView {
@@ -217,6 +219,7 @@ public enum SuperAppErrors : Swift.Error {
   case alreadyInitialized
   case unableToConfigureWhileRunningEitriApps
   case mustCallConfigureBeforeRunEitriApp
+  case mustCallConfigureBeforeCallForceLanguage
   case eitriEnvironmentKeyMissing
   case invalidResourceToOpen
   public static func == (a: Eitri.SuperAppErrors, b: Eitri.SuperAppErrors) -> Swift.Bool

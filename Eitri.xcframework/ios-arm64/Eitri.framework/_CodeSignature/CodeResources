@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QlYst6N7CA0povZSuqEFUDOtciI=
+		ngp5qebcBz01K75R3GCvEBSwfpU=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZqRWN+bDsXSuo8YkmyCn1a9pc1g=
+		DxKRrHuwl9DOIDnpML1PcmUy/o4=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EmmI2ngKBZ1pJC2KPx0kska29Ng=
+		cE2twfGXZ5MIMOqyTFFA8UIc9oE=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		v/Bm3RUj076111D9FostwNCJ/js=
+		UmfV5+CAohU7iyQDOWbjOfwT8i8=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EmmI2ngKBZ1pJC2KPx0kska29Ng=
+		cE2twfGXZ5MIMOqyTFFA8UIc9oE=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5e2mMxTmL1CNIaDWr0ZWzhsgvDY=
+		7H/MuBP/V+bukfptK+SuVn17Flo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RLPMg9FyyGY9/Ap8S2JzW6L/VQAJwMRx3G4CN/XXe7s=
+			Lg+vSCwzIsf0GwZGuv+SuYcTBQVZubVK99srylGDstk=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Yjkjf18vhU2DJ2Vf2Km9xx6idRHJuSZFaRZbKuWnq8=
+			n/nwwhcv5+eXYHufqjRnrUk7dXyXgs4EW/RIiL62SNQ=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nkJ6nzyojwkkMtHHz7ZNhwUL/r2Ne6MSIHXBIAn444E=
+			xazwecvACLUK5pArP/qKMhjSA0vBd10WNHmZdMYGugs=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Yjkjf18vhU2DJ2Vf2Km9xx6idRHJuSZFaRZbKuWnq8=
+			n/nwwhcv5+eXYHufqjRnrUk7dXyXgs4EW/RIiL62SNQ=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+51+5c2Tn33et+V2o8zhpAu/piF2pqGoRMOE3Em868=
+			8AdvOdZw2DiimxHz3Y9teCXnHPTriNJ/TVtJMIbcNJU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

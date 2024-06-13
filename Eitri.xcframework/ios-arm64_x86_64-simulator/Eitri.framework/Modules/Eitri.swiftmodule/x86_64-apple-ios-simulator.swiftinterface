@@ -31,6 +31,7 @@ public struct RunInput {
 public struct SharedMethodParams {
   public let data: Foundation.NSDictionary
   public let slug: Swift.String
+  public let openServices: Eitri.EitriOpenServicesFacade
   public var currentNavController: UIKit.UINavigationController?
 }
 #if compiler(>=5.3) && $AsyncAwait
@@ -85,9 +86,73 @@ public class SuperApp {
   #endif
 }
 public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
+public struct DownloadInput : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HttpResponse {
+}
+public struct HttpConfig : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HttpCallParams {
+  public init(url: Swift.String, data: Any? = nil, config: Eitri.HttpConfig? = nil)
+}
+public struct CallHttpMethodInput {
+  public init(methodName: Eitri.HttpMethod, params: Eitri.HttpCallParams)
+}
+public enum HttpMethod : Swift.String {
+  case Get
+  case Post
+  case Put
+  case Delete
+  case Patch
+  case Head
+  case Options
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HttpRequestError : Swift.Error {
+  case invalidUrl
+  case requestFail
+  case httpProtocolNotAllowed
+  public static func == (a: Eitri.HttpRequestError, b: Eitri.HttpRequestError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum httpMethodInputError : Swift.Error {
+  case failedToGetHeaders
+  case failedToGetData
+  case failedToParseData
+  public static func == (a: Eitri.httpMethodInputError, b: Eitri.httpMethodInputError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct BiometricCheckStatusOutput {
+}
+public struct BiometricAuthenticateOutput {
+}
+public struct OpenBiometricAuthenticateInput {
+  public init(useDevicePasswordAsFallback: Swift.Bool? = nil, authenticationReason: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class EitriOpenBiometricService : Eitri.EitriOpenService {
+  public func checkStatus() throws -> Eitri.BiometricCheckStatusOutput
+  #if compiler(>=5.3) && $AsyncAwait
+  public func authenticate(_ input: Eitri.OpenBiometricAuthenticateInput) async throws -> Eitri.BiometricAuthenticateOutput
+  #endif
+  @objc deinit
 }
 public struct OpenInput {
   public var slug: Swift.String
@@ -96,7 +161,22 @@ public struct OpenInput {
   public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil)
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000)
+}
+public struct HttpError : Swift.Error {
+}
+public enum HttpServiceError : Swift.Error {
+  case timeOutExceeded
+  case downloadFileFailed
+  public static func == (a: Eitri.HttpServiceError, b: Eitri.HttpServiceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct HttpErrorResponse {
+}
+public struct HttpErrorRequest {
 }
 public struct TabViewInput {
   public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil)
@@ -106,6 +186,10 @@ public struct TabViewLayout {
 }
 public struct TabViewItem {
   public init(runInput: Eitri.RunInput)
+}
+@_hasMissingDesignatedInitializers public class EitriOpenServicesFacade {
+  public func getBiometricService() throws -> Eitri.EitriOpenBiometricService
+  @objc deinit
 }
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
@@ -182,10 +266,23 @@ public class EitriMachineStack {
 }
 public struct RunInFrameOutput {
 }
+@_hasMissingDesignatedInitializers public class EitriOpenService {
+  @objc deinit
+}
 public struct ScrollDirectionChangedModel : Swift.Codable {
   public var direction: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public class HttpService {
+  public init(httpClient: Foundation.URLSession)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
+  #endif
+  #if compiler(>=5.3) && $Sendable
+  public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
+  #endif
+  @objc deinit
 }
 public struct SafeAreaInsets {
 }
@@ -228,5 +325,14 @@ public enum SuperAppErrors : Swift.Error {
     get
   }
 }
+extension Eitri.HttpMethod : Swift.Equatable {}
+extension Eitri.HttpMethod : Swift.Hashable {}
+extension Eitri.HttpMethod : Swift.RawRepresentable {}
+extension Eitri.HttpRequestError : Swift.Equatable {}
+extension Eitri.HttpRequestError : Swift.Hashable {}
+extension Eitri.httpMethodInputError : Swift.Equatable {}
+extension Eitri.httpMethodInputError : Swift.Hashable {}
+extension Eitri.HttpServiceError : Swift.Equatable {}
+extension Eitri.HttpServiceError : Swift.Hashable {}
 extension Eitri.SuperAppErrors : Swift.Equatable {}
 extension Eitri.SuperAppErrors : Swift.Hashable {}

@@ -141,8 +141,43 @@ public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct BiometricCheckStatusOutput {
+  public var type: Eitri.BiometricType?
+  public var status: Eitri.BiometricCheckStatus
 }
 public struct BiometricAuthenticateOutput {
+  public var result: Eitri.BiometricResult?
+  public var detail: Any?
+}
+public enum BiometricType : Swift.String {
+  case TouchID
+  case FaceID
+  case None
+  case Password
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BiometricCheckStatus {
+  case AVAILABLE
+  case UNAVAILABLE
+  case BLOCKED
+  case NOT_SUPPORTED
+  public static func == (a: Eitri.BiometricCheckStatus, b: Eitri.BiometricCheckStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BiometricResult {
+  case SUCCESS
+  case FAILURE
+  public static func == (a: Eitri.BiometricResult, b: Eitri.BiometricResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct OpenBiometricAuthenticateInput {
   public init(useDevicePasswordAsFallback: Swift.Bool? = nil, authenticationReason: Swift.String)
@@ -332,6 +367,13 @@ extension Eitri.HttpRequestError : Swift.Equatable {}
 extension Eitri.HttpRequestError : Swift.Hashable {}
 extension Eitri.httpMethodInputError : Swift.Equatable {}
 extension Eitri.httpMethodInputError : Swift.Hashable {}
+extension Eitri.BiometricType : Swift.Equatable {}
+extension Eitri.BiometricType : Swift.Hashable {}
+extension Eitri.BiometricType : Swift.RawRepresentable {}
+extension Eitri.BiometricCheckStatus : Swift.Equatable {}
+extension Eitri.BiometricCheckStatus : Swift.Hashable {}
+extension Eitri.BiometricResult : Swift.Equatable {}
+extension Eitri.BiometricResult : Swift.Hashable {}
 extension Eitri.HttpServiceError : Swift.Equatable {}
 extension Eitri.HttpServiceError : Swift.Hashable {}
 extension Eitri.SuperAppErrors : Swift.Equatable {}

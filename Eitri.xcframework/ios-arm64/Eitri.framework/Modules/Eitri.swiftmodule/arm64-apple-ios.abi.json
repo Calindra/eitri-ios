@@ -3336,6 +3336,203 @@
         "kind": "TypeDecl",
         "name": "BiometricCheckStatusOutput",
         "printedName": "BiometricCheckStatusOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.BiometricType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "Eitri.BiometricType",
+                    "usr": "s:5Eitri13BiometricTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvp",
+            "mangledName": "$s5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.BiometricType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricType",
+                        "printedName": "Eitri.BiometricType",
+                        "usr": "s:5Eitri13BiometricTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvg",
+                "mangledName": "$s5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.BiometricType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricType",
+                        "printedName": "Eitri.BiometricType",
+                        "usr": "s:5Eitri13BiometricTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvs",
+                "mangledName": "$s5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvM",
+                "mangledName": "$s5Eitri26BiometricCheckStatusOutputV4typeAA0B4TypeOSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricCheckStatus",
+                "printedName": "Eitri.BiometricCheckStatus",
+                "usr": "s:5Eitri20BiometricCheckStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0Ovp",
+            "mangledName": "$s5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0Ovp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricCheckStatus",
+                    "printedName": "Eitri.BiometricCheckStatus",
+                    "usr": "s:5Eitri20BiometricCheckStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0Ovg",
+                "mangledName": "$s5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0Ovg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricCheckStatus",
+                    "printedName": "Eitri.BiometricCheckStatus",
+                    "usr": "s:5Eitri20BiometricCheckStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0Ovs",
+                "mangledName": "$s5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0Ovs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0OvM",
+                "mangledName": "$s5Eitri26BiometricCheckStatusOutputV6statusAA0bcD0OvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:5Eitri26BiometricCheckStatusOutputV",
         "mangledName": "$s5Eitri26BiometricCheckStatusOutputV",
@@ -3348,12 +3545,978 @@
         "kind": "TypeDecl",
         "name": "BiometricAuthenticateOutput",
         "printedName": "BiometricAuthenticateOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.BiometricResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricResult",
+                    "printedName": "Eitri.BiometricResult",
+                    "usr": "s:5Eitri15BiometricResultO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvp",
+            "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.BiometricResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricResult",
+                        "printedName": "Eitri.BiometricResult",
+                        "usr": "s:5Eitri15BiometricResultO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvg",
+                "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.BiometricResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricResult",
+                        "printedName": "Eitri.BiometricResult",
+                        "usr": "s:5Eitri15BiometricResultO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvs",
+                "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvM",
+                "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6resultAA0B6ResultOSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detail",
+            "printedName": "detail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri27BiometricAuthenticateOutputV6detailypSgvp",
+            "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6detailypSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri27BiometricAuthenticateOutputV6detailypSgvg",
+                "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6detailypSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri27BiometricAuthenticateOutputV6detailypSgvs",
+                "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6detailypSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri27BiometricAuthenticateOutputV6detailypSgvM",
+                "mangledName": "$s5Eitri27BiometricAuthenticateOutputV6detailypSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:5Eitri27BiometricAuthenticateOutputV",
         "mangledName": "$s5Eitri27BiometricAuthenticateOutputV",
         "moduleName": "Eitri",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiometricType",
+        "printedName": "BiometricType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "TouchID",
+            "printedName": "TouchID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricType.Type) -> Eitri.BiometricType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "Eitri.BiometricType",
+                    "usr": "s:5Eitri13BiometricTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricType",
+                        "printedName": "Eitri.BiometricType",
+                        "usr": "s:5Eitri13BiometricTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri13BiometricTypeO7TouchIDyA2CmF",
+            "mangledName": "$s5Eitri13BiometricTypeO7TouchIDyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "FaceID",
+            "printedName": "FaceID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricType.Type) -> Eitri.BiometricType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "Eitri.BiometricType",
+                    "usr": "s:5Eitri13BiometricTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricType",
+                        "printedName": "Eitri.BiometricType",
+                        "usr": "s:5Eitri13BiometricTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri13BiometricTypeO6FaceIDyA2CmF",
+            "mangledName": "$s5Eitri13BiometricTypeO6FaceIDyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "None",
+            "printedName": "None",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricType.Type) -> Eitri.BiometricType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "Eitri.BiometricType",
+                    "usr": "s:5Eitri13BiometricTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricType",
+                        "printedName": "Eitri.BiometricType",
+                        "usr": "s:5Eitri13BiometricTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri13BiometricTypeO4NoneyA2CmF",
+            "mangledName": "$s5Eitri13BiometricTypeO4NoneyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "Password",
+            "printedName": "Password",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricType.Type) -> Eitri.BiometricType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "Eitri.BiometricType",
+                    "usr": "s:5Eitri13BiometricTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricType",
+                        "printedName": "Eitri.BiometricType",
+                        "usr": "s:5Eitri13BiometricTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri13BiometricTypeO8PasswordyA2CmF",
+            "mangledName": "$s5Eitri13BiometricTypeO8PasswordyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.BiometricType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricType",
+                    "printedName": "Eitri.BiometricType",
+                    "usr": "s:5Eitri13BiometricTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri13BiometricTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s5Eitri13BiometricTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri13BiometricTypeO8rawValueSSvp",
+            "mangledName": "$s5Eitri13BiometricTypeO8rawValueSSvp",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri13BiometricTypeO8rawValueSSvg",
+                "mangledName": "$s5Eitri13BiometricTypeO8rawValueSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Eitri13BiometricTypeO",
+        "mangledName": "$s5Eitri13BiometricTypeO",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiometricCheckStatus",
+        "printedName": "BiometricCheckStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "AVAILABLE",
+            "printedName": "AVAILABLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricCheckStatus.Type) -> Eitri.BiometricCheckStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricCheckStatus",
+                    "printedName": "Eitri.BiometricCheckStatus",
+                    "usr": "s:5Eitri20BiometricCheckStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricCheckStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricCheckStatus",
+                        "printedName": "Eitri.BiometricCheckStatus",
+                        "usr": "s:5Eitri20BiometricCheckStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri20BiometricCheckStatusO9AVAILABLEyA2CmF",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO9AVAILABLEyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "UNAVAILABLE",
+            "printedName": "UNAVAILABLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricCheckStatus.Type) -> Eitri.BiometricCheckStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricCheckStatus",
+                    "printedName": "Eitri.BiometricCheckStatus",
+                    "usr": "s:5Eitri20BiometricCheckStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricCheckStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricCheckStatus",
+                        "printedName": "Eitri.BiometricCheckStatus",
+                        "usr": "s:5Eitri20BiometricCheckStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri20BiometricCheckStatusO11UNAVAILABLEyA2CmF",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO11UNAVAILABLEyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "BLOCKED",
+            "printedName": "BLOCKED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricCheckStatus.Type) -> Eitri.BiometricCheckStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricCheckStatus",
+                    "printedName": "Eitri.BiometricCheckStatus",
+                    "usr": "s:5Eitri20BiometricCheckStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricCheckStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricCheckStatus",
+                        "printedName": "Eitri.BiometricCheckStatus",
+                        "usr": "s:5Eitri20BiometricCheckStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri20BiometricCheckStatusO7BLOCKEDyA2CmF",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO7BLOCKEDyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "NOT_SUPPORTED",
+            "printedName": "NOT_SUPPORTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricCheckStatus.Type) -> Eitri.BiometricCheckStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricCheckStatus",
+                    "printedName": "Eitri.BiometricCheckStatus",
+                    "usr": "s:5Eitri20BiometricCheckStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricCheckStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricCheckStatus",
+                        "printedName": "Eitri.BiometricCheckStatus",
+                        "usr": "s:5Eitri20BiometricCheckStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri20BiometricCheckStatusO13NOT_SUPPORTEDyA2CmF",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO13NOT_SUPPORTEDyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricCheckStatus",
+                "printedName": "Eitri.BiometricCheckStatus",
+                "usr": "s:5Eitri20BiometricCheckStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricCheckStatus",
+                "printedName": "Eitri.BiometricCheckStatus",
+                "usr": "s:5Eitri20BiometricCheckStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri20BiometricCheckStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "Eitri",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri20BiometricCheckStatusO9hashValueSivp",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO9hashValueSivp",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri20BiometricCheckStatusO9hashValueSivg",
+                "mangledName": "$s5Eitri20BiometricCheckStatusO9hashValueSivg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri20BiometricCheckStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Eitri20BiometricCheckStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Eitri20BiometricCheckStatusO",
+        "mangledName": "$s5Eitri20BiometricCheckStatusO",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiometricResult",
+        "printedName": "BiometricResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SUCCESS",
+            "printedName": "SUCCESS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricResult.Type) -> Eitri.BiometricResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricResult",
+                    "printedName": "Eitri.BiometricResult",
+                    "usr": "s:5Eitri15BiometricResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricResult",
+                        "printedName": "Eitri.BiometricResult",
+                        "usr": "s:5Eitri15BiometricResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri15BiometricResultO7SUCCESSyA2CmF",
+            "mangledName": "$s5Eitri15BiometricResultO7SUCCESSyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Var",
+            "name": "FAILURE",
+            "printedName": "FAILURE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BiometricResult.Type) -> Eitri.BiometricResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BiometricResult",
+                    "printedName": "Eitri.BiometricResult",
+                    "usr": "s:5Eitri15BiometricResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.BiometricResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BiometricResult",
+                        "printedName": "Eitri.BiometricResult",
+                        "usr": "s:5Eitri15BiometricResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri15BiometricResultO7FAILUREyA2CmF",
+            "mangledName": "$s5Eitri15BiometricResultO7FAILUREyA2CmF",
+            "moduleName": "Eitri"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricResult",
+                "printedName": "Eitri.BiometricResult",
+                "usr": "s:5Eitri15BiometricResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiometricResult",
+                "printedName": "Eitri.BiometricResult",
+                "usr": "s:5Eitri15BiometricResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri15BiometricResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Eitri15BiometricResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "Eitri",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri15BiometricResultO9hashValueSivp",
+            "mangledName": "$s5Eitri15BiometricResultO9hashValueSivp",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri15BiometricResultO9hashValueSivg",
+                "mangledName": "$s5Eitri15BiometricResultO9hashValueSivg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri15BiometricResultO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Eitri15BiometricResultO4hash4intoys6HasherVz_tF",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Eitri15BiometricResultO",
+        "mangledName": "$s5Eitri15BiometricResultO",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
         ]
       },
       {
@@ -10765,14 +11928,14 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/BiometricServiceModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 497,
+      "offset": 525,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/BiometricServiceModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 536,
+      "offset": 564,
       "length": 2,
       "value": "-6"
     },

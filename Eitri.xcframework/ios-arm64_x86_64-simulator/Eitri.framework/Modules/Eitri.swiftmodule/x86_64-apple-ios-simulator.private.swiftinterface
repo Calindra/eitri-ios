@@ -6,6 +6,7 @@ import Cache
 import CryptoKit
 @_exported import Eitri
 import Foundation
+import GameKit
 import LinkPresentation
 import LocalAuthentication
 import MobileCoreServices
@@ -60,6 +61,7 @@ public class SuperApp {
   #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
+  public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
   #if compiler(>=5.3) && $AsyncAwait
   public func run(runInput: Eitri.RunInput) async throws
   #endif
@@ -84,6 +86,11 @@ public class SuperApp {
   #if compiler(>=5.3) && $AsyncAwait
   public func prefetchResources(prefetchResources: Swift.Bool) async
   #endif
+}
+public struct ThemeUtils {
+  public static func isDarkMode() -> Swift.Bool
+  public static func parseHexColor(_ hexString: Swift.String) -> UIKit.UIColor
+  public static func isDarkColor(_ color: UIKit.UIColor) -> Swift.Bool
 }
 public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
 public struct DownloadInput : Swift.Codable {
@@ -196,7 +203,7 @@ public struct OpenInput {
   public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000)
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000, showWorkspaceBanner: Swift.Bool = false)
 }
 public struct HttpError : Swift.Error {
 }
@@ -226,6 +233,7 @@ public struct TabViewItem {
   public func getBiometricService() throws -> Eitri.EitriOpenBiometricService
   @objc deinit
 }
+public typealias ErrorScreenGeneratorFunction = (_ slug: Swift.String, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge
@@ -254,6 +262,7 @@ public struct EitriMachine {
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
   #endif
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
+  public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
   public func setNavControllerForNativeNavigation(_ navController: UIKit.UINavigationController?)
   public func getNavControllerForNativeNavigation() -> UIKit.UINavigationController?
   #if compiler(>=5.3) && $AsyncAwait
@@ -304,6 +313,9 @@ public struct RunInFrameOutput {
 @_hasMissingDesignatedInitializers public class EitriOpenService {
   @objc deinit
 }
+extension UIKit.UIGestureRecognizer {
+  @_Concurrency.MainActor(unsafe) public static func withFn(_ closure: @escaping () -> Swift.Void) -> UIKit.UIGestureRecognizer
+}
 public struct ScrollDirectionChangedModel : Swift.Codable {
   public var direction: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
@@ -336,6 +348,7 @@ public struct SuperAppContext {
   public var multiWorkspaceContext: Eitri.MultiWorkspaceContext
   public var forceLanguage: Swift.String?
   public var safeAreaInsets: Eitri.SafeAreaInsets?
+  public var showWorkspaceBanner: Swift.Bool
 }
 public class EitriBottomTabView {
   public init(_ mainEitriMachine: Eitri.EitriMachine)

@@ -34,6 +34,11 @@ public struct SharedMethodParams {
   public let slug: Swift.String
   public let openServices: Eitri.EitriOpenServicesFacade
   public var currentNavController: UIKit.UINavigationController?
+  public let eitriAppExecutingMethod: Eitri.EitriAppExecutingMethod
+}
+public struct EitriAppExecutingMethod {
+  public var slug: Swift.String
+  public var version: Swift.String
 }
 #if compiler(>=5.3) && $AsyncAwait
 public typealias SharedMethod = (_ params: Eitri.SharedMethodParams) async throws -> Any?

@@ -13366,15 +13366,22 @@
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriBottomTabViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriBottomTabViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3826,
+      "offset": 3950,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriBottomTabViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3955,
+      "offset": 4146,
       "length": 4,
       "value": "true"
     },

@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fq0aRMYqiy8DaJ3OZoZOhInrUho=
+		hkXhyTrR+emEx3Na/Z7meJXKHbA=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RAgg/5VwIAsZeYblTUypIrmuHr0=
+		7BDVs9aichROMuAmDKauVQW9jSg=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RAgg/5VwIAsZeYblTUypIrmuHr0=
+		7BDVs9aichROMuAmDKauVQW9jSg=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B+YNClCZ7kiTZw4Jl77vgCGSVSEm/hkYtTrVQqHxy3U=
+			jOQ/RfbTCnikKOETNU25Ni52RNMDGfsZO7nQoBN8PvM=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B+YNClCZ7kiTZw4Jl77vgCGSVSEm/hkYtTrVQqHxy3U=
+			jOQ/RfbTCnikKOETNU25Ni52RNMDGfsZO7nQoBN8PvM=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

@@ -55,7 +55,7 @@ public struct ExposedMethodDescriptor {
   public init(_ namespace: Swift.String, _ methodName: Swift.String)
 }
 public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
-  func onLoadFinished(webView: WebKit.WKWebView)
+  func onLoadFinished(webView: WebKit.WKWebView, origin: Swift.String)
   func onError()
 }
 public typealias LoadingAnimationGeneratorFunction = (_ slug: Swift.String, _ parentView: UIKit.UIView) -> UIKit.UIView

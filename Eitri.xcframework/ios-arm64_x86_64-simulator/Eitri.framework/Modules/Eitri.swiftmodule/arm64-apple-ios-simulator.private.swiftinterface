@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AudioToolbox
 import Cache
+import CoreLocation
 import CryptoKit
 @_exported import Eitri
 import Foundation

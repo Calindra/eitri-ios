@@ -233,8 +233,20 @@ public struct TabViewInput {
 public struct TabViewLayout {
   public init(customTab: any Eitri.EitriCustomTabUI)
 }
+public protocol EitriCustomVCDelegate {
+  func notifyScrollDirectionChanged(direction: Swift.String)
+}
+public protocol EitriCustomVCMessageReceiver {
+  func onUserTappedActiveTab()
+  func receiveDelegate(delegate: any Eitri.EitriCustomVCDelegate)
+}
+public protocol EitriTabViewItemCustomVC : UIKit.UIViewController, Eitri.EitriCustomVCMessageReceiver {
+}
+public struct TabViewItemCustomAction {
+  public init(action: @escaping () -> Swift.Void)
+}
 public struct TabViewItem {
-  public init(runInput: Eitri.RunInput)
+  public init(runInput: Eitri.RunInput? = nil, customViewController: (any Eitri.EitriTabViewItemCustomVC)? = nil, customAction: Eitri.TabViewItemCustomAction? = nil)
 }
 @_hasMissingDesignatedInitializers public class EitriOpenServicesFacade {
   public func getBiometricService() throws -> Eitri.EitriOpenBiometricService
@@ -294,7 +306,7 @@ public struct RawBridge {
   public func rejectMethodExecution(promiseId: Swift.String, data: Swift.String) throws
 }
 public protocol EitriTabViewDelegate : AnyObject {
-  func reportSelectedItem(idx: Swift.Int)
+  func reportSelectedItem(idx: Swift.Int) -> Swift.Bool
   func reportSafeArea(height: Swift.Double)
 }
 public protocol EitriCustomTabUI : UIKit.UIView {
@@ -327,6 +339,11 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
   public var direction: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class EitriViewControllerUtils {
+  public static func topView(base: UIKit.UIViewController? = EitriViewControllerUtils.getRootViewController(), depth: Swift.Int = 0, searchInsideBottomBars: Swift.Bool = true) -> UIKit.UIViewController?
+  public static func getRootViewController() -> UIKit.UIViewController?
+  @objc deinit
 }
 public class HttpService {
   public init(httpClient: Foundation.URLSession)

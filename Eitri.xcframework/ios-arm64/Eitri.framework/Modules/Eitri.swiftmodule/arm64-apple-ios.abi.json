@@ -9737,8 +9737,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "createContext",
-            "printedName": "createContext()",
+            "name": "start",
+            "printedName": "start()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9748,8 +9748,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A22MachineInstanceManagerC13createContextAA0abcdF0VyKFZ",
-            "mangledName": "$s5Eitri0A22MachineInstanceManagerC13createContextAA0abcdF0VyKFZ",
+            "usr": "s:5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyKFZ",
+            "mangledName": "$s5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyKFZ",
             "moduleName": "Eitri",
             "static": true,
             "declAttributes": [
@@ -9761,8 +9761,8 @@
           },
           {
             "kind": "Function",
-            "name": "getContext",
-            "printedName": "getContext()",
+            "name": "getCurrentContext",
+            "printedName": "getCurrentContext()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9780,8 +9780,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A22MachineInstanceManagerC10getContextAA0abcdF0VSgyFZ",
-            "mangledName": "$s5Eitri0A22MachineInstanceManagerC10getContextAA0abcdF0VSgyFZ",
+            "usr": "s:5Eitri0A22MachineInstanceManagerC17getCurrentContextAA0abcdG0VSgyFZ",
+            "mangledName": "$s5Eitri0A22MachineInstanceManagerC17getCurrentContextAA0abcdG0VSgyFZ",
             "moduleName": "Eitri",
             "static": true,
             "declAttributes": [
@@ -9792,8 +9792,8 @@
           },
           {
             "kind": "Function",
-            "name": "getContextOrError",
-            "printedName": "getContextOrError()",
+            "name": "getCurrentContextOrError",
+            "printedName": "getCurrentContextOrError()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9803,8 +9803,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A22MachineInstanceManagerC17getContextOrErrorAA0abcdF0VyKFZ",
-            "mangledName": "$s5Eitri0A22MachineInstanceManagerC17getContextOrErrorAA0abcdF0VyKFZ",
+            "usr": "s:5Eitri0A22MachineInstanceManagerC24getCurrentContextOrErrorAA0abcdG0VyKFZ",
+            "mangledName": "$s5Eitri0A22MachineInstanceManagerC24getCurrentContextOrErrorAA0abcdG0VyKFZ",
             "moduleName": "Eitri",
             "static": true,
             "declAttributes": [

@@ -2115,9 +2115,9 @@ relocations:
   - { offset: 0x136DBB, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A29MachineInstanceManagerContextV04mainB0AA0aB0Vvs', symObjAddr: 0x80, symBinAddr: 0x5D7C0, symSize: 0xA0 }
   - { offset: 0x136DEF, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A29MachineInstanceManagerContextV9mainStackAA0abG0Cvg', symObjAddr: 0x140, symBinAddr: 0x5D860, symSize: 0x10 }
   - { offset: 0x136E03, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A29MachineInstanceManagerContextV9mainStackAA0abG0Cvs', symObjAddr: 0x150, symBinAddr: 0x5D870, symSize: 0x20 }
-  - { offset: 0x136F18, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A22MachineInstanceManagerC13createContextAA0abcdF0VyKFZ', symObjAddr: 0x1A0, symBinAddr: 0x5D890, symSize: 0x460 }
-  - { offset: 0x1370D1, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A22MachineInstanceManagerC10getContextAA0abcdF0VSgyFZ', symObjAddr: 0x6B0, symBinAddr: 0x5DD60, symSize: 0x70 }
-  - { offset: 0x1370F2, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A22MachineInstanceManagerC17getContextOrErrorAA0abcdF0VyKFZ', symObjAddr: 0x720, symBinAddr: 0x5DDD0, symSize: 0x130 }
+  - { offset: 0x136F18, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyKFZ', symObjAddr: 0x1A0, symBinAddr: 0x5D890, symSize: 0x460 }
+  - { offset: 0x1370D1, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A22MachineInstanceManagerC17getCurrentContextAA0abcdG0VSgyFZ', symObjAddr: 0x6B0, symBinAddr: 0x5DD60, symSize: 0x70 }
+  - { offset: 0x1370F2, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A22MachineInstanceManagerC24getCurrentContextOrErrorAA0abcdG0VyKFZ', symObjAddr: 0x720, symBinAddr: 0x5DDD0, symSize: 0x130 }
   - { offset: 0x13736C, size: 0x8, addend: 0x0, symName: '_$s5Eitri16ClipboardServiceCMa', symObjAddr: 0x20, symBinAddr: 0x5E2B0, symSize: 0x20 }
   - { offset: 0x1373DF, size: 0x8, addend: 0x0, symName: '_$s5Eitri16ClipboardServiceC7setText05inputE0ySo12NSDictionaryC_tFTf4nd_n', symObjAddr: 0x40, symBinAddr: 0x5E2D0, symSize: 0x150 }
   - { offset: 0x13787E, size: 0x8, addend: 0x0, symName: '_$s5Eitri0A14AppHttpServiceCMa', symObjAddr: 0xE10, symBinAddr: 0x5F210, symSize: 0x20 }

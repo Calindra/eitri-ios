@@ -314,9 +314,9 @@ public struct EitriMachineInstanceManagerContext {
   public var mainStack: Eitri.EitriMachineStack
 }
 @_hasMissingDesignatedInitializers public class EitriMachineInstanceManager {
-  public static func createContext() throws -> Eitri.EitriMachineInstanceManagerContext
-  public static func getContext() -> Eitri.EitriMachineInstanceManagerContext?
-  public static func getContextOrError() throws -> Eitri.EitriMachineInstanceManagerContext
+  public static func start() throws -> Eitri.EitriMachineInstanceManagerContext
+  public static func getCurrentContext() -> Eitri.EitriMachineInstanceManagerContext?
+  public static func getCurrentContextOrError() throws -> Eitri.EitriMachineInstanceManagerContext
   @objc deinit
 }
 public struct SafeAreaInsets {

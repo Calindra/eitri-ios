@@ -314,7 +314,7 @@ public struct EitriMachineInstanceManagerContext {
   public var mainStack: Eitri.EitriMachineStack
 }
 @_hasMissingDesignatedInitializers public class EitriMachineInstanceManager {
-  public static func start() throws -> Eitri.EitriMachineInstanceManagerContext
+  public static func start() -> Eitri.EitriMachineInstanceManagerContext
   public static func getCurrentContext() -> Eitri.EitriMachineInstanceManagerContext?
   public static func getCurrentContextOrError() throws -> Eitri.EitriMachineInstanceManagerContext
   @objc deinit

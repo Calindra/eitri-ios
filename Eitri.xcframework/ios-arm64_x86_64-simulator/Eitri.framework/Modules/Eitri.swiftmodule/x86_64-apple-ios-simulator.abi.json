@@ -9748,15 +9748,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyKFZ",
-            "mangledName": "$s5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyKFZ",
+            "usr": "s:5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyFZ",
+            "mangledName": "$s5Eitri0A22MachineInstanceManagerC5startAA0abcD7ContextVyFZ",
             "moduleName": "Eitri",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {

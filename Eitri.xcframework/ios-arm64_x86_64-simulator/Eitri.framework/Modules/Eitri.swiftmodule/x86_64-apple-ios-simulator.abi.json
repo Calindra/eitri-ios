@@ -12128,21 +12128,21 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 1055,
+      "offset": 1013,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 2188,
+      "offset": 2146,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 5582,
+      "offset": 5540,
       "length": 5,
       "value": "false"
     },
@@ -12798,18 +12798,25 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/Services\/NetworkService.swift",
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/Services\/NetworkMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 175,
-      "length": 9,
-      "value": "\"Monitor\""
+      "offset": 160,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
     },
     {
-      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/Services\/NetworkService.swift",
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/Services\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 208,
+      "offset": 271,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/Services\/NetworkMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 310,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/0dfd20d2-dfc8-5625-8d4b-e097e89d3f69\/build\/ios\/Eitri\/Eitri\/EitriMachine.swift",

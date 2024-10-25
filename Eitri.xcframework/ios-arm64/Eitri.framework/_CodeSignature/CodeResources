@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y3yHTyXyu4cdgrx4PAqNiEuHupc=
+		ir7vlE6KbJueFr7P1G4kSQuDALk=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		82pQw6mCGbY8/fKjKpLMMJbl4Q4=
+		RH8bq71kE0kFO+iLM4nCJY4C1SQ=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rDmsPBEBMW07rERQYpcskgsA4io=
+		BUqiiQwWOefCQVMfd3h0HyJ+PJM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		nBuiNK5xg7r63Q6O8Z+boBFG/DE=
+		UgnpUGkcVpwpZjFpyVmQaE8kry4=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rDmsPBEBMW07rERQYpcskgsA4io=
+		BUqiiQwWOefCQVMfd3h0HyJ+PJM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cqkBF8TqFq3BUQfVURyIoZkA80Q=
+		goRrAszeRSHtF4v0irSQKzMCcvQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e320sYhzCKiXENKUK1vaYMjhBUoEYv7JiI8PlJCuyQc=
+			rNQlix/PjPbBAtqZGqcPj8+zZBPU5gTS7M6iL0nN7K4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y88xjA6Mm65P+u+sp+d0OMedIPWEHdwT5XflHxSM7bs=
+			69rE8ERL9T5YqevSw/m61S+iP3ICwBmLKUqgw6aCy38=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3mjFSvj1BRkMKW9OaoRKjZ1zlwC5NzFmGrd6VVTLOw=
+			tKfB43qmB2l10WcXnuK7dFnmJkQqBzTuBUCQpb+puIs=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y88xjA6Mm65P+u+sp+d0OMedIPWEHdwT5XflHxSM7bs=
+			69rE8ERL9T5YqevSw/m61S+iP3ICwBmLKUqgw6aCy38=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFkkSpkdvwjgRmOvH52taTri86qdIf21SVqk10x5yg8=
+			Tiyb8bO9hibuu8SNcx2sCU8cK7AGLrFZqXsv2+UXUwE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

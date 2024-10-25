@@ -252,7 +252,11 @@ public struct TabViewItem {
   public func getBiometricService() throws -> Eitri.EitriOpenBiometricService
   @objc deinit
 }
-public typealias ErrorScreenGeneratorFunction = (_ slug: Swift.String, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
+public struct EitriAppErrorContext {
+  public let slug: Swift.String
+  public let runningAsFrame: Swift.Bool
+}
+public typealias ErrorScreenGeneratorFunction = (_ errorContext: Eitri.EitriAppErrorContext, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge

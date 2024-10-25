@@ -1949,7 +1949,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String, UIKit.UIView, @escaping () -> (), @escaping () -> ()) -> UIKit.UIView",
+                "printedName": "(Eitri.EitriAppErrorContext, UIKit.UIView, @escaping () -> (), @escaping () -> ()) -> UIKit.UIView",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1960,13 +1960,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.String, UIKit.UIView, () -> (), () -> ())",
+                    "printedName": "(Eitri.EitriAppErrorContext, UIKit.UIView, () -> (), () -> ())",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "EitriAppErrorContext",
+                        "printedName": "Eitri.EitriAppErrorContext",
+                        "usr": "s:5Eitri0A15AppErrorContextV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -2014,8 +2014,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCSS_AGyycyyctc_tF",
-            "mangledName": "$s5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCSS_AGyycyyctc_tF",
+            "usr": "s:5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctc_tF",
+            "mangledName": "$s5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -6479,6 +6479,108 @@
         "moduleName": "Eitri"
       },
       {
+        "kind": "TypeDecl",
+        "name": "EitriAppErrorContext",
+        "printedName": "EitriAppErrorContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri0A15AppErrorContextV4slugSSvp",
+            "mangledName": "$s5Eitri0A15AppErrorContextV4slugSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri0A15AppErrorContextV4slugSSvg",
+                "mangledName": "$s5Eitri0A15AppErrorContextV4slugSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "runningAsFrame",
+            "printedName": "runningAsFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri0A15AppErrorContextV14runningAsFrameSbvp",
+            "mangledName": "$s5Eitri0A15AppErrorContextV14runningAsFrameSbvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri0A15AppErrorContextV14runningAsFrameSbvg",
+                "mangledName": "$s5Eitri0A15AppErrorContextV14runningAsFrameSbvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri0A15AppErrorContextV",
+        "mangledName": "$s5Eitri0A15AppErrorContextV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -7098,7 +7200,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String, UIKit.UIView, @escaping () -> (), @escaping () -> ()) -> UIKit.UIView",
+                "printedName": "(Eitri.EitriAppErrorContext, UIKit.UIView, @escaping () -> (), @escaping () -> ()) -> UIKit.UIView",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7109,13 +7211,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.String, UIKit.UIView, () -> (), () -> ())",
+                    "printedName": "(Eitri.EitriAppErrorContext, UIKit.UIView, () -> (), () -> ())",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "EitriAppErrorContext",
+                        "printedName": "Eitri.EitriAppErrorContext",
+                        "usr": "s:5Eitri0A15AppErrorContextV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -7163,8 +7265,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCSS_AGyycyyctc_tF",
-            "mangledName": "$s5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCSS_AGyycyyctc_tF",
+            "usr": "s:5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0a3AppE7ContextV_AGyycyyctc_tF",
+            "mangledName": "$s5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0a3AppE7ContextV_AGyycyyctc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl",
@@ -11077,140 +11179,140 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 5532,
+      "offset": 5695,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 5653,
+      "offset": 5816,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 6906,
+      "offset": 7069,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 7041,
+      "offset": 7204,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 7176,
+      "offset": 7339,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 7419,
+      "offset": 7582,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 7535,
+      "offset": 7698,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 7653,
+      "offset": 7816,
       "length": 3,
       "value": "-25"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 7913,
+      "offset": 8076,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 8035,
+      "offset": 8198,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 8159,
+      "offset": 8322,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 8379,
+      "offset": 8542,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 8465,
+      "offset": 8628,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 8648,
+      "offset": 8811,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 8974,
+      "offset": 9137,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 9064,
+      "offset": 9227,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 9155,
+      "offset": 9318,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 9309,
+      "offset": 9472,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 9398,
+      "offset": 9561,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 9488,
+      "offset": 9651,
       "length": 2,
       "value": "48"
     },

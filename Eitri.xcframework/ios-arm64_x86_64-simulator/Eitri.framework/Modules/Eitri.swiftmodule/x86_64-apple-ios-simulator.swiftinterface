@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Eitri
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Eitri
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AudioToolbox
 import Cache
 import CoreLocation
@@ -42,9 +42,7 @@ public struct EitriAppExecutingMethod {
   public var slug: Swift.String
   public var version: Swift.String
 }
-#if compiler(>=5.3) && $AsyncAwait
 public typealias SharedMethod = (_ params: Eitri.SharedMethodParams) async throws -> Any?
-#endif
 public struct DynamicMethodAddressableMessage {
   public var promiseId: Swift.String
   public var slug: Swift.String
@@ -63,36 +61,18 @@ public typealias LoadingAnimationGeneratorFunction = (_ slug: Swift.String, _ pa
 public class SuperApp {
   public init()
   @objc deinit
-  #if compiler(>=5.3) && $AsyncAwait
   public func configure(input: Eitri.ConfigureInput, isReplica: Swift.Bool = false) async throws
-  #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
   public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
-  #if compiler(>=5.3) && $AsyncAwait
   public func run(runInput: Eitri.RunInput) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func runInFrame(parentUI: UIKit.UIViewController, runInput: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func prepareToRun(runInput: Eitri.RunInput, forRunningAsFrame: Swift.Bool = false) async throws -> UIKit.UIViewController
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func stop() async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getInitializationInfos() async -> Foundation.NSDictionary?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func getEnvironmentConfig() async -> Eitri.ConfigureEitriEnvironmentResponse?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
+  public func getEnvironmentConfig(_ forceRefresh: Swift.Bool = false) async -> Eitri.ConfigureEitriEnvironmentResponse?
   public func openEitriAppOnCurrentNativeView(runInput: Eitri.RunInput) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func prefetchResources(prefetchResources: Swift.Bool) async
-  #endif
 }
 public struct ThemeUtils {
   public static func isDarkMode() -> Swift.Bool
@@ -198,9 +178,7 @@ public struct OpenBiometricAuthenticateInput {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class EitriOpenBiometricService : Eitri.EitriOpenService {
   public func checkStatus() throws -> Eitri.BiometricCheckStatusOutput
-  #if compiler(>=5.3) && $AsyncAwait
   public func authenticate(_ input: Eitri.OpenBiometricAuthenticateInput) async throws -> Eitri.BiometricAuthenticateOutput
-  #endif
   @objc deinit
 }
 public struct OpenInput {
@@ -210,7 +188,7 @@ public struct OpenInput {
   public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000, showWorkspaceBanner: Swift.Bool = false)
+  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000, showWorkspaceBanner: Swift.Bool = false, theme: Eitri.ThemeConfig? = nil)
 }
 public struct HttpError : Swift.Error {
 }
@@ -263,34 +241,20 @@ public struct EitriMachine {
   public let currentEitriApp: Eitri.EitriApp
   public init()
   public func instanceId() -> Swift.String
-  #if compiler(>=5.3) && $AsyncAwait
   public func configure(input: Eitri.ConfigureInput) async throws
-  #endif
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   public func forceLanguage(language: Swift.String) throws
-  #if compiler(>=5.3) && $AsyncAwait
   public func run(options: Eitri.RunInput) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func runInFrame(parentUI: UIKit.UIViewController, options: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func stop() async throws
-  #endif
   public func addOnStopListener(fn: @escaping Eitri.OnStopListener)
-  #if compiler(>=5.3) && $AsyncAwait
   public func createReplica() async throws -> Eitri.EitriMachine
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
-  #endif
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
   public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
   public func setNavControllerForNativeNavigation(_ navController: UIKit.UINavigationController?)
   public func getNavControllerForNativeNavigation() -> UIKit.UINavigationController?
-  #if compiler(>=5.3) && $AsyncAwait
   public func prefetchResources() async
-  #endif
 }
 public struct EitriApp {
   public let eventBus: Eitri.EventBus
@@ -299,9 +263,7 @@ public struct EventBus {
   public func publish(channel: Swift.String, data: Any?) throws
 }
 public struct Bridge {
-  #if compiler(>=5.3) && $AsyncAwait
   public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
-  #endif
   public func exposeNativeNavigationApi(eitriMachineStack: Eitri.EitriMachineStack) throws
 }
 public struct RawBridge {
@@ -323,12 +285,8 @@ public class EitriMachineStack {
   public func peek() -> Eitri.EitriMachine?
   public func pop() -> Eitri.EitriMachine?
   public func get(id: Swift.String) -> Eitri.EitriMachine?
-  #if compiler(>=5.3) && $AsyncAwait
   public func createReplicaInstance() async throws -> Eitri.EitriMachine
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
-  #endif
   @objc deinit
 }
 public struct RunInFrameOutput {
@@ -337,7 +295,7 @@ public struct RunInFrameOutput {
   @objc deinit
 }
 extension UIKit.UIGestureRecognizer {
-  @_Concurrency.MainActor(unsafe) public static func withFn(_ closure: @escaping () -> Swift.Void) -> UIKit.UIGestureRecognizer
+  @_Concurrency.MainActor @preconcurrency public static func withFn(_ closure: @escaping () -> Swift.Void) -> UIKit.UIGestureRecognizer
 }
 public struct ScrollDirectionChangedModel : Swift.Codable {
   public var direction: Swift.String
@@ -351,12 +309,8 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
 }
 public class HttpService {
   public init(httpClient: Foundation.URLSession)
-  #if compiler(>=5.3) && $AsyncAwait
   public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
-  #endif
-  #if compiler(>=5.3) && $Sendable
   public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
-  #endif
   @objc deinit
 }
 public struct EitriMachineInstanceManagerContext {
@@ -368,6 +322,16 @@ public struct EitriMachineInstanceManagerContext {
   public static func getCurrentContext() -> Eitri.EitriMachineInstanceManagerContext?
   public static func getCurrentContextOrError() throws -> Eitri.EitriMachineInstanceManagerContext
   @objc deinit
+}
+public struct Theme : Swift.Codable {
+  public init(backgroundColor: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ThemeConfig : Swift.Codable {
+  public init(light: Eitri.Theme? = nil, dark: Eitri.Theme? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SafeAreaInsets {
 }
@@ -387,12 +351,11 @@ public struct SuperAppContext {
   public var forceLanguage: Swift.String?
   public var safeAreaInsets: Eitri.SafeAreaInsets?
   public var showWorkspaceBanner: Swift.Bool
+  public var theme: Eitri.ThemeConfig?
 }
 public class EitriBottomTabView {
   public init(_ mainEitriMachine: Eitri.EitriMachine)
-  #if compiler(>=5.3) && $AsyncAwait
   public func run(_ tabViewInput: Eitri.TabViewInput) async throws
-  #endif
   public func getEitriMachineList() -> [Eitri.EitriMachine]
   public func getCurrentEitriMachine() -> Eitri.EitriMachine?
   public func getMainView() -> UIKit.UIViewController?

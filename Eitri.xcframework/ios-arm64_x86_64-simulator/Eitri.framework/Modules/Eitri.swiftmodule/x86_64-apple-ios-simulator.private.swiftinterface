@@ -16,6 +16,7 @@ import Network
 import PhotosUI
 import QuickLook
 import SafariServices
+import StoreKit
 import Swift
 import UIKit
 import UserNotifications
@@ -280,6 +281,10 @@ public protocol EitriCustomTabUI : UIKit.UIView {
   func adjustPosition(parentView: UIKit.UIView)
   func scrollDirectionChanged(directionChangeInfos: Eitri.ScrollDirectionChangedModel) throws
   func changeVisibility(show: Swift.Bool) throws
+  func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
+}
+extension Eitri.EitriCustomTabUI {
+  public func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
 }
 public class EitriMachineStack {
   public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
@@ -289,6 +294,11 @@ public class EitriMachineStack {
   public func createReplicaInstance() async throws -> Eitri.EitriMachine
   public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
   @objc deinit
+}
+public struct BottomBarChangeOptionsModel : Swift.Codable {
+  public let index: Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct RunInFrameOutput {
 }
@@ -322,6 +332,9 @@ public class HttpService {
   public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
   public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
   @objc deinit
+}
+public struct ChangeCurrentTabOptions {
+  public var index: Swift.Int?
 }
 public struct EitriMachineInstanceManagerContext {
   public var mainMachine: Eitri.EitriMachine

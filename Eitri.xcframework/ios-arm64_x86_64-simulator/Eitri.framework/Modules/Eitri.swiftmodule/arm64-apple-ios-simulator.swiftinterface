@@ -62,12 +62,12 @@ public class SuperApp {
   public init()
   @objc deinit
   public func configure(input: Eitri.ConfigureInput, isReplica: Swift.Bool = false) async throws
+  public func createEitriMachineReplica() async throws -> Eitri.EitriMachine
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
   public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
   public func run(runInput: Eitri.RunInput) async throws
   public func runInFrame(parentUI: UIKit.UIViewController, runInput: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
-  public func prepareToRun(runInput: Eitri.RunInput, forRunningAsFrame: Swift.Bool = false) async throws -> UIKit.UIViewController
   public func stop() async throws
   public func getInitializationInfos() async -> Swift.Dictionary<Swift.String, Any?>?
   public func getEnvironmentConfig(_ forceRefresh: Swift.Bool = false) async -> Eitri.ConfigureEitriEnvironmentResponse?

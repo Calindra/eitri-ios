@@ -185,6 +185,7 @@ public struct OpenInput {
   public var slug: Swift.String
   public var initParams: Swift.Dictionary<Swift.String, Any?>?
   public var restorationContext: Swift.Dictionary<Swift.String, Any?>?
+  public var replace: Swift.Bool
   public var resetStack: Swift.Bool
 }
 public struct ConfigureInput {

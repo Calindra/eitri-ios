@@ -2513,6 +2513,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2607,6 +2631,68 @@
         "name": "DownloadInput",
         "printedName": "DownloadInput",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:fileName:httpConfig:shared:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadInput",
+                "printedName": "Eitri.DownloadInput",
+                "usr": "s:5Eitri13DownloadInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.HttpConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpConfig",
+                    "printedName": "Eitri.HttpConfig",
+                    "usr": "s:5Eitri10HttpConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri13DownloadInputV3url8fileName10httpConfig6sharedACSS_SSAA04HttpH0VSgSbSgtcfc",
+            "mangledName": "$s5Eitri13DownloadInputV3url8fileName10httpConfig6sharedACSS_SSAA04HttpH0VSgSbSgtcfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -2730,6 +2816,71 @@
         "name": "HttpConfig",
         "printedName": "HttpConfig",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(headers:timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HttpConfig",
+                "printedName": "Eitri.HttpConfig",
+                "usr": "s:5Eitri10HttpConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri10HttpConfigV7headers7timeoutACSDyS2SGSg_SdSgtcfc",
+            "mangledName": "$s5Eitri10HttpConfigV7headers7timeoutACSDyS2SGSg_SdSgtcfc",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -7489,6 +7640,27 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -10525,6 +10697,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -13447,7 +13626,7 @@
       "kind": "IntegerLiteral",
       "offset": 132,
       "length": 2,
-      "value": "22"
+      "value": "23"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
@@ -13744,6 +13923,55 @@
       "value": "-1103"
     },
     {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 38,
+      "value": "\"0C2B4209-1953-4206-A8D2-7B182CD4890F\""
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 705,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 841,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "Array",
+      "offset": 888,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/Components\/HorizontalAnimator.swift",
       "kind": "BooleanLiteral",
       "offset": 188,
@@ -13871,50 +14099,57 @@
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 258,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 1350,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 1372,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 1394,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
+      "offset": 1418,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1444,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1088,
+      "offset": 1468,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1114,
+      "offset": 1494,
       "length": 9,
       "value": "\"OPTIONS\""
     },
@@ -14234,6 +14469,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/WebFlowService.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 3,
+      "value": "\"*\""
+    },
+    {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/EitriMachine.swift",
       "kind": "StringLiteral",
       "offset": 5199,
@@ -14397,14 +14639,14 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 7931,
+      "offset": 7971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7953,
+      "offset": 7993,
       "length": 1,
       "value": "0"
     },

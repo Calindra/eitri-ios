@@ -81,12 +81,14 @@ public struct ThemeUtils {
 }
 public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
 public struct DownloadInput : Swift.Codable {
+  public init(url: Swift.String, fileName: Swift.String, httpConfig: Eitri.HttpConfig?, shared: Swift.Bool? = false)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct HttpResponse {
 }
 public struct HttpConfig : Swift.Codable {
+  public init(headers: [Swift.String : Swift.String]? = nil, timeout: Swift.Double? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

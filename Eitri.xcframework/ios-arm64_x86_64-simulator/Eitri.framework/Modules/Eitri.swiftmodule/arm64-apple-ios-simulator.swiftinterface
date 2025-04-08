@@ -98,7 +98,7 @@ public struct HttpCallParams {
 public struct CallHttpMethodInput {
   public init(methodName: Eitri.HttpMethod, params: Eitri.HttpCallParams)
 }
-public enum HttpMethod : Swift.String {
+public enum HttpMethod : Swift.String, Swift.Codable {
   case Get
   case Post
   case Put

@@ -10767,6 +10767,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "LinkPresentation",
         "printedName": "LinkPresentation",
         "declKind": "Import",
@@ -11440,6 +11454,27 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "Eitri"
       },
@@ -13647,7 +13682,7 @@
       "kind": "IntegerLiteral",
       "offset": 132,
       "length": 2,
-      "value": "25"
+      "value": "26"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/SuperApp.swift",
@@ -14590,7 +14625,7 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/Eitri\/Services\/FileService.swift",
       "kind": "Array",
-      "offset": 189,
+      "offset": 194,
       "length": 1118,
       "value": "[\"txt\", \"rtf\", \"pdf\", \"md\", \"xls\", \"xlsx\", \"csv\", \"gsheet\", \"ppt\", \"pptx\", \"doc\", \"docx\", \"gdoc\", \"jpg\", \"jpeg\", \"png\", \"gif\", \"mp3\", \"wav\", \"mp4\", \"avi\", \"zip\", \"rar\", \"epub\", \"mobi\", \"key\", \"pages\", \"numbers\", \"keynote\"]"
     },

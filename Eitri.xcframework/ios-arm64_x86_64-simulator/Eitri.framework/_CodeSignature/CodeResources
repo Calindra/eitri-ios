@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GmC1FjQPNdDyXWR2umN8zBztNB0=
+		XJ022aI1hwTU+gpsIGKw9d3BanM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vBGixAqvXLog27AJM1FoWDPUvHc=
+		hHlA1dkXL9Hv2ef50zI3BhbS6ns=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lynVDG/zHaBIog8cq60RloUpBOw=
+		5rUWsVPmrzQ8eYgqSWpJmF0KIh8=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hhyxBNuBH1i90nWJ+gA83M18QFk=
+		FWwlKU2W7+IfY4zYcwHR1zWyAD4=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lynVDG/zHaBIog8cq60RloUpBOw=
+		5rUWsVPmrzQ8eYgqSWpJmF0KIh8=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FVaB2RIeiDA7eZ5XfMxQsaQjeso=
+		dOgOv247LzCK72QFbuTsPxOD4zg=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vBGixAqvXLog27AJM1FoWDPUvHc=
+		hHlA1dkXL9Hv2ef50zI3BhbS6ns=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1aNmVQmIb9wYcMIoDG/bNWR46V0=
+		tOmPmkgOO7FOHMr6m26c40TeM+I=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mWsfA+PXl7MBSTsdvtnB5jZOEQk=
+		YmkAD3hP6+MNvo8krPVda2Wmehs=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1aNmVQmIb9wYcMIoDG/bNWR46V0=
+		tOmPmkgOO7FOHMr6m26c40TeM+I=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aDXupXZqE8FIsoyViRURjgBv1tI=
+		NskqFgUAPRvkdpeo5EzqdX81r/8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIaKrPfzru/4yS7GHhH2F3rNM+aOpLOPCcvmY4IEbYY=
+			geyYh1+NxC07CEMO6A/0jbbiGcxomgGO/6GvVH/VzaE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ks9xt4ncTJcg5+3it5dnvqQHXzAawNIE4FekXUWaGoM=
+			fvQKCtyrOgIjWifIfx6BqcEPCBeM6pwkCHjagkKURIE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvRMLrAEiHzaAyHyz0Hw8aI7F9ZFbzLggji+7uRslm0=
+			J38gSB1wODZ9WLT+O30ER3XsNERDs2K8sqESBmX+lx4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ks9xt4ncTJcg5+3it5dnvqQHXzAawNIE4FekXUWaGoM=
+			fvQKCtyrOgIjWifIfx6BqcEPCBeM6pwkCHjagkKURIE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1T4+EOS5cdvHPUllVrhk506lMRJJg9g+u5CH/nRAK2s=
+			CaCEhg2Qt7PrZT/PC70zezHtgOfvg19wT1WuIoDj1KE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIaKrPfzru/4yS7GHhH2F3rNM+aOpLOPCcvmY4IEbYY=
+			geyYh1+NxC07CEMO6A/0jbbiGcxomgGO/6GvVH/VzaE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xyEmxxT2gRLv7uI/6p4D6+6Y58+YCZMEeSwZoj2UFXA=
+			agT+27H1NAzs7AmwZr5a2wxqc1OcWnUHVbgBGkqXKqw=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nhViMgjbQHNFXTnW1nTb9DauREdBpXbMw/ZpA1dMbWc=
+			VuQVIxitC0MdOVISlzdwdhseesgwC9aGkgod8LI3uWk=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xyEmxxT2gRLv7uI/6p4D6+6Y58+YCZMEeSwZoj2UFXA=
+			agT+27H1NAzs7AmwZr5a2wxqc1OcWnUHVbgBGkqXKqw=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LFKtD0EZ3I4R5rRPW2SXtr5ZprrnSxzbPJDKbrgo8Jo=
+			sOOyV/Oi94KSZTD3UjgFUgrWVXuOiioKPn38anXGgdo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

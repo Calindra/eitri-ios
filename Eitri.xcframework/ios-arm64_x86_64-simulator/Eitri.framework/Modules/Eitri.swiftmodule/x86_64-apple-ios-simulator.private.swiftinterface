@@ -290,7 +290,7 @@ public protocol EitriCustomTabUI : UIKit.UIView {
 extension Eitri.EitriCustomTabUI {
   public func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
 }
-public class EitriMachineStack {
+public actor EitriMachineStack {
   public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
   public func peek() -> Eitri.EitriMachine?
   public func pop() -> Eitri.EitriMachine?
@@ -298,6 +298,10 @@ public class EitriMachineStack {
   public func createReplicaInstance() async throws -> Eitri.EitriMachine
   public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
   @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
 }
 public struct BottomBarChangeOptionsModel : Swift.Codable {
   public let index: Swift.Int?

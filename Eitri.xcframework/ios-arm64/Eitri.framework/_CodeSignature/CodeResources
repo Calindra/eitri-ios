@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x1xPbuQSLM1Dk/4ABse2yEz8eQ4=
+		4xmeKmNS2dzQ1vC53gZ9MsUA2rY=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		vBGixAqvXLog27AJM1FoWDPUvHc=
+		hHlA1dkXL9Hv2ef50zI3BhbS6ns=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wn8fpRbvmHEhyCkOk+B1S77KSdo=
+		avMhVD10T8OkM3IUpPSdY1GTRq0=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Jq+D6DBPYjSORQvjfEG5dyiUnoo=
+		dHrjwQejQ7cB3ve37W1RoP5qbDQ=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wn8fpRbvmHEhyCkOk+B1S77KSdo=
+		avMhVD10T8OkM3IUpPSdY1GTRq0=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vMo+EgFRMOn5EoYNsiszG5gMf44=
+		Wk5blKEG5X4fZgVL0WzIey9Qdoo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIaKrPfzru/4yS7GHhH2F3rNM+aOpLOPCcvmY4IEbYY=
+			geyYh1+NxC07CEMO6A/0jbbiGcxomgGO/6GvVH/VzaE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+uPOF+8uriR0hHpcGMnWoXnS5BiOM8FgDnK9S2ocrmY=
+			SY1eAZQwSwBqvulxkCa4ODNi3gPYBy6j6vrdWc/k3GQ=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CUyjVd944hr6J03+6adlcgPlk7LnBcQ5pMgh1OqJvjQ=
+			nakKEuLGTKOWTo59LuPQFBAg/w2EtgpRZ1sSH5I6XIY=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+uPOF+8uriR0hHpcGMnWoXnS5BiOM8FgDnK9S2ocrmY=
+			SY1eAZQwSwBqvulxkCa4ODNi3gPYBy6j6vrdWc/k3GQ=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCEn+ajTAK/AGId+LELKYMlh+8wgepPk9CG/Z9hx5wA=
+			CAF/OX5/EhnAl+kiNgJL5A+Wyt8mH0QBqGLqHeq32VU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

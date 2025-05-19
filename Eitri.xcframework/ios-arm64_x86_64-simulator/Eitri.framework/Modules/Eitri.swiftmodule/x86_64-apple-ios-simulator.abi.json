@@ -14602,6 +14602,13 @@
       "value": "\"window.EITRI.connector\""
     },
     {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/CustomNavigation\/EitriMachineStack.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 40,
+      "value": "\"tech.eitri.EitriMachineStack.syncQueue\""
+    },
+    {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/GetConfigsModel.swift",
       "kind": "StringLiteral",
       "offset": 138,

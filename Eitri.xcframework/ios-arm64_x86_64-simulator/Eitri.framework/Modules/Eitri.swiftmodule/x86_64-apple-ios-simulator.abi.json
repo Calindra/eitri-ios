@@ -9636,6 +9636,20 @@
         "moduleName": "Eitri"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
         "kind": "TypeDecl",
         "name": "RunInFrameOutput",
         "printedName": "RunInFrameOutput",
@@ -13710,7 +13724,7 @@
       "kind": "IntegerLiteral",
       "offset": 132,
       "length": 2,
-      "value": "27"
+      "value": "28"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
@@ -13806,7 +13820,7 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 14987,
+      "offset": 15188,
       "length": 5,
       "value": "false"
     },
@@ -14429,28 +14443,28 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "Array",
-      "offset": 1400,
+      "offset": 2006,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1439,
+      "offset": 2045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1469,
+      "offset": 2075,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "FloatLiteral",
-      "offset": 5490,
+      "offset": 6096,
       "length": 4,
       "value": "20.0"
     },

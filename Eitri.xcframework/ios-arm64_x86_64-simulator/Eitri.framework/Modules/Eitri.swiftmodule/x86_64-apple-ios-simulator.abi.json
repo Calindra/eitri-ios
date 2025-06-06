@@ -9394,6 +9394,28 @@
           },
           {
             "kind": "Function",
+            "name": "createReplicaInstanceFromRoot",
+            "printedName": "createReplicaInstanceFromRoot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachine",
+                "printedName": "Eitri.EitriMachine",
+                "usr": "s:5Eitri0A7MachineV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A12MachineStackC29createReplicaInstanceFromRootAA0aB0VyYaKF",
+            "mangledName": "$s5Eitri0A12MachineStackC29createReplicaInstanceFromRootAA0aB0VyYaKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "createReplicaAndRunFromExposedMethods",
             "printedName": "createReplicaAndRunFromExposedMethods(_:)",
             "children": [

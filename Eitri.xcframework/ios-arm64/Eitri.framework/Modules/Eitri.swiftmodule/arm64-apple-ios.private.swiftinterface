@@ -296,6 +296,7 @@ public class EitriMachineStack {
   public func pop() -> Eitri.EitriMachine?
   public func get(id: Swift.String) -> Eitri.EitriMachine?
   public func createReplicaInstance() async throws -> Eitri.EitriMachine
+  public func createReplicaInstanceFromRoot() async throws -> Eitri.EitriMachine
   public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
   @objc deinit
 }

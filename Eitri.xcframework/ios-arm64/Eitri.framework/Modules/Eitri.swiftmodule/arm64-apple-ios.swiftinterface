@@ -210,7 +210,7 @@ public struct HttpErrorResponse {
 public struct HttpErrorRequest {
 }
 public struct TabViewInput {
-  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil)
+  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil, allowBackNavigationOnRoot: Swift.Bool = false)
 }
 public struct TabViewLayout {
   public init(customTab: any Eitri.EitriCustomTabUI)
@@ -306,6 +306,7 @@ public struct BottomBarChangeOptionsModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct RunInFrameOutput {
+  public let viewController: UIKit.UIViewController
 }
 @_hasMissingDesignatedInitializers public class EitriOpenService {
   @objc deinit

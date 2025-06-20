@@ -67,6 +67,7 @@ class EitriService {
     }
     
     func isEitriDevEnabled() -> Bool {
+        // TODO: Define your rules. Production builds typically set this to false to disable Eitri debugging.
         return true
     }
 }

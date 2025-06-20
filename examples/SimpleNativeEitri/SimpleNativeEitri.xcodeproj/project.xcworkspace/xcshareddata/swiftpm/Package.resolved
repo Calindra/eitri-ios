@@ -1,0 +1,24 @@
+{
+  "originHash" : "9053d143851d863d57668fbf54139a5120a5e6a8c858f9c4632dbb202e6cc203",
+  "pins" : [
+    {
+      "identity" : "cache",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hyperoslo/Cache.git",
+      "state" : {
+        "revision" : "ad6abdf2a3a866288a7dad2c4e13379406002a81",
+        "version" : "6.2.0"
+      }
+    },
+    {
+      "identity" : "eitri-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Calindra/eitri-ios",
+      "state" : {
+        "revision" : "9be350160bcb55425266aca87f8b9cd66e144a31",
+        "version" : "3.12.0"
+      }
+    }
+  ],
+  "version" : 3
+}

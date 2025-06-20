@@ -15,7 +15,7 @@ class EitriService {
     
     init(
         eitriMachine: EitriMachine,
-        eitriMachineStack: EitriMachineStack,
+        eitriMachineStack: EitriMachineStack
     ) {
         self.mainEitriMachine = eitriMachine
         self.eitriMachineStack = eitriMachineStack

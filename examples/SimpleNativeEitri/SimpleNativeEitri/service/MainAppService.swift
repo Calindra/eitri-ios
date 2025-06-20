@@ -12,7 +12,7 @@ class MainAppService {
     }()
         
     init(
-        eitriService: EitriService,
+        eitriService: EitriService
     ) {
         self.eitriService = eitriService
     }
@@ -23,7 +23,7 @@ class MainAppService {
         
         let eitriService = EitriService(
             eitriMachine: mainEitriMachineCtx.mainMachine,
-            eitriMachineStack: mainEitriMachineCtx.mainStack,
+            eitriMachineStack: mainEitriMachineCtx.mainStack
         )
         
         return MainAppService(

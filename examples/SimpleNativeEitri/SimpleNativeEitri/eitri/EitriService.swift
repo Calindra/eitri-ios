@@ -2,6 +2,15 @@ import Foundation
 import UIKit
 import Eitri
 
+/**
+ * EitriService is a suggested service to manage the EitriMachine and EitriMachineStack.
+ *
+ * It's responsible for configuring the EitriMachine and exposing the necessary Eitri APIs for the app.
+ *
+ * It's also wrapping the asynchronous nature of the EitriMachine configuration and run methods
+ * to make it easier to use in an older native iOS application. 
+ * If you are a modern architecture, you might want to adapt this service to fit your needs.
+ */
 class EitriService {
     
     // TODO: Replace with the current app version or marketing version
@@ -41,19 +50,8 @@ class EitriService {
             }
             
             try? mainEitriMachine.bridge.exposeNativeNavigationApi(eitriMachineStack: eitriMachineStack)
-            EitriBridgeHelper().exposeFunctions(mainEitriMachine, eitriMachineStack)
+            EitriBridgeHelper().exposeFunctions(eitriMachine: mainEitriMachine)
         }
-    }
-    
-    private func resetEitriMachineStack() async throws {
-        let removedEitriMachine = eitriMachineStack.pop()
-        let lastEitriMachine = eitriMachineStack.peek()
-        
-        if(lastEitriMachine?.instanceId() == removedEitriMachine?.instanceId()) {
-            return
-        }
-        
-        try await resetEitriMachineStack()
     }
     
     func runOnTop(_ options: RunInput) {

@@ -1,6 +1,12 @@
 import UIKit
 import Eitri
 
+/**
+ * This is a simple example of how to use Eitri in a native iOS application.
+ * It creates a button that, when tapped, runs the "eitri-doctor" eitri-app.
+ * eitri-doctor is a tool that helps you diagnose and fix issues with your Eitri setup.
+ * It is a part of the Eitri framework and is used to ensure that your Eitri setup is working correctly.
+ */
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

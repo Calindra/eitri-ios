@@ -331,6 +331,7 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
 @_hasMissingDesignatedInitializers public class EitriViewControllerUtils {
   public static func topView(base: UIKit.UIViewController? = EitriViewControllerUtils.getRootViewController(), depth: Swift.Int = 0, searchInsideBottomBars: Swift.Bool = true) -> UIKit.UIViewController?
   public static func getRootViewController() -> UIKit.UIViewController?
+  public static func getKeyWindow() -> UIKit.UIWindow?
   @objc deinit
 }
 public class HttpService {

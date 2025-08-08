@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65A7DA842E469A95009390A1 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 65A7DA832E469A95009390A1 /* CodeScanner */; };
 		65B8D1C72E05A88D0077030E /* Eitri in Frameworks */ = {isa = PBXBuildFile; productRef = 65B8D1C62E05A88D0077030E /* Eitri */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A7DA842E469A95009390A1 /* CodeScanner in Frameworks */,
 				65B8D1C72E05A88D0077030E /* Eitri in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +86,7 @@
 			name = SimpleNativeEitri;
 			packageProductDependencies = (
 				65B8D1C62E05A88D0077030E /* Eitri */,
+				65A7DA832E469A95009390A1 /* CodeScanner */,
 			);
 			productName = SimpleNativeEitri;
 			productReference = 65B8D1AA2E05A7570077030E /* SimpleNativeEitri.app */;
@@ -115,6 +118,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				65B8D1C52E05A88D0077030E /* XCRemoteSwiftPackageReference "eitri-ios" */,
+				65A7DA822E469A95009390A1 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 65B8D1AB2E05A7570077030E /* Products */;
@@ -158,6 +162,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimpleNativeEitri/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simple Eitri";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan product barcodes";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -186,6 +191,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimpleNativeEitri/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simple Eitri";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan product barcodes";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -348,6 +354,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		65A7DA822E469A95009390A1 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
 		65B8D1C52E05A88D0077030E /* XCRemoteSwiftPackageReference "eitri-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Calindra/eitri-ios";
@@ -359,6 +373,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		65A7DA832E469A95009390A1 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65A7DA822E469A95009390A1 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
 		65B8D1C62E05A88D0077030E /* Eitri */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 65B8D1C52E05A88D0077030E /* XCRemoteSwiftPackageReference "eitri-ios" */;

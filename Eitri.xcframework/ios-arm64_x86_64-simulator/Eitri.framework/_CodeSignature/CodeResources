@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3s8j1YWmJElLojfYgkevNY2nWRg=
+		NpfGlDVCUnFg/V0Y3MumHvdRdL4=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YLSjwC/9w5yHeHunVkBL2tBn+44=
+		3cxTmrIu7vFQU/fL2ZmV3DfmFBE=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KDvSaKfIYORHxyGxqI0Z6aWiJJY=
+		QYwO3PO6RszeHZrmBFwqXswsJpY=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YLSjwC/9w5yHeHunVkBL2tBn+44=
+		3cxTmrIu7vFQU/fL2ZmV3DfmFBE=
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CnsPvDIyQZ24iO6cwD1G/5Os4uM=
+		AodAuWzAVqzDV3fcahv+ZVNF2UY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/N6Hxkr1Jh2rxLNuTMA4IjUEpEbuA9a5bHUknE1DiLE=
+			l1SxCKhEGEW1rhoK9seLGzrtv+9pH+cEFg2kHegEDeM=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7SVL3fm6wnkXf5HaiMpkN8nNn3LNTfnBv50rEDxtODo=
+			0ldYgwgrVs8ZIYRyq0L+PncQLsUmYJ7f1R99ia/dvqE=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/N6Hxkr1Jh2rxLNuTMA4IjUEpEbuA9a5bHUknE1DiLE=
+			l1SxCKhEGEW1rhoK9seLGzrtv+9pH+cEFg2kHegEDeM=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zMFpFZBA+2wYxHo42l0ZFUIiY5KxVfI25bzMnokWpxE=
+			aMvGwB5QYKA3sr32StKfgP9cTVM86c50RCBQ/rZIehw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

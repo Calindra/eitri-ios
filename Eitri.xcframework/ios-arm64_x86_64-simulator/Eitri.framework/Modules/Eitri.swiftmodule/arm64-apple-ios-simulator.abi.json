@@ -665,6 +665,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6385,10 +6399,379 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UpdateTabBadgeInput",
+        "printedName": "UpdateTabBadgeInput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19UpdateTabBadgeInputV5indexSiSgvp",
+            "mangledName": "$s5Eitri19UpdateTabBadgeInputV5indexSiSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19UpdateTabBadgeInputV5indexSiSgvg",
+                "mangledName": "$s5Eitri19UpdateTabBadgeInputV5indexSiSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "content",
+            "printedName": "content",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19UpdateTabBadgeInputV7contentSSSgvp",
+            "mangledName": "$s5Eitri19UpdateTabBadgeInputV7contentSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19UpdateTabBadgeInputV7contentSSSgvg",
+                "mangledName": "$s5Eitri19UpdateTabBadgeInputV7contentSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateTabBadgeInput",
+                "printedName": "Eitri.UpdateTabBadgeInput",
+                "usr": "s:5Eitri19UpdateTabBadgeInputV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Eitri19UpdateTabBadgeInputV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5Eitri19UpdateTabBadgeInputV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri19UpdateTabBadgeInputV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5Eitri19UpdateTabBadgeInputV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri19UpdateTabBadgeInputV",
+        "mangledName": "$s5Eitri19UpdateTabBadgeInputV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangeCurrentTabOptions",
+        "printedName": "ChangeCurrentTabOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvp",
+            "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvg",
+                "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvs",
+                "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvM",
+                "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri23ChangeCurrentTabOptionsV",
+        "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9163,6 +9546,34 @@
           },
           {
             "kind": "Function",
+            "name": "updateTabBadge",
+            "printedName": "updateTabBadge(updateTabBadgeInput:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateTabBadgeInput",
+                "printedName": "Eitri.UpdateTabBadgeInput",
+                "usr": "s:5Eitri19UpdateTabBadgeInputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A11CustomTabUIP06updateC5Badge0ecF5InputyAA06UpdatecfG0V_tKF",
+            "mangledName": "$s5Eitri0A11CustomTabUIP06updateC5Badge0ecF5InputyAA06UpdatecfG0V_tKF",
+            "moduleName": "Eitri",
+            "genericSig": "<τ_0_0 where τ_0_0 : Eitri.EitriCustomTabUI>",
+            "sugared_genericSig": "<Self where Self : Eitri.EitriCustomTabUI>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "changeCurrentTab",
             "printedName": "changeCurrentTab(changeCurrentTabOptions:)",
             "children": [
@@ -9181,6 +9592,33 @@
             "declKind": "Func",
             "usr": "s:5Eitri0A11CustomTabUIPAAE013changeCurrentC00efC7OptionsyAA06ChangefcG0V_tKF",
             "mangledName": "$s5Eitri0A11CustomTabUIPAAE013changeCurrentC00efC7OptionsyAA06ChangefcG0V_tKF",
+            "moduleName": "Eitri",
+            "genericSig": "<τ_0_0 where τ_0_0 : Eitri.EitriCustomTabUI>",
+            "sugared_genericSig": "<Self where Self : Eitri.EitriCustomTabUI>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateTabBadge",
+            "printedName": "updateTabBadge(updateTabBadgeInput:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateTabBadgeInput",
+                "printedName": "Eitri.UpdateTabBadgeInput",
+                "usr": "s:5Eitri19UpdateTabBadgeInputV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A11CustomTabUIPAAE06updateC5Badge0ecF5InputyAA06UpdatecfG0V_tKF",
+            "mangledName": "$s5Eitri0A11CustomTabUIPAAE06updateC5Badge0ecF5InputyAA06UpdatecfG0V_tKF",
             "moduleName": "Eitri",
             "genericSig": "<τ_0_0 where τ_0_0 : Eitri.EitriCustomTabUI>",
             "sugared_genericSig": "<Self where Self : Eitri.EitriCustomTabUI>",
@@ -10647,146 +11085,6 @@
         "declKind": "Class",
         "usr": "s:5Eitri11HttpServiceC",
         "mangledName": "$s5Eitri11HttpServiceC",
-        "moduleName": "Eitri",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ChangeCurrentTabOptions",
-        "printedName": "ChangeCurrentTabOptions",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "index",
-            "printedName": "index",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvp",
-            "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvp",
-            "moduleName": "Eitri",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvg",
-                "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvg",
-                "moduleName": "Eitri",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvs",
-                "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvs",
-                "moduleName": "Eitri",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:5Eitri23ChangeCurrentTabOptionsV5indexSiSgvM",
-                "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV5indexSiSgvM",
-                "moduleName": "Eitri",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:5Eitri23ChangeCurrentTabOptionsV",
-        "mangledName": "$s5Eitri23ChangeCurrentTabOptionsV",
         "moduleName": "Eitri",
         "declAttributes": [
           "AccessControl"
@@ -13539,6 +13837,34 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/CustomBadge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 110,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/CustomBadge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 119,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/CustomBadge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 130,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/CustomBadge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 140,
+      "length": 1,
+      "value": "6"
+    },
+    {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/DocumentPickerService.swift",
       "kind": "StringLiteral",
       "offset": 206,
@@ -13830,7 +14156,7 @@
       "kind": "IntegerLiteral",
       "offset": 132,
       "length": 2,
-      "value": "28"
+      "value": "29"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
@@ -14548,29 +14874,36 @@
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1946,
+      "length": 3,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "Array",
-      "offset": 1993,
+      "offset": 3347,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2032,
+      "offset": 3386,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2062,
+      "offset": 3416,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "FloatLiteral",
-      "offset": 6083,
+      "offset": 7437,
       "length": 4,
       "value": "20.0"
     },
@@ -14717,7 +15050,7 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriBottomTabViewUIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2091,
+      "offset": 2321,
       "length": 4,
       "value": "true"
     },

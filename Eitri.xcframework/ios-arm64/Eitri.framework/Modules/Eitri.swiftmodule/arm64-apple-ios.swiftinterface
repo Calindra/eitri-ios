@@ -191,6 +191,15 @@ public struct OpenInput {
   public var replace: Swift.Bool
   public var resetStack: Swift.Bool
 }
+public struct UpdateTabBadgeInput : Swift.Codable {
+  public let index: Swift.Int?
+  public let content: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ChangeCurrentTabOptions {
+  public var index: Swift.Int?
+}
 public struct ConfigureInput {
   public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000, showWorkspaceBanner: Swift.Bool = false, theme: Eitri.ThemeConfig? = nil)
 }
@@ -286,9 +295,11 @@ public protocol EitriCustomTabUI : UIKit.UIView {
   func scrollDirectionChanged(directionChangeInfos: Eitri.ScrollDirectionChangedModel) throws
   func changeVisibility(show: Swift.Bool) throws
   func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
+  func updateTabBadge(updateTabBadgeInput: Eitri.UpdateTabBadgeInput) throws
 }
 extension Eitri.EitriCustomTabUI {
   public func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
+  public func updateTabBadge(updateTabBadgeInput: Eitri.UpdateTabBadgeInput) throws
 }
 public class EitriMachineStack {
   public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
@@ -339,9 +350,6 @@ public class HttpService {
   public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
   public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
   @objc deinit
-}
-public struct ChangeCurrentTabOptions {
-  public var index: Swift.Int?
 }
 public struct EitriMachineInstanceManagerContext {
   public var mainMachine: Eitri.EitriMachine

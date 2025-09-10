@@ -2069,8 +2069,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri8SuperAppC36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtc_tF",
-            "mangledName": "$s5Eitri8SuperAppC36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtc_tF",
+            "usr": "s:5Eitri8SuperAppC36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtScMYcc_tF",
+            "mangledName": "$s5Eitri8SuperAppC36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtScMYcc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -2155,8 +2155,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctc_tF",
-            "mangledName": "$s5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctc_tF",
+            "usr": "s:5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctScMYcc_tF",
+            "mangledName": "$s5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctScMYcc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -8672,8 +8672,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A7MachineV36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtc_tF",
-            "mangledName": "$s5Eitri0A7MachineV36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtc_tF",
+            "usr": "s:5Eitri0A7MachineV36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtScMYcc_tF",
+            "mangledName": "$s5Eitri0A7MachineV36setLoadingAnimationGeneratorFunction2fnySo6UIViewCSS_AGtScMYcc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl",
@@ -8759,8 +8759,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0a3AppE7ContextV_AGyycyyctc_tF",
-            "mangledName": "$s5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0a3AppE7ContextV_AGyycyyctc_tF",
+            "usr": "s:5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0a3AppE7ContextV_AGyycyyctScMYcc_tF",
+            "mangledName": "$s5Eitri0A7MachineV37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0a3AppE7ContextV_AGyycyyctScMYcc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl",

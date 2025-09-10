@@ -58,7 +58,7 @@ public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
   func onLoadFinished(webView: WebKit.WKWebView, origin: Swift.String)
   func onError()
 }
-public typealias LoadingAnimationGeneratorFunction = (_ slug: Swift.String, _ parentView: UIKit.UIView) -> UIKit.UIView
+public typealias LoadingAnimationGeneratorFunction = @_Concurrency.MainActor (_ slug: Swift.String, _ parentView: UIKit.UIView) -> UIKit.UIView
 public class SuperApp {
   public init()
   @objc deinit
@@ -247,7 +247,7 @@ public struct EitriAppErrorContext {
   public let slug: Swift.String
   public let runningAsFrame: Swift.Bool
 }
-public typealias ErrorScreenGeneratorFunction = (_ errorContext: Eitri.EitriAppErrorContext, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
+public typealias ErrorScreenGeneratorFunction = @_Concurrency.MainActor (_ errorContext: Eitri.EitriAppErrorContext, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge

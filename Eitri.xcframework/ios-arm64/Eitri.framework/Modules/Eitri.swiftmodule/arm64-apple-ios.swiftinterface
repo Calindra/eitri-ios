@@ -1,10 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Eitri
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AudioToolbox
-import Cache
 import CoreLocation
 import CryptoKit
 @_exported import Eitri
@@ -14,6 +13,7 @@ import LinkPresentation
 import LocalAuthentication
 import MobileCoreServices
 import Network
+import ObjectiveC
 import PhotosUI
 import QuickLook
 import SafariServices
@@ -26,7 +26,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct RunInput {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(workspaceId: Swift.String? = nil, slug: Swift.String? = nil, initParams: Swift.Dictionary<Swift.String, Any?>? = nil, navControllerToPush: UIKit.UINavigationController? = nil)
+  #endif
   public var workspaceId: Swift.String?
   public var slug: Swift.String?
   public var initParams: Swift.Dictionary<Swift.String, Any?>?
@@ -70,8 +72,12 @@ public class SuperApp {
   public func run(runInput: Eitri.RunInput) async throws
   public func runInFrame(parentUI: UIKit.UIViewController, runInput: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
   public func stop() async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getInitializationInfos() async -> Swift.Dictionary<Swift.String, Any?>?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getEnvironmentConfig(_ forceRefresh: Swift.Bool = false) async -> Eitri.ConfigureEitriEnvironmentResponse?
+  #endif
   public func openEitriAppOnCurrentNativeView(runInput: Eitri.RunInput) async throws
   public func prefetchResources(prefetchResources: Swift.Bool) async
 }
@@ -80,21 +86,27 @@ public struct ThemeUtils {
   public static func parseHexColor(_ hexString: Swift.String) -> UIKit.UIColor
   public static func isDarkColor(_ color: UIKit.UIColor) -> Swift.Bool
 }
-public typealias CertificateChallengeFunction = (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
+public typealias CertificateChallengeFunction = @Sendable (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
 public struct DownloadInput : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(url: Swift.String, fileName: Swift.String, httpConfig: Eitri.HttpConfig?, shared: Swift.Bool? = false)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct HttpResponse {
 }
 public struct HttpConfig : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(headers: [Swift.String : Swift.String]? = nil, timeout: Swift.Double? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct HttpCallParams {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(url: Swift.String, data: Any? = nil, config: Eitri.HttpConfig? = nil)
+  #endif
 }
 public struct CallHttpMethodInput {
   public init(methodName: Eitri.HttpMethod, params: Eitri.HttpCallParams)
@@ -107,7 +119,9 @@ public enum HttpMethod : Swift.String, Swift.Codable {
   case Patch
   case Head
   case Options
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -133,7 +147,7 @@ public enum httpMethodInputError : Swift.Error {
     get
   }
 }
-public struct ConfigureEitriEnvironmentResponse : Swift.Codable {
+public struct ConfigureEitriEnvironmentResponse : Swift.Codable, Swift.Sendable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -150,7 +164,9 @@ public enum BiometricType : Swift.String {
   case FaceID
   case None
   case Password
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -177,11 +193,13 @@ public enum BiometricResult {
   }
 }
 public struct OpenBiometricAuthenticateInput {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(useDevicePasswordAsFallback: Swift.Bool? = nil, authenticationReason: Swift.String)
+  #endif
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class EitriOpenBiometricService : Eitri.EitriOpenService {
   public func checkStatus() throws -> Eitri.BiometricCheckStatusOutput
-  public func authenticate(_ input: Eitri.OpenBiometricAuthenticateInput) async throws -> Eitri.BiometricAuthenticateOutput
+  @_Concurrency.MainActor public func authenticate(_ input: Eitri.OpenBiometricAuthenticateInput) async throws -> Eitri.BiometricAuthenticateOutput
   @objc deinit
 }
 public struct OpenInput {
@@ -201,7 +219,9 @@ public struct ChangeCurrentTabOptions {
   public var index: Swift.Int?
 }
 public struct ConfigureInput {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000, showWorkspaceBanner: Swift.Bool = false, theme: Eitri.ThemeConfig? = nil)
+  #endif
 }
 public struct HttpError : Swift.Error {
 }
@@ -219,7 +239,9 @@ public struct HttpErrorResponse {
 public struct HttpErrorRequest {
 }
 public struct TabViewInput {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil, allowBackNavigationOnRoot: Swift.Bool = false)
+  #endif
 }
 public struct TabViewLayout {
   public init(customTab: any Eitri.EitriCustomTabUI)
@@ -237,7 +259,9 @@ public struct TabViewItemCustomAction {
   public init(action: @escaping () -> Swift.Void)
 }
 public struct TabViewItem {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(runInput: Eitri.RunInput? = nil, customViewController: (any Eitri.EitriTabViewItemCustomVC)? = nil, customAction: Eitri.TabViewItemCustomAction? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers public class EitriOpenServicesFacade {
   public func getBiometricService() throws -> Eitri.EitriOpenBiometricService
@@ -263,18 +287,26 @@ public struct EitriMachine {
   public func addOnStopListener(fn: @escaping Eitri.OnStopListener)
   public func addOnDeviceShakeListener(fn: @escaping Eitri.OnDeviceShakeListener)
   public func createReplica() async throws -> Eitri.EitriMachine
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
+  #endif
   public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
   public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setNavControllerForNativeNavigation(_ navController: UIKit.UINavigationController?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNavControllerForNativeNavigation() -> UIKit.UINavigationController?
+  #endif
   public func prefetchResources() async
 }
 public struct EitriApp {
   public let eventBus: Eitri.EventBus
 }
 public struct EventBus {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func publish(channel: Swift.String, data: Any?) throws
+  #endif
 }
 public struct Bridge {
   public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
@@ -302,10 +334,18 @@ extension Eitri.EitriCustomTabUI {
   public func updateTabBadge(updateTabBadgeInput: Eitri.UpdateTabBadgeInput) throws
 }
 public class EitriMachineStack {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func peek() -> Eitri.EitriMachine?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func pop() -> Eitri.EitriMachine?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func get(id: Swift.String) -> Eitri.EitriMachine?
+  #endif
   public func createReplicaInstance() async throws -> Eitri.EitriMachine
   public func createReplicaInstanceFromRoot() async throws -> Eitri.EitriMachine
   public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
@@ -323,12 +363,14 @@ public struct RunInFrameOutput {
   @objc deinit
 }
 extension UIKit.UIGestureRecognizer {
-  @_Concurrency.MainActor @preconcurrency public static func withFn(_ closure: @escaping () -> Swift.Void) -> UIKit.UIGestureRecognizer
+  @_Concurrency.MainActor public static func withFn(_ closure: @escaping () -> Swift.Void) -> Self
 }
 public enum ScrollDirection : Swift.String, Swift.Codable {
   case up
   case down
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -340,15 +382,23 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class EitriViewControllerUtils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func topView(base: UIKit.UIViewController? = EitriViewControllerUtils.getRootViewController(), depth: Swift.Int = 0, searchInsideBottomBars: Swift.Bool = true) -> UIKit.UIViewController?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getRootViewController() -> UIKit.UIViewController?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getKeyWindow() -> UIKit.UIWindow?
+  #endif
   @objc deinit
 }
 public class HttpService {
   public init(httpClient: Foundation.URLSession)
   public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
+  #if compiler(>=5.3) && $NonescapableTypes
   public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
+  #endif
   @objc deinit
 }
 public struct EitriMachineInstanceManagerContext {
@@ -357,18 +407,24 @@ public struct EitriMachineInstanceManagerContext {
 }
 @_hasMissingDesignatedInitializers public class EitriMachineInstanceManager {
   public static func start() -> Eitri.EitriMachineInstanceManagerContext
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getCurrentContext() -> Eitri.EitriMachineInstanceManagerContext?
+  #endif
   public static func getCurrentContextOrError() throws -> Eitri.EitriMachineInstanceManagerContext
   @objc deinit
 }
 public typealias OnDeviceShakeListener = (_ currentViewController: UIKit.UIViewController) throws -> Swift.Void
 public struct Theme : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(backgroundColor: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ThemeConfig : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(light: Eitri.Theme? = nil, dark: Eitri.Theme? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -376,7 +432,9 @@ public struct SafeAreaInsets {
 }
 public typealias OnStopListener = (_ instanceId: Swift.String) throws -> Swift.Void
 public struct AlternativeInfrastructure {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(configEndpoint: Swift.String? = nil)
+  #endif
 }
 public struct MultiWorkspaceContext {
   public var enabled: Swift.Bool
@@ -394,10 +452,14 @@ public struct SuperAppContext {
 }
 public class EitriBottomTabView {
   public init(_ mainEitriMachine: Eitri.EitriMachine)
-  public func run(_ tabViewInput: Eitri.TabViewInput) async throws
+  @_Concurrency.MainActor public func run(_ tabViewInput: Eitri.TabViewInput) async throws
   public func getEitriMachineList() -> [Eitri.EitriMachine]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCurrentEitriMachine() -> Eitri.EitriMachine?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getMainView() -> UIKit.UIViewController?
+  #endif
   @objc deinit
 }
 public enum SuperAppErrors : Swift.Error {

@@ -2017,8 +2017,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri8SuperAppC24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctc_tF",
-            "mangledName": "$s5Eitri8SuperAppC24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctc_tF",
+            "usr": "s:5Eitri8SuperAppC24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctYbc_tF",
+            "mangledName": "$s5Eitri8SuperAppC24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthJ11DispositionV_So15NSURLCredentialCSgtctYbc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -2630,13 +2630,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Eitri"
-      },
-      {
-        "kind": "Import",
-        "name": "Cache",
-        "printedName": "Cache",
         "declKind": "Import",
         "moduleName": "Eitri"
       },
@@ -3829,6 +3822,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4094,6 +4094,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4210,6 +4217,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5680,7 +5701,8 @@
             "mangledName": "$s5Eitri0A20OpenBiometricServiceC12authenticateyAA0C18AuthenticateOutputVAA0bcF5InputVYaKF",
             "moduleName": "Eitri",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -6949,8 +6971,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5Eitri14ConfigureInputV7version14environmentKey7sandbox9debugMode35certificatePinningChallengeFunction25alternativeInfrastructure03maxB7Timeout19showWorkspaceBanner5themeACSS_SSS2bySo019NSURLAuthenticationL0C_ySo016NSURLSessionAuthL11DispositionV_So15NSURLCredentialCSgtctcSgAA011AlternativeO0VSgSdSgSbAA11ThemeConfigVSgtcfc",
-            "mangledName": "$s5Eitri14ConfigureInputV7version14environmentKey7sandbox9debugMode35certificatePinningChallengeFunction25alternativeInfrastructure03maxB7Timeout19showWorkspaceBanner5themeACSS_SSS2bySo019NSURLAuthenticationL0C_ySo016NSURLSessionAuthL11DispositionV_So15NSURLCredentialCSgtctcSgAA011AlternativeO0VSgSdSgSbAA11ThemeConfigVSgtcfc",
+            "usr": "s:5Eitri14ConfigureInputV7version14environmentKey7sandbox9debugMode35certificatePinningChallengeFunction25alternativeInfrastructure03maxB7Timeout19showWorkspaceBanner5themeACSS_SSS2bySo019NSURLAuthenticationL0C_ySo016NSURLSessionAuthL11DispositionV_So15NSURLCredentialCSgtctYbcSgAA011AlternativeO0VSgSdSgSbAA11ThemeConfigVSgtcfc",
+            "mangledName": "$s5Eitri14ConfigureInputV7version14environmentKey7sandbox9debugMode35certificatePinningChallengeFunction25alternativeInfrastructure03maxB7Timeout19showWorkspaceBanner5themeACSS_SSS2bySo019NSURLAuthenticationL0C_ySo016NSURLSessionAuthL11DispositionV_So15NSURLCredentialCSgtctYbcSgAA011AlternativeO0VSgSdSgSbAA11ThemeConfigVSgtcfc",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -7028,6 +7050,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7256,6 +7285,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -8037,13 +8073,6 @@
       },
       {
         "kind": "Import",
-        "name": "Cache",
-        "printedName": "Cache",
-        "declKind": "Import",
-        "moduleName": "Eitri"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8374,8 +8403,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A7MachineV24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthI11DispositionV_So15NSURLCredentialCSgtctc_tF",
-            "mangledName": "$s5Eitri0A7MachineV24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthI11DispositionV_So15NSURLCredentialCSgtctc_tF",
+            "usr": "s:5Eitri0A7MachineV24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthI11DispositionV_So15NSURLCredentialCSgtctYbc_tF",
+            "mangledName": "$s5Eitri0A7MachineV24enableCertificatePinning17challengeFunctionyySo28NSURLAuthenticationChallengeC_ySo016NSURLSessionAuthI11DispositionV_So15NSURLCredentialCSgtctYbc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl",
@@ -10244,6 +10273,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
         "declKind": "Import",
         "moduleName": "Eitri"
       },
@@ -13170,7 +13206,8 @@
             "mangledName": "$s5Eitri0A13BottomTabViewC3runyyAA0cD5InputVYaKF",
             "moduleName": "Eitri",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -13660,6 +13697,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13689,9 +13733,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIGestureRecognizer",
-                "printedName": "UIKit.UIGestureRecognizer",
-                "usr": "c:objc(cs)UIGestureRecognizer"
+                "name": "DynamicSelf",
+                "printedName": "Self"
               },
               {
                 "kind": "TypeFunc",
@@ -13712,14 +13755,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So19UIGestureRecognizerC5EitriE6withFnyAByycFZ",
-            "mangledName": "$sSo19UIGestureRecognizerC5EitriE6withFnyAByycFZ",
+            "usr": "s:So19UIGestureRecognizerC5EitriE6withFnyABXDyycFZ",
+            "mangledName": "$sSo19UIGestureRecognizerC5EitriE6withFnyABXDyycFZ",
             "moduleName": "Eitri",
             "static": true,
             "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final"
+              "Final",
+              "Custom"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -14252,7 +14294,7 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 15411,
+      "offset": 15399,
       "length": 5,
       "value": "false"
     },
@@ -14980,37 +15022,58 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
       "kind": "IntegerLiteral",
-      "offset": 82,
+      "offset": 69,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
       "kind": "IntegerLiteral",
-      "offset": 87,
+      "offset": 74,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
       "kind": "StringLiteral",
-      "offset": 228,
-      "length": 22,
-      "value": "\"initializedKeysQueue\""
+      "offset": 243,
+      "length": 34,
+      "value": "\"tech.calindra.eitri.cacheService\""
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
+      "kind": "Dictionary",
+      "offset": 454,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 45,
+      "value": "\"tech.calindra.eitri.cacheService.stateQueue\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 337,
+      "offset": 1022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
       "kind": "BooleanLiteral",
-      "offset": 486,
+      "offset": 1560,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
+      "kind": "Dictionary",
+      "offset": 7469,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/NetworkMonitor.swift",
@@ -15043,7 +15106,7 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/EitriMachine.swift",
       "kind": "StringLiteral",
-      "offset": 5199,
+      "offset": 6146,
       "length": 7,
       "value": "\"user-\""
     },
@@ -15091,10 +15154,10 @@
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Extensions\/UIGestureRecognizerExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 379,
-      "length": 15,
-      "value": "\"closureSleeve\""
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/FileService.swift",
@@ -15211,14 +15274,14 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 7906,
+      "offset": 7897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7928,
+      "offset": 7919,
       "length": 1,
       "value": "0"
     },

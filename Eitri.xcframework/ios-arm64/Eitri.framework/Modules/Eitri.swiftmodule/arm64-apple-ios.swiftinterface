@@ -391,6 +391,7 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func getKeyWindow() -> UIKit.UIWindow?
   #endif
+  public static func configureModalForIPad(viewControllerToBePresented: UIKit.UIViewController, sourceViewController: UIKit.UIViewController)
   @objc deinit
 }
 public class HttpService {

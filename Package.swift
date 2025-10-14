@@ -12,12 +12,14 @@ let package = Package(
             targets: ["Eitri", "EitriDependencies"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
+        .package(url: "https://github.com/Calindra/eitri-ios-contracts.git", from: "3.0.0"),
     ],
     targets: [
         .target(
             name: "EitriDependencies",
-            dependencies: []),
+            dependencies: [
+                .product(name: "EitriContracts", package: "eitri-ios-contracts")
+            ]),
 
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.

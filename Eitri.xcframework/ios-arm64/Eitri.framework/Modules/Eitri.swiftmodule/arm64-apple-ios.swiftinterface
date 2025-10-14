@@ -4,9 +4,9 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AudioToolbox
-import CoreLocation
 import CryptoKit
 @_exported import Eitri
+import EitriContracts
 import Foundation
 import GameKit
 import LinkPresentation
@@ -54,7 +54,9 @@ public struct DynamicMethodAddressableMessage {
 }
 public typealias DynamicMethodRawEventListener = (_ params: Eitri.DynamicMethodAddressableMessage) throws -> Swift.Void
 public struct ExposedMethodDescriptor {
-  public init(_ namespace: Swift.String, _ methodName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(_ namespace: Swift.String, _ methodName: Swift.String, _ version: EitriContracts.ModuleVersion? = nil)
+  #endif
 }
 public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
   func onLoadFinished(webView: WebKit.WKWebView, origin: Swift.String)
@@ -276,6 +278,9 @@ public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge
   public let currentEitriApp: Eitri.EitriApp
+  public var modules: any EitriContracts.EitriModuleRegistry {
+    get
+  }
   public init()
   public func instanceId() -> Swift.String
   public func configure(input: Eitri.ConfigureInput) async throws

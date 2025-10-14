@@ -1,0 +1,33 @@
+{
+  "originHash" : "e3108b93a8d7de7f4c930aa4312e8f25ea8140abdbfc3170a32caec1940d8cce",
+  "pins" : [
+    {
+      "identity" : "cache",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hyperoslo/Cache.git",
+      "state" : {
+        "revision" : "ad6abdf2a3a866288a7dad2c4e13379406002a81",
+        "version" : "6.2.0"
+      }
+    },
+    {
+      "identity" : "codescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/CodeScanner.git",
+      "state" : {
+        "revision" : "5e886430238944c7200fc9e10dbf2d9550dba865",
+        "version" : "2.5.2"
+      }
+    },
+    {
+      "identity" : "eitri-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Calindra/eitri-ios",
+      "state" : {
+        "revision" : "9be350160bcb55425266aca87f8b9cd66e144a31",
+        "version" : "3.12.0"
+      }
+    }
+  ],
+  "version" : 3
+}

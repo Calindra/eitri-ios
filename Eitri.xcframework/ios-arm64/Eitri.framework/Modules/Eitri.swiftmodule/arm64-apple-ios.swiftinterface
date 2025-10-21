@@ -97,6 +97,9 @@ public struct DownloadInput : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct HttpResponse {
+  public var data: Swift.String
+  public var status: Swift.Int
+  public var headers: [Swift.AnyHashable : Any]
 }
 public struct HttpConfig : Swift.Codable {
   #if compiler(>=5.3) && $NonescapableTypes

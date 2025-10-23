@@ -277,6 +277,20 @@ public struct EitriAppErrorContext {
   public let runningAsFrame: Swift.Bool
 }
 public typealias ErrorScreenGeneratorFunction = @_Concurrency.MainActor (_ errorContext: Eitri.EitriAppErrorContext, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
+public struct CacheEntry : Swift.Codable {
+  public let value: Swift.String
+  public let timestamp: Foundation.TimeInterval
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CacheRefreshResult {
+  public let newContent: Swift.String?
+  public let onCacheWritten: (() -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(newContent: Swift.String?, onCacheWritten: (() -> Swift.Void)? = nil)
+  #endif
+}
+public typealias CacheRefreshFunction = (Eitri.CacheEntry?) async -> Eitri.CacheRefreshResult?
 public struct EitriMachine {
   public let bridge: Eitri.Bridge
   public let rawBrige: Eitri.RawBridge
@@ -294,6 +308,7 @@ public struct EitriMachine {
   public func stop() async throws
   public func addOnStopListener(fn: @escaping Eitri.OnStopListener)
   public func addOnDeviceShakeListener(fn: @escaping Eitri.OnDeviceShakeListener)
+  public func setOnCriticalUpdateRequiredListener(fn: @escaping Eitri.OnCriticalUpdateRequiredListener)
   public func createReplica() async throws -> Eitri.EitriMachine
   #if compiler(>=5.3) && $NonescapableTypes
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
@@ -364,6 +379,7 @@ public struct BottomBarChangeOptionsModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public typealias OnCriticalUpdateRequiredListener = () throws -> Swift.Void
 public struct RunInFrameOutput {
   public let viewController: UIKit.UIViewController
 }

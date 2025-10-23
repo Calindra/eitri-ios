@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eWDt6eTH7IwsQPfWgNO7np5UJGQ=
+		WlqfqErOVO8D92VwEmJwkv6pgIo=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Y5H6NtUQP/vIdymdTPp3xxISjlQ=
+		yKH1pqRKiLtrk/vSkTz6quMIR1U=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1iSUGzYfcwxFESR5H+cEZR1gpsM=
+		FfwqO2cy+AgPjcgCGO8xX6H17dM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		S9sZAiwPHfz8Ap4hX9oAZ3XT2Wg=
+		2WfSNAX/uCHmMNbW+Hu+1VNnuVA=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1iSUGzYfcwxFESR5H+cEZR1gpsM=
+		FfwqO2cy+AgPjcgCGO8xX6H17dM=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ov87JvGk+eYSD2P1sEF8eYaQiHA=
+		MswmMAQGuMnzA4G4s6P3C2wnvGc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WjGUbRYC0IJ5X0lXrsc6VffTukziiMIvhBSv9LFDReM=
+			snBLf9YhZDJ/FAwaPlLy9qAMLA0gPSU4iakdvqVNyPI=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFCNihZjkS5PoZE51GYzk+eiR0OXHdIBxR/2GlJWvfk=
+			+oYjec5NT6A845/x0jFhVszuLXo0PrNOhMrSTgHbtW4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfDXePguLgmhEn3j/8dSOW/GP9kPAliz1F74NTADNjE=
+			oo0vQjNKfbjzxbBJJOalPDLNPI/D2g/pPsfXNaGMi3w=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFCNihZjkS5PoZE51GYzk+eiR0OXHdIBxR/2GlJWvfk=
+			+oYjec5NT6A845/x0jFhVszuLXo0PrNOhMrSTgHbtW4=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			26YD6mCHeuIZJCDcxDNH+nuvYjxDnbmfbey4NjhDua4=
+			BRo5awIlzTOQkBB1xo3vj5BWvxhAt9n6UtP5102/7EY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

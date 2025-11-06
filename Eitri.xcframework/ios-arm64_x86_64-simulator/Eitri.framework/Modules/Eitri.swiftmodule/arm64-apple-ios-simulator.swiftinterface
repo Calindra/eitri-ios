@@ -40,10 +40,17 @@ public struct SharedMethodParams {
   public let openServices: Eitri.EitriOpenServicesFacade
   public var currentNavController: UIKit.UINavigationController?
   public let eitriAppExecutingMethod: Eitri.EitriAppExecutingMethod
+  public let eventBus: Eitri.SharedMethodEventBus
 }
 public struct EitriAppExecutingMethod {
   public var slug: Swift.String
   public var version: Swift.String
+}
+@_hasMissingDesignatedInitializers public class SharedMethodEventBus {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func publish(channel: Swift.String, data: Any? = nil) throws
+  #endif
+  @objc deinit
 }
 public typealias SharedMethod = (_ params: Eitri.SharedMethodParams) async throws -> Any?
 public struct DynamicMethodAddressableMessage {
@@ -103,7 +110,7 @@ public struct HttpResponse {
 }
 public struct HttpConfig : Swift.Codable {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(headers: [Swift.String : Swift.String]? = nil, timeout: Swift.Double? = nil)
+  public init(headers: [Swift.String : Swift.String]? = nil, timeout: Swift.Double? = nil, followRedirects: Swift.Bool? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

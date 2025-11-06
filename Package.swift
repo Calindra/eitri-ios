@@ -12,7 +12,7 @@ let package = Package(
             targets: ["Eitri", "EitriDependencies"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Calindra/eitri-ios-contracts.git", from: "3.0.0"),
+        .package(url: "https://github.com/Calindra/eitri-ios-contracts.git", from: "4.0.0"),
     ],
     targets: [
         .target(

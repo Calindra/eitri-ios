@@ -1086,6 +1086,50 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventBus",
+            "printedName": "eventBus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedMethodEventBus",
+                "printedName": "Eitri.SharedMethodEventBus",
+                "usr": "s:5Eitri20SharedMethodEventBusC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri18SharedMethodParamsV8eventBusAA0bc5EventF0Cvp",
+            "mangledName": "$s5Eitri18SharedMethodParamsV8eventBusAA0bc5EventF0Cvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedMethodEventBus",
+                    "printedName": "Eitri.SharedMethodEventBus",
+                    "usr": "s:5Eitri20SharedMethodEventBusC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri18SharedMethodParamsV8eventBusAA0bc5EventF0Cvg",
+                "mangledName": "$s5Eitri18SharedMethodParamsV8eventBusAA0bc5EventF0Cvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -1295,6 +1339,80 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SharedMethodEventBus",
+        "printedName": "SharedMethodEventBus",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(channel:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri20SharedMethodEventBusC7publish7channel4dataySS_ypSgtKF",
+            "mangledName": "$s5Eitri20SharedMethodEventBusC7publish7channel4dataySS_ypSgtKF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Eitri20SharedMethodEventBusC",
+        "mangledName": "$s5Eitri20SharedMethodEventBusC",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -3179,7 +3297,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(headers:timeout:)",
+            "printedName": "init(headers:timeout:followRedirects:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3230,11 +3348,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5Eitri10HttpConfigV7headers7timeoutACSDyS2SGSg_SdSgtcfc",
-            "mangledName": "$s5Eitri10HttpConfigV7headers7timeoutACSDyS2SGSg_SdSgtcfc",
+            "usr": "s:5Eitri10HttpConfigV7headers7timeout15followRedirectsACSDyS2SGSg_SdSgSbSgtcfc",
+            "mangledName": "$s5Eitri10HttpConfigV7headers7timeout15followRedirectsACSDyS2SGSg_SdSgSbSgtcfc",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -15040,11 +15173,18 @@
       "value": "15"
     },
     {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/DynamicMethodService.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 7,
+      "value": "\"user-\""
+    },
+    {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 2,
-      "value": "31"
+      "value": "32"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
@@ -15544,6 +15684,20 @@
       "value": "\"keyboardDidHide\""
     },
     {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CertificatePinnerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 919,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CertificatePinnerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1404,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "BooleanLiteral",
       "offset": 159,
@@ -15560,49 +15714,49 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
+      "offset": 1715,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1543,
+      "offset": 1737,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1565,
+      "offset": 1759,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1589,
+      "offset": 1783,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1615,
+      "offset": 1809,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1833,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/HttpServiceModel.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1859,
       "length": 9,
       "value": "\"OPTIONS\""
     },

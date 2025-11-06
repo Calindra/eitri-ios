@@ -14,13 +14,23 @@ public struct EitriAppInvokingMethod {
   public init(slug: Swift.String, version: Swift.String)
 }
 public typealias ModuleExposedMethod = nonisolated(nonsending) (EitriContracts.ModuleMethodParams) async throws -> Any?
+public class ModuleMethodEventBus {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(publishFn: @escaping (_ channel: Swift.String, _ data: Any?) throws -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func publish(channel: Swift.String, data: Any? = nil) throws
+  #endif
+  @objc deinit
+}
 public struct ModuleMethodParams {
   public let data: [Swift.String : Any?]
   public let invokingMethod: EitriContracts.EitriAppInvokingMethod
   public var currentViewController: UIKit.UIViewController
   public var currentNavController: UIKit.UINavigationController?
+  public let eventBus: EitriContracts.ModuleMethodEventBus
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(data: [Swift.String : Any?], invokingMethod: EitriContracts.EitriAppInvokingMethod, currentViewController: UIKit.UIViewController, currentNavController: UIKit.UINavigationController? = nil)
+  public init(data: [Swift.String : Any?], invokingMethod: EitriContracts.EitriAppInvokingMethod, currentViewController: UIKit.UIViewController, currentNavController: UIKit.UINavigationController? = nil, eventBus: EitriContracts.ModuleMethodEventBus)
   #endif
 }
 public struct AppContext {

@@ -15301,7 +15301,7 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 17040,
+      "offset": 17883,
       "length": 5,
       "value": "false"
     },
@@ -15686,14 +15686,14 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CertificatePinnerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 919,
+      "offset": 1419,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CertificatePinnerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1404,
+      "offset": 2748,
       "length": 4,
       "value": "true"
     },
@@ -16309,14 +16309,14 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 7897,
+      "offset": 7613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 7919,
+      "offset": 7635,
       "length": 1,
       "value": "0"
     },

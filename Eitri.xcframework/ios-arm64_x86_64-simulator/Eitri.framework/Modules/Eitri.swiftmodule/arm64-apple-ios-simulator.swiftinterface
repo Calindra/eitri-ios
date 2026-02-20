@@ -17,6 +17,7 @@ import ObjectiveC
 import PhotosUI
 import QuickLook
 import SafariServices
+import Security
 import StoreKit
 import Swift
 import UIKit

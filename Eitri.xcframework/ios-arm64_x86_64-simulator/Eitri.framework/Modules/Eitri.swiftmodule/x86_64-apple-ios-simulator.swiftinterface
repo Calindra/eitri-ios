@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Eitri
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Eitri
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AudioToolbox
@@ -26,6 +26,8 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os.log
+import os
 public struct RunInput {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(workspaceId: Swift.String? = nil, slug: Swift.String? = nil, initParams: Swift.Dictionary<Swift.String, Any?>? = nil, navControllerToPush: UIKit.UINavigationController? = nil)
@@ -159,6 +161,29 @@ public enum httpMethodInputError : Swift.Error {
   public var hashValue: Swift.Int {
     get
   }
+}
+public struct HttpStreamResponse {
+  public let dataChannel: Swift.String
+  public let status: Swift.Int
+  public let statusText: Swift.String
+  public let headers: [Swift.AnyHashable : Any]
+}
+public struct HttpStreamChunkData {
+  public let text: Swift.String
+}
+public struct CancelStreamInput : Swift.Codable {
+  public let dataChannel: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HttpStreamChunkPayload {
+  public let success: Swift.Bool
+  public let errorMessage: Swift.String?
+  public let final: Swift.Bool
+  public let data: Eitri.HttpStreamChunkData?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(success: Swift.Bool, errorMessage: Swift.String? = nil, final: Swift.Bool, data: Eitri.HttpStreamChunkData? = nil)
+  #endif
 }
 public struct ConfigureEitriEnvironmentResponse : Swift.Codable, Swift.Sendable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -429,6 +454,7 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
 public class HttpService {
   public init(httpClient: Foundation.URLSession)
   public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
+  public func requestStream(_ httpMethodInput: Eitri.CallHttpMethodInput, eventBus: Eitri.SharedMethodEventBus, channelName: Swift.String) async throws -> Eitri.HttpStreamResponse
   #if compiler(>=5.3) && $NonescapableTypes
   public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
   #endif

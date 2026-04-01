@@ -336,13 +336,13 @@ public struct EitriMachine {
   public func configure(input: Eitri.ConfigureInput) async throws
   public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
   public func forceLanguage(language: Swift.String) throws
-  public func run(options: Eitri.RunInput) async throws
-  public func runInFrame(parentUI: UIKit.UIViewController, options: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
-  public func stop() async throws
+  @_Concurrency.MainActor public func run(options: Eitri.RunInput) async throws
+  @_Concurrency.MainActor public func runInFrame(parentUI: UIKit.UIViewController, options: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
+  @_Concurrency.MainActor public func stop() async throws
   public func addOnStopListener(fn: @escaping Eitri.OnStopListener)
   public func addOnDeviceShakeListener(fn: @escaping Eitri.OnDeviceShakeListener)
   public func setOnCriticalUpdateRequiredListener(fn: @escaping Eitri.OnCriticalUpdateRequiredListener)
-  public func createReplica() async throws -> Eitri.EitriMachine
+  @_Concurrency.MainActor public func createReplica() async throws -> Eitri.EitriMachine
   #if compiler(>=5.3) && $NonescapableTypes
   public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
   #endif

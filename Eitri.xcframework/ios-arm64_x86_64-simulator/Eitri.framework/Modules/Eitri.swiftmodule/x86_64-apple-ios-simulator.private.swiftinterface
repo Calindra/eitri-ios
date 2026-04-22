@@ -240,6 +240,15 @@ public struct OpenBiometricAuthenticateInput {
   @_Concurrency.MainActor public func authenticate(_ input: Eitri.OpenBiometricAuthenticateInput) async throws -> Eitri.BiometricAuthenticateOutput
   @objc deinit
 }
+@objc @_Concurrency.MainActor @preconcurrency open class CloseButton : UIKit.UIButton {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(color: UIKit.UIColor = .white, size: CoreFoundation.CGFloat = 22, onTap: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
 public struct OpenInput {
   public var slug: Swift.String
   public var initParams: Swift.Dictionary<Swift.String, Any?>?

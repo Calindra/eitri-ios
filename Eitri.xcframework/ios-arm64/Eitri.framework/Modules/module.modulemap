@@ -7,5 +7,4 @@ framework module Eitri {
 
 module Eitri.Swift {
   header "Eitri-Swift.h"
-  requires objc
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Eitri-Swift.h</key>
 		<data>
-		IZ39vsylFQH54YzOprTyJ5VrPAw=
+		8Bttp+CTxtqeIo+NFOtirsEC5hA=
 		</data>
 		<key>Headers/Eitri.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8DFAtfwZVso9oiRyQ9S32tCLuQA=
+		18dGFp3UHOIfuiYsVxZsgkdRSuo=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		XX0/dPw8uzVPf29r+nSu7rKGCBg=
+		nUmohfKlsZwUQgqVY9cWYHxxZPQ=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		cuxDeGYQI0YFtJyrkfIGVhvV+VM=
+		/jbT3M2rFnEDBwvJe2542FTpffA=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		qzzAgxFmin4d/xKEZFOFhHcFaLk=
+		iEpT7cu6ErpnZdLUhS204tC9Ysc=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		cuxDeGYQI0YFtJyrkfIGVhvV+VM=
+		/jbT3M2rFnEDBwvJe2542FTpffA=
 		</data>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cbtmd4zuRHGCCPdUDInGiPNsg+k=
+		Fi/o0lzw3x/LyHTnOStjvWKLNL4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		9/J3LNHD+g1ukLJs6O/mn7FuXR4=
+		dnI6qMEbAfcTTEezf712HYbFfyc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFayaH/AU+6gQo6MR4gbH79HGI3y25cBAUjMPWx5WJQ=
+			NYd4IoQERoquG7y1GecolKz3eBbLgKq6RYG4n0MeiZ8=
 			</data>
 		</dict>
 		<key>Headers/Eitri.h</key>
@@ -61,42 +61,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M25xeD86xAIfRxPOd5Nu1dvimxIfGx3DnDwaSm5zFxA=
+			6gQOUDrOLDSDkli4P6qmOWwZXa9fO0IpUJpSRxfD5ow=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mLlcrK0f6wZLSWENefR3nbdgQaMwQmCcDb9sGC72jS4=
+			p6Njc52z4w86ef/n0RqnC09wuNgtVRxVXOpKDI8vYMk=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BfH0afZQJeXS6ElD/Dbe7aFEovpi1QWcVln9Mx1USCI=
+			beeBqSRmY+0NlKj14jfkI0/dlZpPQlVSPKAd4bM2zrg=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mLlcrK0f6wZLSWENefR3nbdgQaMwQmCcDb9sGC72jS4=
+			p6Njc52z4w86ef/n0RqnC09wuNgtVRxVXOpKDI8vYMk=
 			</data>
 		</dict>
 		<key>Modules/Eitri.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dBKVBiKC8xF21WdJnwsnLlTztN1pKe32JgUEUKLzH7k=
+			JvN2f7pyU3X1HTE/HVqRBMDhLcOsuSgKCmHCp4YSYrY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Prtaj8iNcLA70K6BikzDobP1vqUIgtQKbUcvUUIIaXE=
+			BelPvu0euT5c6Oq/vflz+N5hdoGFWsNxWwJL6u+fYwo=
 			</data>
 		</dict>
 	</dict>

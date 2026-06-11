@@ -13100,6 +13100,68 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentOnTopOncePresenterIsFree",
+            "printedName": "presentOnTopOncePresenterIsFree(_:animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A19ViewControllerUtilsC31presentOnTopOncePresenterIsFree_8animated10completionySo06UIViewC0C_SbyycSgtFZ",
+            "mangledName": "$s5Eitri0A19ViewControllerUtilsC31presentOnTopOncePresenterIsFree_8animated10completionySo06UIViewC0C_SbyycSgtFZ",
+            "moduleName": "Eitri",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -16501,7 +16563,7 @@
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
-      "value": "36"
+      "value": "37"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
@@ -17269,14 +17331,21 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/FileServiceModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1801,
+      "offset": 1855,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/FileServiceModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2006,
+      "offset": 1920,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/FileServiceModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2125,
       "length": 5,
       "value": "false"
     },
@@ -17711,6 +17780,13 @@
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Utils\/EitriViewControllerUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 371,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Utils\/EitriViewControllerUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4441,
       "length": 4,
       "value": "true"
     },

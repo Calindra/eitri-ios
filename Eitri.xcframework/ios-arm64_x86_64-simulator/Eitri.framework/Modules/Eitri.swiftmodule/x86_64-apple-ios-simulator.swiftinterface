@@ -398,6 +398,7 @@ public struct ScrollDirectionChangedModel : Swift.Codable {
   public static func getRootViewController() -> UIKit.UIViewController?
   public static func getKeyWindow() -> UIKit.UIWindow?
   public static func configureModalForIPad(viewControllerToBePresented: UIKit.UIViewController, sourceViewController: UIKit.UIViewController)
+  public static func presentOnTopOncePresenterIsFree(_ viewControllerToBePresented: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
   @objc deinit
 }
 public class HttpService {

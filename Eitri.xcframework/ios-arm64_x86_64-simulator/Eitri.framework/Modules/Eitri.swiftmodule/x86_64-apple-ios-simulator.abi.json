@@ -1144,6 +1144,117 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "callerEitriMachineInstanceId",
+            "printedName": "callerEitriMachineInstanceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvp",
+            "mangledName": "$s5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvg",
+                "mangledName": "$s5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvs",
+                "mangledName": "$s5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvs",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvM",
+                "mangledName": "$s5Eitri18SharedMethodParamsV06callerA17MachineInstanceIdSSSgvM",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -2021,6 +2132,404 @@
         "moduleName": "Eitri"
       },
       {
+        "kind": "TypeDecl",
+        "name": "BottomTabSimulation",
+        "printedName": "BottomTabSimulation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eitriApps",
+            "printedName": "eitriApps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Eitri.BottomTabSimulationApp]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomTabSimulationApp",
+                    "printedName": "Eitri.BottomTabSimulationApp",
+                    "usr": "s:5Eitri22BottomTabSimulationAppV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19BottomTabSimulationV9eitriAppsSayAA0bcD3AppVGvp",
+            "mangledName": "$s5Eitri19BottomTabSimulationV9eitriAppsSayAA0bcD3AppVGvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Eitri.BottomTabSimulationApp]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BottomTabSimulationApp",
+                        "printedName": "Eitri.BottomTabSimulationApp",
+                        "usr": "s:5Eitri22BottomTabSimulationAppV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19BottomTabSimulationV9eitriAppsSayAA0bcD3AppVGvg",
+                "mangledName": "$s5Eitri19BottomTabSimulationV9eitriAppsSayAA0bcD3AppVGvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "layout",
+            "printedName": "layout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19BottomTabSimulationV6layoutSDySSypGSgvp",
+            "mangledName": "$s5Eitri19BottomTabSimulationV6layoutSDySSypGSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19BottomTabSimulationV6layoutSDySSypGSgvg",
+                "mangledName": "$s5Eitri19BottomTabSimulationV6layoutSDySSypGSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri19BottomTabSimulationV",
+        "mangledName": "$s5Eitri19BottomTabSimulationV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomTabSimulationApp",
+        "printedName": "BottomTabSimulationApp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri22BottomTabSimulationAppV4slugSSSgvp",
+            "mangledName": "$s5Eitri22BottomTabSimulationAppV4slugSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri22BottomTabSimulationAppV4slugSSSgvg",
+                "mangledName": "$s5Eitri22BottomTabSimulationAppV4slugSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "workspaceId",
+            "printedName": "workspaceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri22BottomTabSimulationAppV11workspaceIdSSSgvp",
+            "mangledName": "$s5Eitri22BottomTabSimulationAppV11workspaceIdSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri22BottomTabSimulationAppV11workspaceIdSSSgvg",
+                "mangledName": "$s5Eitri22BottomTabSimulationAppV11workspaceIdSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri22BottomTabSimulationAppV5titleSSSgvp",
+            "mangledName": "$s5Eitri22BottomTabSimulationAppV5titleSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri22BottomTabSimulationAppV5titleSSSgvg",
+                "mangledName": "$s5Eitri22BottomTabSimulationAppV5titleSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri22BottomTabSimulationAppV",
+        "mangledName": "$s5Eitri22BottomTabSimulationAppV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
         "kind": "Import",
         "name": "EitriContracts",
         "printedName": "EitriContracts",
@@ -2332,6 +2841,53 @@
             "declKind": "Func",
             "usr": "s:5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctScMYcc_tF",
             "mangledName": "$s5Eitri8SuperAppC37setCustomErrorScreenGeneratorFunction2fnySo6UIViewCAA0acF7ContextV_AGyycyyctScMYcc_tF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBottomTabSimulationViewProvider",
+            "printedName": "setBottomTabSimulationViewProvider(fn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BottomTabSimulation) async -> (any Eitri.EitriCustomTabUI)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Eitri.EitriCustomTabUI)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EitriCustomTabUI",
+                        "printedName": "any Eitri.EitriCustomTabUI",
+                        "usr": "s:5Eitri0A11CustomTabUIP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomTabSimulation",
+                    "printedName": "Eitri.BottomTabSimulation",
+                    "usr": "s:5Eitri19BottomTabSimulationV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri8SuperAppC34setBottomTabSimulationViewProvider2fnyAA0a6CustomF2UI_pSgAA0efG0VYaScMYcc_tF",
+            "mangledName": "$s5Eitri8SuperAppC34setBottomTabSimulationViewProvider2fnyAA0a6CustomF2UI_pSgAA0efG0VYaScMYcc_tF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -7189,6 +7745,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "AppEntityAnnotatable",
+            "printedName": "AppEntityAnnotatable",
+            "usr": "s:10AppIntents0A17EntityAnnotatableP",
+            "mangledName": "$s10AppIntents0A17EntityAnnotatableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_KeyValueCodingAndObserving",
             "printedName": "_KeyValueCodingAndObserving",
             "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
@@ -10902,6 +11465,54 @@
           },
           {
             "kind": "Function",
+            "name": "setBottomTabSimulationViewProvider",
+            "printedName": "setBottomTabSimulationViewProvider(fn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.BottomTabSimulation) async -> (any Eitri.EitriCustomTabUI)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Eitri.EitriCustomTabUI)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EitriCustomTabUI",
+                        "printedName": "any Eitri.EitriCustomTabUI",
+                        "usr": "s:5Eitri0A11CustomTabUIP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomTabSimulation",
+                    "printedName": "Eitri.BottomTabSimulation",
+                    "usr": "s:5Eitri19BottomTabSimulationV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A7MachineV34setBottomTabSimulationViewProvider2fnyAA0a6CustomE2UI_pSgAA0deF0VYaScMYcc_tF",
+            "mangledName": "$s5Eitri0A7MachineV34setBottomTabSimulationViewProvider2fnyAA0a6CustomE2UI_pSgAA0deF0VYaScMYcc_tF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setNavControllerForNativeNavigation",
             "printedName": "setNavControllerForNativeNavigation(_:)",
             "children": [
@@ -11802,6 +12413,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -11830,10 +12448,238 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
         "name": "os.log",
         "printedName": "os.log",
         "declKind": "Import",
         "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EitriMachineLevel",
+        "printedName": "EitriMachineLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "root",
+            "printedName": "root",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.EitriMachineLevel.Type) -> Eitri.EitriMachineLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EitriMachineLevel",
+                    "printedName": "Eitri.EitriMachineLevel",
+                    "usr": "s:5Eitri0A12MachineLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.EitriMachineLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EitriMachineLevel",
+                        "printedName": "Eitri.EitriMachineLevel",
+                        "usr": "s:5Eitri0A12MachineLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri0A12MachineLevelO4rootyA2CmF",
+            "mangledName": "$s5Eitri0A12MachineLevelO4rootyA2CmF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inner",
+            "printedName": "inner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Eitri.EitriMachineLevel.Type) -> Eitri.EitriMachineLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EitriMachineLevel",
+                    "printedName": "Eitri.EitriMachineLevel",
+                    "usr": "s:5Eitri0A12MachineLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Eitri.EitriMachineLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EitriMachineLevel",
+                        "printedName": "Eitri.EitriMachineLevel",
+                        "usr": "s:5Eitri0A12MachineLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Eitri0A12MachineLevelO5inneryA2CmF",
+            "mangledName": "$s5Eitri0A12MachineLevelO5inneryA2CmF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachineLevel",
+                "printedName": "Eitri.EitriMachineLevel",
+                "usr": "s:5Eitri0A12MachineLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachineLevel",
+                "printedName": "Eitri.EitriMachineLevel",
+                "usr": "s:5Eitri0A12MachineLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A12MachineLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Eitri0A12MachineLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "Eitri",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri0A12MachineLevelO9hashValueSivp",
+            "mangledName": "$s5Eitri0A12MachineLevelO9hashValueSivp",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri0A12MachineLevelO9hashValueSivg",
+                "mangledName": "$s5Eitri0A12MachineLevelO9hashValueSivg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A12MachineLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Eitri0A12MachineLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "Eitri",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Eitri0A12MachineLevelO",
+        "mangledName": "$s5Eitri0A12MachineLevelO",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -11970,19 +12816,56 @@
           },
           {
             "kind": "Function",
+            "name": "all",
+            "printedName": "all()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Eitri.EitriMachine]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EitriMachine",
+                    "printedName": "Eitri.EitriMachine",
+                    "usr": "s:5Eitri0A7MachineV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A12MachineStackC3allSayAA0aB0VGyF",
+            "mangledName": "$s5Eitri0A12MachineStackC3allSayAA0aB0VGyF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "createReplicaInstance",
-            "printedName": "createReplicaInstance()",
+            "printedName": "createReplicaInstance(level:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "EitriMachine",
                 "printedName": "Eitri.EitriMachine",
                 "usr": "s:5Eitri0A7MachineV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachineLevel",
+                "printedName": "Eitri.EitriMachineLevel",
+                "hasDefaultArg": true,
+                "usr": "s:5Eitri0A12MachineLevelO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Eitri0A12MachineStackC21createReplicaInstanceAA0aB0VyYaKF",
-            "mangledName": "$s5Eitri0A12MachineStackC21createReplicaInstanceAA0aB0VyYaKF",
+            "usr": "s:5Eitri0A12MachineStackC21createReplicaInstance5levelAA0aB0VAA0aB5LevelO_tYaKF",
+            "mangledName": "$s5Eitri0A12MachineStackC21createReplicaInstance5levelAA0aB0VAA0aB5LevelO_tYaKF",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -12010,6 +12893,40 @@
               "AccessControl"
             ],
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachine",
+                "printedName": "Eitri.EitriMachine",
+                "usr": "s:5Eitri0A7MachineV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachineLevel",
+                "printedName": "Eitri.EitriMachineLevel",
+                "hasDefaultArg": true,
+                "usr": "s:5Eitri0A12MachineLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A12MachineStackC8register_5levelyAA0aB0V_AA0aB5LevelOtF",
+            "mangledName": "$s5Eitri0A12MachineStackC8register_5levelyAA0aB0V_AA0aB5LevelOtF",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -12046,7 +12963,8 @@
         "mangledName": "$s5Eitri0A12MachineStackC",
         "moduleName": "Eitri",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -12909,6 +13827,41 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "EventKit",
+        "printedName": "EventKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "EventKitUI",
+        "printedName": "EventKitUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Eitri"
       },
@@ -13895,6 +14848,39 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveCurrentEitriMachine",
+            "printedName": "resolveCurrentEitriMachine()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.EitriMachine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EitriMachine",
+                    "printedName": "Eitri.EitriMachine",
+                    "usr": "s:5Eitri0A7MachineV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Eitri0A22MachineInstanceManagerC014resolveCurrentaB0AA0aB0VSgyFZ",
+            "mangledName": "$s5Eitri0A22MachineInstanceManagerC014resolveCurrentaB0AA0aB0VSgyFZ",
+            "moduleName": "Eitri",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14266,6 +15252,2238 @@
         "kind": "Import",
         "name": "os.log",
         "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Contact",
+        "printedName": "Contact",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV2idSSvp",
+            "mangledName": "$s5Eitri7ContactV2idSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV2idSSvg",
+                "mangledName": "$s5Eitri7ContactV2idSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV11displayNameSSvp",
+            "mangledName": "$s5Eitri7ContactV11displayNameSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV11displayNameSSvg",
+                "mangledName": "$s5Eitri7ContactV11displayNameSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "structuredName",
+            "printedName": "structuredName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.ContactStructuredName?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactStructuredName",
+                    "printedName": "Eitri.ContactStructuredName",
+                    "usr": "s:5Eitri21ContactStructuredNameV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV14structuredNameAA0b10StructuredD0VSgvp",
+            "mangledName": "$s5Eitri7ContactV14structuredNameAA0b10StructuredD0VSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.ContactStructuredName?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactStructuredName",
+                        "printedName": "Eitri.ContactStructuredName",
+                        "usr": "s:5Eitri21ContactStructuredNameV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV14structuredNameAA0b10StructuredD0VSgvg",
+                "mangledName": "$s5Eitri7ContactV14structuredNameAA0b10StructuredD0VSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phones",
+            "printedName": "phones",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Eitri.ContactPhone]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactPhone",
+                    "printedName": "Eitri.ContactPhone",
+                    "usr": "s:5Eitri12ContactPhoneV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV6phonesSayAA0B5PhoneVGvp",
+            "mangledName": "$s5Eitri7ContactV6phonesSayAA0B5PhoneVGvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Eitri.ContactPhone]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactPhone",
+                        "printedName": "Eitri.ContactPhone",
+                        "usr": "s:5Eitri12ContactPhoneV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV6phonesSayAA0B5PhoneVGvg",
+                "mangledName": "$s5Eitri7ContactV6phonesSayAA0B5PhoneVGvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emails",
+            "printedName": "emails",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Eitri.ContactEmail]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactEmail",
+                    "printedName": "Eitri.ContactEmail",
+                    "usr": "s:5Eitri12ContactEmailV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV6emailsSayAA0B5EmailVGvp",
+            "mangledName": "$s5Eitri7ContactV6emailsSayAA0B5EmailVGvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Eitri.ContactEmail]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactEmail",
+                        "printedName": "Eitri.ContactEmail",
+                        "usr": "s:5Eitri12ContactEmailV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV6emailsSayAA0B5EmailVGvg",
+                "mangledName": "$s5Eitri7ContactV6emailsSayAA0B5EmailVGvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "addresses",
+            "printedName": "addresses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Eitri.ContactAddress]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactAddress",
+                    "printedName": "Eitri.ContactAddress",
+                    "usr": "s:5Eitri14ContactAddressV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV9addressesSayAA0B7AddressVGvp",
+            "mangledName": "$s5Eitri7ContactV9addressesSayAA0B7AddressVGvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Eitri.ContactAddress]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactAddress",
+                        "printedName": "Eitri.ContactAddress",
+                        "usr": "s:5Eitri14ContactAddressV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV9addressesSayAA0B7AddressVGvg",
+                "mangledName": "$s5Eitri7ContactV9addressesSayAA0B7AddressVGvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "organization",
+            "printedName": "organization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Eitri.ContactOrganization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContactOrganization",
+                    "printedName": "Eitri.ContactOrganization",
+                    "usr": "s:5Eitri19ContactOrganizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri7ContactV12organizationAA0B12OrganizationVSgvp",
+            "mangledName": "$s5Eitri7ContactV12organizationAA0B12OrganizationVSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Eitri.ContactOrganization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContactOrganization",
+                        "printedName": "Eitri.ContactOrganization",
+                        "usr": "s:5Eitri19ContactOrganizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri7ContactV12organizationAA0B12OrganizationVSgvg",
+                "mangledName": "$s5Eitri7ContactV12organizationAA0B12OrganizationVSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri7ContactV",
+        "mangledName": "$s5Eitri7ContactV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContactStructuredName",
+        "printedName": "ContactStructuredName",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prefix",
+            "printedName": "prefix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV6prefixSSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV6prefixSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV6prefixSSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV6prefixSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "givenName",
+            "printedName": "givenName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV05givenD0SSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV05givenD0SSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV05givenD0SSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV05givenD0SSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "middleName",
+            "printedName": "middleName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV06middleD0SSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV06middleD0SSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV06middleD0SSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV06middleD0SSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "familyName",
+            "printedName": "familyName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV06familyD0SSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV06familyD0SSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV06familyD0SSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV06familyD0SSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "suffix",
+            "printedName": "suffix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV6suffixSSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV6suffixSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV6suffixSSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV6suffixSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneticGiven",
+            "printedName": "phoneticGiven",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV13phoneticGivenSSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV13phoneticGivenSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV13phoneticGivenSSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV13phoneticGivenSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneticMiddle",
+            "printedName": "phoneticMiddle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV14phoneticMiddleSSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV14phoneticMiddleSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV14phoneticMiddleSSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV14phoneticMiddleSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneticFamily",
+            "printedName": "phoneticFamily",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri21ContactStructuredNameV14phoneticFamilySSSgvp",
+            "mangledName": "$s5Eitri21ContactStructuredNameV14phoneticFamilySSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri21ContactStructuredNameV14phoneticFamilySSSgvg",
+                "mangledName": "$s5Eitri21ContactStructuredNameV14phoneticFamilySSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri21ContactStructuredNameV",
+        "mangledName": "$s5Eitri21ContactStructuredNameV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContactPhone",
+        "printedName": "ContactPhone",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactPhoneV6numberSSvp",
+            "mangledName": "$s5Eitri12ContactPhoneV6numberSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactPhoneV6numberSSvg",
+                "mangledName": "$s5Eitri12ContactPhoneV6numberSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "normalizedNumber",
+            "printedName": "normalizedNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactPhoneV16normalizedNumberSSSgvp",
+            "mangledName": "$s5Eitri12ContactPhoneV16normalizedNumberSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactPhoneV16normalizedNumberSSSgvg",
+                "mangledName": "$s5Eitri12ContactPhoneV16normalizedNumberSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactPhoneV4typeSSvp",
+            "mangledName": "$s5Eitri12ContactPhoneV4typeSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactPhoneV4typeSSvg",
+                "mangledName": "$s5Eitri12ContactPhoneV4typeSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customLabel",
+            "printedName": "customLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactPhoneV11customLabelSSSgvp",
+            "mangledName": "$s5Eitri12ContactPhoneV11customLabelSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactPhoneV11customLabelSSSgvg",
+                "mangledName": "$s5Eitri12ContactPhoneV11customLabelSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri12ContactPhoneV",
+        "mangledName": "$s5Eitri12ContactPhoneV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContactEmail",
+        "printedName": "ContactEmail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactEmailV7addressSSvp",
+            "mangledName": "$s5Eitri12ContactEmailV7addressSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactEmailV7addressSSvg",
+                "mangledName": "$s5Eitri12ContactEmailV7addressSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactEmailV4typeSSvp",
+            "mangledName": "$s5Eitri12ContactEmailV4typeSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactEmailV4typeSSvg",
+                "mangledName": "$s5Eitri12ContactEmailV4typeSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customLabel",
+            "printedName": "customLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri12ContactEmailV11customLabelSSSgvp",
+            "mangledName": "$s5Eitri12ContactEmailV11customLabelSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri12ContactEmailV11customLabelSSSgvg",
+                "mangledName": "$s5Eitri12ContactEmailV11customLabelSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri12ContactEmailV",
+        "mangledName": "$s5Eitri12ContactEmailV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContactAddress",
+        "printedName": "ContactAddress",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "formatted",
+            "printedName": "formatted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV9formattedSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV9formattedSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV9formattedSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV9formattedSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "street",
+            "printedName": "street",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV6streetSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV6streetSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV6streetSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV6streetSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "poBox",
+            "printedName": "poBox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV5poBoxSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV5poBoxSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV5poBoxSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV5poBoxSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "neighborhood",
+            "printedName": "neighborhood",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV12neighborhoodSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV12neighborhoodSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV12neighborhoodSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV12neighborhoodSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV4citySSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV4citySSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV4citySSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV4citySSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "region",
+            "printedName": "region",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV6regionSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV6regionSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV6regionSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV6regionSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postcode",
+            "printedName": "postcode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV8postcodeSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV8postcodeSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV8postcodeSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV8postcodeSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV7countrySSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV7countrySSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV7countrySSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV7countrySSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV4typeSSvp",
+            "mangledName": "$s5Eitri14ContactAddressV4typeSSvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV4typeSSvg",
+                "mangledName": "$s5Eitri14ContactAddressV4typeSSvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customLabel",
+            "printedName": "customLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri14ContactAddressV11customLabelSSSgvp",
+            "mangledName": "$s5Eitri14ContactAddressV11customLabelSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri14ContactAddressV11customLabelSSSgvg",
+                "mangledName": "$s5Eitri14ContactAddressV11customLabelSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri14ContactAddressV",
+        "mangledName": "$s5Eitri14ContactAddressV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContactOrganization",
+        "printedName": "ContactOrganization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "company",
+            "printedName": "company",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19ContactOrganizationV7companySSSgvp",
+            "mangledName": "$s5Eitri19ContactOrganizationV7companySSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19ContactOrganizationV7companySSSgvg",
+                "mangledName": "$s5Eitri19ContactOrganizationV7companySSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19ContactOrganizationV5titleSSSgvp",
+            "mangledName": "$s5Eitri19ContactOrganizationV5titleSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19ContactOrganizationV5titleSSSgvg",
+                "mangledName": "$s5Eitri19ContactOrganizationV5titleSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "department",
+            "printedName": "department",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Eitri19ContactOrganizationV10departmentSSSgvp",
+            "mangledName": "$s5Eitri19ContactOrganizationV10departmentSSSgvp",
+            "moduleName": "Eitri",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Eitri19ContactOrganizationV10departmentSSSgvg",
+                "mangledName": "$s5Eitri19ContactOrganizationV10departmentSSSgvg",
+                "moduleName": "Eitri",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Eitri19ContactOrganizationV",
+        "mangledName": "$s5Eitri19ContactOrganizationV",
+        "moduleName": "Eitri",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Eitri"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
         "declKind": "Import",
         "moduleName": "Eitri"
       },
@@ -15518,7 +18736,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:)",
+            "printedName": "init(_:machineStack:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -15531,11 +18749,17 @@
                 "name": "EitriMachine",
                 "printedName": "Eitri.EitriMachine",
                 "usr": "s:5Eitri0A7MachineV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriMachineStack",
+                "printedName": "Eitri.EitriMachineStack",
+                "usr": "s:5Eitri0A12MachineStackC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5Eitri0A13BottomTabViewCyAcA0A7MachineVcfc",
-            "mangledName": "$s5Eitri0A13BottomTabViewCyAcA0A7MachineVcfc",
+            "usr": "s:5Eitri0A13BottomTabViewC_12machineStackAcA0A7MachineV_AA0agF0Ctcfc",
+            "mangledName": "$s5Eitri0A13BottomTabViewC_12machineStackAcA0A7MachineV_AA0agF0Ctcfc",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -16421,133 +19645,133 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 959,
+      "offset": 971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1187,
+      "offset": 1199,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1193,
+      "offset": 1205,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1203,
+      "offset": 1215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1214,
+      "offset": 1226,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1380,
+      "offset": 1392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1569,
+      "offset": 1581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1652,
+      "offset": 1664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1809,
+      "offset": 1821,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 2121,
+      "offset": 2133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "StringLiteral",
-      "offset": 2189,
+      "offset": 2201,
       "length": 9,
       "value": "\"#5b5a5a\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2258,
+      "offset": 2270,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2303,
+      "offset": 2315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 2618,
+      "offset": 2630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2803,
+      "offset": 2815,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 3139,
+      "offset": 3151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3352,
+      "offset": 3364,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoaderErrorScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 3408,
+      "offset": 3420,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/DynamicMethodService.swift",
       "kind": "StringLiteral",
-      "offset": 696,
+      "offset": 906,
       "length": 7,
       "value": "\"user-\""
     },
@@ -16570,7 +19794,7 @@
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
-      "value": "37"
+      "value": "38"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
@@ -16610,84 +19834,84 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 913,
+      "offset": 1086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 1076,
+      "offset": 1249,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "Array",
-      "offset": 1134,
+      "offset": 1307,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "Array",
-      "offset": 1345,
+      "offset": 1592,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1883,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "StringLiteral",
-      "offset": 2498,
+      "offset": 2741,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 2561,
+      "offset": 2804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "StringLiteral",
-      "offset": 2743,
+      "offset": 2986,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3787,
+      "offset": 4030,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 8882,
+      "offset": 9522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 10853,
+      "offset": 11501,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
       "kind": "BooleanLiteral",
-      "offset": 18201,
+      "offset": 20036,
       "length": 5,
       "value": "false"
     },
@@ -16931,57 +20155,64 @@
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
+      "kind": "Array",
+      "offset": 840,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 693,
+      "offset": 885,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 946,
       "length": 38,
       "value": "\"0C2B4209-1953-4206-A8D2-7B182CD4890F\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 859,
+      "offset": 1051,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 864,
+      "offset": 1056,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 869,
+      "offset": 1061,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 930,
+      "offset": 1122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1119,
+      "offset": 1311,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowViewController.swift",
       "kind": "Array",
-      "offset": 1166,
+      "offset": 1358,
       "length": 2,
       "value": "[]"
     },
@@ -17387,35 +20618,35 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1946,
+      "offset": 2932,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "Array",
-      "offset": 3347,
+      "offset": 4333,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3386,
+      "offset": 4372,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3416,
+      "offset": 4402,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriMultiWorkspaceBottomTabViewSimulatorService.swift",
       "kind": "FloatLiteral",
-      "offset": 7437,
+      "offset": 8423,
       "length": 4,
       "value": "20.0"
     },
@@ -17611,7 +20842,7 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/EitriMachine.swift",
       "kind": "StringLiteral",
-      "offset": 7513,
+      "offset": 7784,
       "length": 7,
       "value": "\"user-\""
     },
@@ -17628,6 +20859,20 @@
       "offset": 2402,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriBottomTabViewUIViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/TabStackedNavigation.swift",
+      "kind": "Array",
+      "offset": 1034,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriAppMessageProcessor.swift",
@@ -17653,14 +20898,14 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/CustomNavigation\/EitriMachineStack.swift",
       "kind": "StringLiteral",
-      "offset": 77,
+      "offset": 90,
       "length": 19,
       "value": "\"EitriMachineStack\""
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/CustomNavigation\/EitriMachineStack.swift",
       "kind": "StringLiteral",
-      "offset": 612,
+      "offset": 2572,
       "length": 40,
       "value": "\"tech.eitri.EitriMachineStack.syncQueue\""
     },
@@ -17681,7 +20926,7 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Components\/EitriWebFlowHeader.swift",
       "kind": "StringLiteral",
-      "offset": 164,
+      "offset": 202,
       "length": 20,
       "value": "\"EitriWebFlowHeader\""
     },
@@ -17756,6 +21001,132 @@
       "value": "\"EitriAppApiService\""
     },
     {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 32,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 28,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ssZZZZZ\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 27,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 23,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 12,
+      "value": "\"yyyy-MM-dd\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "Array",
+      "offset": 2727,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "Array",
+      "offset": 2748,
+      "length": 9,
+      "value": "[\"BYDAY\"]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "Array",
+      "offset": 2777,
+      "length": 23,
+      "value": "[\"BYDAY\", \"BYMONTHDAY\"]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "Array",
+      "offset": 2819,
+      "length": 45,
+      "value": "[\"BYDAY\", \"BYMONTH\", \"BYWEEKNO\", \"BYYEARDAY\"]"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 2944,
+      "length": 4,
+      "value": "\"SU\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 2967,
+      "length": 4,
+      "value": "\"MO\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 2990,
+      "length": 4,
+      "value": "\"TU\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 4,
+      "value": "\"WE\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 3040,
+      "length": 4,
+      "value": "\"TH\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 3065,
+      "length": 4,
+      "value": "\"FR\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "StringLiteral",
+      "offset": 3088,
+      "length": 4,
+      "value": "\"SA\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12042,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CalendarService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12047,
+      "length": 2,
+      "value": "60"
+    },
+    {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/EitriAppPlayerService.swift",
       "kind": "StringLiteral",
       "offset": 77,
@@ -17793,7 +21164,7 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Utils\/EitriViewControllerUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 4441,
+      "offset": 5632,
       "length": 4,
       "value": "true"
     },
@@ -17814,49 +21185,56 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 506,
+      "offset": 1090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 717,
+      "offset": 1301,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "FloatLiteral",
-      "offset": 1021,
+      "offset": 1605,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1078,
+      "offset": 1662,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1117,
+      "offset": 1701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 8466,
+      "offset": 2302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 8488,
+      "offset": 10296,
       "length": 1,
       "value": "0"
     },
@@ -17931,6 +21309,20 @@
       "value": "\"!\""
     },
     {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/WebFlowModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 33,
+      "value": "\"^[A-Za-z_$][A-Za-z0-9_$]{0,63}$\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/WebFlowModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 25,
+      "value": "\"^[A-Za-z0-9_$-]{1,128}$\""
+    },
+    {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/StorageService.swift",
       "kind": "StringLiteral",
       "offset": 77,
@@ -17959,6 +21351,13 @@
       "value": "\"EitriAppHttpService\""
     },
     {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/EitriAppDataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3140,
+      "length": 8,
+      "value": "\"layout\""
+    },
+    {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/Preview\/FilePreviewController.swift",
       "kind": "Array",
       "offset": 167,
@@ -17978,6 +21377,13 @@
       "offset": 77,
       "length": 22,
       "value": "\"EitriAppStackService\""
+    },
+    {
+      "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/ContactsService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3813,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/SuperAppService.swift",
@@ -18059,14 +21465,14 @@
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/CustomNavigation\/EitriBottomTabView.swift",
       "kind": "Array",
-      "offset": 280,
+      "offset": 828,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daniel\/sources\/eitri-machine\/ios\/Eitri\/eitri-ios\/Eitri\/CustomNavigation\/EitriBottomTabView.swift",
       "kind": "Array",
-      "offset": 331,
+      "offset": 879,
       "length": 2,
       "value": "[]"
     },

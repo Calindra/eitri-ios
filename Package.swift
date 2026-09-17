@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Eitri",
+    platforms: [
+        .iOS(.v15)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -12,7 +15,7 @@ let package = Package(
             targets: ["Eitri", "EitriDependencies"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Calindra/eitri-ios-contracts.git", from: "4.0.0"),
+        .package(url: "https://github.com/Calindra/eitri-ios-contracts.git", from: "5.0.0"),
     ],
     targets: [
         .target(

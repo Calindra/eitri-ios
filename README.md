@@ -46,7 +46,7 @@ And don't forget to add `"Eitri"` to your target dependencies:
 
 ### Minimum Requirements
 
-- iOS 14.0+
+- iOS 15.0+
 - Swift 5.5+
 
 

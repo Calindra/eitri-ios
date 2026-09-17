@@ -1,12 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Eitri
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Eitri
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import AVFoundation
 import AudioToolbox
+import Contacts
+import ContactsUI
 import CryptoKit
 @_exported import Eitri
 import EitriContracts
+import EventKit
+import EventKitUI
 import Foundation
 import GameKit
 import LinkPresentation
@@ -29,88 +33,100 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 public struct RunInput {
-  public init(workspaceId: Swift.String? = nil, slug: Swift.String? = nil, initParams: Swift.Dictionary<Swift.String, Any?>? = nil, navControllerToPush: UIKit.UINavigationController? = nil)
-  public var workspaceId: Swift.String?
-  public var slug: Swift.String?
-  public var initParams: Swift.Dictionary<Swift.String, Any?>?
-  public var navControllerToPush: UIKit.UINavigationController?
+  public init(workspaceId: Swift::String? = nil, slug: Swift::String? = nil, initParams: Swift::Dictionary<Swift::String, Any?>? = nil, navControllerToPush: UIKit::UINavigationController? = nil)
+  public var workspaceId: Swift::String?
+  public var slug: Swift::String?
+  public var initParams: Swift::Dictionary<Swift::String, Any?>?
+  public var navControllerToPush: UIKit::UINavigationController?
 }
 public struct SharedMethodParams {
-  public let data: Swift.Dictionary<Swift.String, Any?>
-  public let slug: Swift.String
-  public let openServices: Eitri.EitriOpenServicesFacade
-  public var currentNavController: UIKit.UINavigationController?
-  public let eitriAppExecutingMethod: Eitri.EitriAppExecutingMethod
-  public let eventBus: Eitri.SharedMethodEventBus
+  public let data: Swift::Dictionary<Swift::String, Any?>
+  public let slug: Swift::String
+  public let openServices: Eitri::EitriOpenServicesFacade
+  public var currentNavController: UIKit::UINavigationController?
+  public let eitriAppExecutingMethod: Eitri::EitriAppExecutingMethod
+  public let eventBus: Eitri::SharedMethodEventBus
+  public var callerEitriMachineInstanceId: Swift::String?
 }
 public struct EitriAppExecutingMethod {
-  public var slug: Swift.String
-  public var version: Swift.String
+  public var slug: Swift::String
+  public var version: Swift::String
 }
 @_hasMissingDesignatedInitializers public class SharedMethodEventBus {
-  public func publish(channel: Swift.String, data: Any? = nil) throws
+  public func publish(channel: Swift::String, data: Any? = nil) throws
   @objc deinit
 }
-public typealias SharedMethod = (_ params: Eitri.SharedMethodParams) async throws -> Any?
+public typealias SharedMethod = (_ params: Eitri::SharedMethodParams) async throws -> Any?
 public struct DynamicMethodAddressableMessage {
-  public var promiseId: Swift.String
-  public var slug: Swift.String
-  public var rawMessageFromOrigin: Swift.String
-  public var eitriMachineInstanceId: Swift.String
+  public var promiseId: Swift::String
+  public var slug: Swift::String
+  public var rawMessageFromOrigin: Swift::String
+  public var eitriMachineInstanceId: Swift::String
 }
-public typealias DynamicMethodRawEventListener = (_ params: Eitri.DynamicMethodAddressableMessage) throws -> Swift.Void
+public typealias DynamicMethodRawEventListener = (_ params: Eitri::DynamicMethodAddressableMessage) throws -> Swift::Void
 public struct ExposedMethodDescriptor {
-  public init(_ namespace: Swift.String, _ methodName: Swift.String, _ version: EitriContracts.ModuleVersion? = nil)
+  public init(_ namespace: Swift::String, _ methodName: Swift::String, _ version: EitriContracts::ModuleVersion? = nil)
 }
-public protocol WebViewCoordinatorListener : ObjectiveC.NSObjectProtocol {
-  func onLoadFinished(webView: WebKit.WKWebView, origin: Swift.String)
+public protocol WebViewCoordinatorListener : ObjectiveC::NSObjectProtocol {
+  func onLoadFinished(webView: WebKit::WKWebView, origin: Swift::String)
   func onError()
 }
-public typealias LoadingAnimationGeneratorFunction = @_Concurrency.MainActor (_ slug: Swift.String, _ parentView: UIKit.UIView) -> UIKit.UIView
+public typealias LoadingAnimationGeneratorFunction = @_Concurrency::MainActor (_ slug: Swift::String, _ parentView: UIKit::UIView) -> UIKit::UIView
+public typealias BottomTabSimulationViewProvider = @_Concurrency::MainActor (_ simulation: Eitri::BottomTabSimulation) async -> (any Eitri::EitriCustomTabUI)?
+public struct BottomTabSimulation {
+  public let eitriApps: [Eitri::BottomTabSimulationApp]
+  public let layout: [Swift::String : Any]?
+}
+public struct BottomTabSimulationApp {
+  public let slug: Swift::String?
+  public let workspaceId: Swift::String?
+  public let title: Swift::String?
+}
 public class SuperApp {
   public init()
   @objc deinit
-  public func configure(input: Eitri.ConfigureInput, isReplica: Swift.Bool = false) async throws
-  public func createEitriMachineReplica() async throws -> Eitri.EitriMachine
-  public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
-  public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
-  public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
-  public func run(runInput: Eitri.RunInput) async throws
-  public func runInFrame(parentUI: UIKit.UIViewController, runInput: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
+  public func configure(input: Eitri::ConfigureInput, isReplica: Swift::Bool = false) async throws
+  public func createEitriMachineReplica() async throws -> Eitri::EitriMachine
+  public func enableCertificatePinning(challengeFunction: @escaping Eitri::CertificateChallengeFunction)
+  public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri::LoadingAnimationGeneratorFunction)
+  public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri::ErrorScreenGeneratorFunction)
+  public func setBottomTabSimulationViewProvider(fn: @escaping Eitri::BottomTabSimulationViewProvider)
+  public func run(runInput: Eitri::RunInput) async throws
+  public func runInFrame(parentUI: UIKit::UIViewController, runInput: Eitri::RunInput) async throws -> Eitri::RunInFrameOutput
   public func stop() async throws
-  public func getInitializationInfos() async -> Swift.Dictionary<Swift.String, Any?>?
-  public func getEnvironmentConfig(_ forceRefresh: Swift.Bool = false) async -> Eitri.ConfigureEitriEnvironmentResponse?
-  public func openEitriAppOnCurrentNativeView(runInput: Eitri.RunInput) async throws
-  public func prefetchResources(prefetchResources: Swift.Bool) async
+  public func getInitializationInfos() async -> Swift::Dictionary<Swift::String, Any?>?
+  public func getEnvironmentConfig(_ forceRefresh: Swift::Bool = false) async -> Eitri::ConfigureEitriEnvironmentResponse?
+  public func openEitriAppOnCurrentNativeView(runInput: Eitri::RunInput) async throws
+  public func prefetchResources(prefetchResources: Swift::Bool) async
 }
 public struct ThemeUtils {
-  public static func isDarkMode() -> Swift.Bool
-  public static func parseHexColor(_ hexString: Swift.String) -> UIKit.UIColor
-  public static func isDarkColor(_ color: UIKit.UIColor) -> Swift.Bool
+  public static func isDarkMode() -> Swift::Bool
+  public static func parseHexColor(_ hexString: Swift::String) -> UIKit::UIColor
+  public static func isDarkColor(_ color: UIKit::UIColor) -> Swift::Bool
 }
-public typealias CertificateChallengeFunction = @Sendable (_ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void
-public struct DownloadInput : Swift.Codable {
-  public init(url: Swift.String, fileName: Swift.String, httpConfig: Eitri.HttpConfig?, shared: Swift.Bool? = false)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public typealias CertificateChallengeFunction = @Sendable (_ challenge: Foundation::URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation::URLSession.Foundation::AuthChallengeDisposition, Foundation::URLCredential?) -> Swift::Void) -> Swift::Void
+public struct DownloadInput : Swift::Codable {
+  public init(url: Swift::String, fileName: Swift::String, httpConfig: Eitri::HttpConfig?, shared: Swift::Bool? = false)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct HttpResponse {
-  public var data: Swift.String
-  public var status: Swift.Int
-  public var headers: [Swift.AnyHashable : Any]
+  public var data: Swift::String
+  public var status: Swift::Int
+  public var headers: [Swift::AnyHashable : Any]
 }
-public struct HttpConfig : Swift.Codable {
-  public init(headers: [Swift.String : Swift.String]? = nil, timeout: Swift.Double? = nil, followRedirects: Swift.Bool? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct HttpConfig : Swift::Codable {
+  public init(headers: [Swift::String : Swift::String]? = nil, timeout: Swift::Double? = nil, followRedirects: Swift::Bool? = nil)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct HttpCallParams {
-  public init(url: Swift.String, data: Any? = nil, config: Eitri.HttpConfig? = nil)
+  public init(url: Swift::String, data: Any? = nil, config: Eitri::HttpConfig? = nil)
 }
 public struct CallHttpMethodInput {
-  public init(methodName: Eitri.HttpMethod, params: Eitri.HttpCallParams)
+  public init(methodName: Eitri::HttpMethod, params: Eitri::HttpCallParams)
 }
-public enum HttpMethod : Swift.String, Swift.Codable {
+public enum HttpMethod : Swift::String, Swift::Codable {
   case Get
   case Post
   case Put
@@ -118,73 +134,73 @@ public enum HttpMethod : Swift.String, Swift.Codable {
   case Patch
   case Head
   case Options
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  public init?(rawValue: Swift::String)
+  public typealias RawValue = Swift::String
+  public var rawValue: Swift::String {
     get
   }
 }
-public enum HttpRequestError : Swift.Error {
+public enum HttpRequestError : Swift::Error {
   case invalidUrl
   case requestFail
   case httpProtocolNotAllowed
-  public static func == (a: Eitri.HttpRequestError, b: Eitri.HttpRequestError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: Eitri::HttpRequestError, b: Eitri::HttpRequestError) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
-public enum httpMethodInputError : Swift.Error {
+public enum httpMethodInputError : Swift::Error {
   case failedToGetHeaders
   case failedToGetData
   case failedToParseData
-  public static func == (a: Eitri.httpMethodInputError, b: Eitri.httpMethodInputError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: Eitri::httpMethodInputError, b: Eitri::httpMethodInputError) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
 public struct HttpStreamResponse {
-  public let dataChannel: Swift.String
-  public let status: Swift.Int
-  public let statusText: Swift.String
-  public let headers: [Swift.AnyHashable : Any]
+  public let dataChannel: Swift::String
+  public let status: Swift::Int
+  public let statusText: Swift::String
+  public let headers: [Swift::AnyHashable : Any]
 }
 public struct HttpStreamChunkData {
-  public let text: Swift.String
+  public let text: Swift::String
 }
-public struct CancelStreamInput : Swift.Codable {
-  public let dataChannel: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct CancelStreamInput : Swift::Codable {
+  public let dataChannel: Swift::String
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct HttpStreamChunkPayload {
-  public let success: Swift.Bool
-  public let errorMessage: Swift.String?
-  public let final: Swift.Bool
-  public let data: Eitri.HttpStreamChunkData?
-  public init(success: Swift.Bool, errorMessage: Swift.String? = nil, final: Swift.Bool, data: Eitri.HttpStreamChunkData? = nil)
+  public let success: Swift::Bool
+  public let errorMessage: Swift::String?
+  public let final: Swift::Bool
+  public let data: Eitri::HttpStreamChunkData?
+  public init(success: Swift::Bool, errorMessage: Swift::String? = nil, final: Swift::Bool, data: Eitri::HttpStreamChunkData? = nil)
 }
-public struct ConfigureEitriEnvironmentResponse : Swift.Codable, Swift.Sendable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct ConfigureEitriEnvironmentResponse : Swift::Codable, Swift::Sendable {
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct BiometricCheckStatusOutput {
-  public var type: Eitri.BiometricType?
-  public var status: Eitri.BiometricCheckStatus
+  public var type: Eitri::BiometricType?
+  public var status: Eitri::BiometricCheckStatus
 }
 public struct BiometricAuthenticateOutput {
-  public var result: Eitri.BiometricResult?
+  public var result: Eitri::BiometricResult?
   public var detail: Any?
 }
-public enum BiometricType : Swift.String {
+public enum BiometricType : Swift::String {
   case TouchID
   case FaceID
   case None
   case Password
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  public init?(rawValue: Swift::String)
+  public typealias RawValue = Swift::String
+  public var rawValue: Swift::String {
     get
   }
 }
@@ -193,61 +209,61 @@ public enum BiometricCheckStatus {
   case UNAVAILABLE
   case BLOCKED
   case NOT_SUPPORTED
-  public static func == (a: Eitri.BiometricCheckStatus, b: Eitri.BiometricCheckStatus) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: Eitri::BiometricCheckStatus, b: Eitri::BiometricCheckStatus) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
 public enum BiometricResult {
   case SUCCESS
   case FAILURE
-  public static func == (a: Eitri.BiometricResult, b: Eitri.BiometricResult) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: Eitri::BiometricResult, b: Eitri::BiometricResult) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
 public struct OpenBiometricAuthenticateInput {
-  public init(useDevicePasswordAsFallback: Swift.Bool? = nil, authenticationReason: Swift.String)
+  public init(useDevicePasswordAsFallback: Swift::Bool? = nil, authenticationReason: Swift::String)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class EitriOpenBiometricService : Eitri.EitriOpenService {
-  public func checkStatus() throws -> Eitri.BiometricCheckStatusOutput
-  @_Concurrency.MainActor public func authenticate(_ input: Eitri.OpenBiometricAuthenticateInput) async throws -> Eitri.BiometricAuthenticateOutput
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class EitriOpenBiometricService : Eitri::EitriOpenService {
+  public func checkStatus() throws -> Eitri::BiometricCheckStatusOutput
+  @_Concurrency::MainActor public func authenticate(_ input: Eitri::OpenBiometricAuthenticateInput) async throws -> Eitri::BiometricAuthenticateOutput
   @objc deinit
 }
-@objc @_Concurrency.MainActor @preconcurrency open class CloseButton : UIKit.UIButton {
-  @_Concurrency.MainActor @preconcurrency public init(color: UIKit.UIColor = .white, size: CoreFoundation.CGFloat = 22, onTap: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_Concurrency::MainActor @preconcurrency open class CloseButton : UIKit::UIButton {
+  @_Concurrency::MainActor @preconcurrency public init(color: UIKit::UIColor = .white, size: CoreFoundation::CGFloat = 22, onTap: (() -> Swift::Void)? = nil)
+  @_Concurrency::MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation::NSCoder)
   @objc deinit
 }
 public struct OpenInput {
-  public var slug: Swift.String
-  public var initParams: Swift.Dictionary<Swift.String, Any?>?
-  public var restorationContext: Swift.Dictionary<Swift.String, Any?>?
-  public var replace: Swift.Bool
-  public var resetStack: Swift.Bool
+  public var slug: Swift::String
+  public var initParams: Swift::Dictionary<Swift::String, Any?>?
+  public var restorationContext: Swift::Dictionary<Swift::String, Any?>?
+  public var replace: Swift::Bool
+  public var resetStack: Swift::Bool
 }
-public struct UpdateTabBadgeInput : Swift.Codable {
-  public let index: Swift.Int?
-  public let content: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct UpdateTabBadgeInput : Swift::Codable {
+  public let index: Swift::Int?
+  public let content: Swift::String?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct ChangeCurrentTabOptions {
-  public var index: Swift.Int?
+  public var index: Swift::Int?
 }
 public struct ConfigureInput {
-  public init(version: Swift.String, environmentKey: Swift.String, sandbox: Swift.Bool = false, debugMode: Swift.Bool = false, certificatePinningChallengeFunction: Eitri.CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri.AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift.Double? = 20000, showWorkspaceBanner: Swift.Bool = false, theme: Eitri.ThemeConfig? = nil)
+  public init(version: Swift::String, environmentKey: Swift::String, sandbox: Swift::Bool = false, debugMode: Swift::Bool = false, certificatePinningChallengeFunction: Eitri::CertificateChallengeFunction? = nil, alternativeInfrastructure: Eitri::AlternativeInfrastructure? = nil, maxConfigureTimeout: Swift::Double? = 20000, showWorkspaceBanner: Swift::Bool = false, theme: Eitri::ThemeConfig? = nil)
 }
-public struct HttpError : Swift.Error {
+public struct HttpError : Swift::Error {
 }
-public enum HttpServiceError : Swift.Error {
+public enum HttpServiceError : Swift::Error {
   case timeOutExceeded
   case downloadFileFailed
-  public static func == (a: Eitri.HttpServiceError, b: Eitri.HttpServiceError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: Eitri::HttpServiceError, b: Eitri::HttpServiceError) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
@@ -256,238 +272,300 @@ public struct HttpErrorResponse {
 public struct HttpErrorRequest {
 }
 public struct TabViewInput {
-  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil, allowBackNavigationOnRoot: Swift.Bool = false)
+  public init(tabViewLayout: Eitri::TabViewLayout, tabViewItemList: [Eitri::TabViewItem], navControllerToPush: UIKit::UINavigationController? = nil, allowBackNavigationOnRoot: Swift::Bool = false)
 }
 public struct TabViewLayout {
-  public init(customTab: any Eitri.EitriCustomTabUI)
+  public init(customTab: any Eitri::EitriCustomTabUI)
 }
 public protocol EitriCustomVCDelegate {
-  func notifyScrollDirectionChanged(directionChangeInfos: Eitri.ScrollDirectionChangedModel)
+  func notifyScrollDirectionChanged(directionChangeInfos: Eitri::ScrollDirectionChangedModel)
 }
 public protocol EitriCustomVCMessageReceiver {
   func onUserTappedActiveTab()
-  func receiveDelegate(delegate: any Eitri.EitriCustomVCDelegate)
+  func receiveDelegate(delegate: any Eitri::EitriCustomVCDelegate)
 }
-public protocol EitriTabViewItemCustomVC : UIKit.UIViewController, Eitri.EitriCustomVCMessageReceiver {
+public protocol EitriTabViewItemCustomVC : UIKit::UIViewController, Eitri::EitriCustomVCMessageReceiver {
 }
 public struct TabViewItemCustomAction {
-  public init(action: @escaping () -> Swift.Void)
+  public init(action: @escaping () -> Swift::Void)
 }
 public struct TabViewItem {
-  public init(runInput: Eitri.RunInput? = nil, customViewController: (any Eitri.EitriTabViewItemCustomVC)? = nil, customAction: Eitri.TabViewItemCustomAction? = nil)
+  public init(runInput: Eitri::RunInput? = nil, customViewController: (any Eitri::EitriTabViewItemCustomVC)? = nil, customAction: Eitri::TabViewItemCustomAction? = nil)
 }
 @_hasMissingDesignatedInitializers public class EitriOpenServicesFacade {
-  public func getBiometricService() throws -> Eitri.EitriOpenBiometricService
+  public func getBiometricService() throws -> Eitri::EitriOpenBiometricService
   @objc deinit
 }
 public struct EitriAppErrorContext {
-  public let slug: Swift.String
-  public let runningAsFrame: Swift.Bool
+  public let slug: Swift::String
+  public let runningAsFrame: Swift::Bool
 }
-public typealias ErrorScreenGeneratorFunction = @_Concurrency.MainActor (_ errorContext: Eitri.EitriAppErrorContext, _ parentView: UIKit.UIView, _ retryFn: @escaping () -> Swift.Void, _ cancelFn: @escaping () -> Swift.Void) -> UIKit.UIView
-public struct CacheEntry : Swift.Codable {
-  public let value: Swift.String
-  public let timestamp: Foundation.TimeInterval
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public typealias ErrorScreenGeneratorFunction = @_Concurrency::MainActor (_ errorContext: Eitri::EitriAppErrorContext, _ parentView: UIKit::UIView, _ retryFn: @escaping () -> Swift::Void, _ cancelFn: @escaping () -> Swift::Void) -> UIKit::UIView
+public struct CacheEntry : Swift::Codable {
+  public let value: Swift::String
+  public let timestamp: Foundation::TimeInterval
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct CacheRefreshResult {
-  public let newContent: Swift.String?
-  public let onCacheWritten: (() -> Swift.Void)?
-  public init(newContent: Swift.String?, onCacheWritten: (() -> Swift.Void)? = nil)
+  public let newContent: Swift::String?
+  public let onCacheWritten: (() -> Swift::Void)?
+  public init(newContent: Swift::String?, onCacheWritten: (() -> Swift::Void)? = nil)
 }
-public typealias CacheRefreshFunction = (Eitri.CacheEntry?) async -> Eitri.CacheRefreshResult?
+public typealias CacheRefreshFunction = (Eitri::CacheEntry?) async -> Eitri::CacheRefreshResult?
 public struct EitriMachine {
-  public let bridge: Eitri.Bridge
-  public let rawBrige: Eitri.RawBridge
-  public let currentEitriApp: Eitri.EitriApp
-  public var modules: any EitriContracts.EitriModuleRegistry {
+  public let bridge: Eitri::Bridge
+  public let rawBrige: Eitri::RawBridge
+  public let currentEitriApp: Eitri::EitriApp
+  public var modules: any EitriContracts::EitriModuleRegistry {
     get
   }
   public init()
-  public func instanceId() -> Swift.String
-  public func configure(input: Eitri.ConfigureInput) async throws
-  public func enableCertificatePinning(challengeFunction: @escaping Eitri.CertificateChallengeFunction)
-  public func forceLanguage(language: Swift.String) throws
-  @_Concurrency.MainActor public func run(options: Eitri.RunInput) async throws
-  @_Concurrency.MainActor public func runInFrame(parentUI: UIKit.UIViewController, options: Eitri.RunInput) async throws -> Eitri.RunInFrameOutput
-  @_Concurrency.MainActor public func stop() async throws
-  public func addOnStopListener(fn: @escaping Eitri.OnStopListener)
-  public func addOnDeviceShakeListener(fn: @escaping Eitri.OnDeviceShakeListener)
-  public func setOnCriticalUpdateRequiredListener(fn: @escaping Eitri.OnCriticalUpdateRequiredListener)
-  @_Concurrency.MainActor public func createReplica() async throws -> Eitri.EitriMachine
-  public func getRemoteConfigs() async throws -> Foundation.NSDictionary?
-  public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri.LoadingAnimationGeneratorFunction)
-  public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri.ErrorScreenGeneratorFunction)
-  public func setNavControllerForNativeNavigation(_ navController: UIKit.UINavigationController?)
-  public func getNavControllerForNativeNavigation() -> UIKit.UINavigationController?
+  public func instanceId() -> Swift::String
+  public func configure(input: Eitri::ConfigureInput) async throws
+  public func enableCertificatePinning(challengeFunction: @escaping Eitri::CertificateChallengeFunction)
+  public func forceLanguage(language: Swift::String) throws
+  @_Concurrency::MainActor public func run(options: Eitri::RunInput) async throws
+  @_Concurrency::MainActor public func runInFrame(parentUI: UIKit::UIViewController, options: Eitri::RunInput) async throws -> Eitri::RunInFrameOutput
+  @_Concurrency::MainActor public func stop() async throws
+  public func addOnStopListener(fn: @escaping Eitri::OnStopListener)
+  public func addOnDeviceShakeListener(fn: @escaping Eitri::OnDeviceShakeListener)
+  public func setOnCriticalUpdateRequiredListener(fn: @escaping Eitri::OnCriticalUpdateRequiredListener)
+  @_Concurrency::MainActor public func createReplica() async throws -> Eitri::EitriMachine
+  public func getRemoteConfigs() async throws -> Foundation::NSDictionary?
+  public func setLoadingAnimationGeneratorFunction(fn: @escaping Eitri::LoadingAnimationGeneratorFunction)
+  public func setCustomErrorScreenGeneratorFunction(fn: @escaping Eitri::ErrorScreenGeneratorFunction)
+  public func setBottomTabSimulationViewProvider(fn: @escaping Eitri::BottomTabSimulationViewProvider)
+  public func setNavControllerForNativeNavigation(_ navController: UIKit::UINavigationController?)
+  public func getNavControllerForNativeNavigation() -> UIKit::UINavigationController?
   public func prefetchResources() async
 }
 public struct EitriApp {
-  public let eventBus: Eitri.EventBus
+  public let eventBus: Eitri::EventBus
 }
 public struct EventBus {
-  public func publish(channel: Swift.String, data: Any?) throws
+  public func publish(channel: Swift::String, data: Any?) throws
 }
 public struct Bridge {
-  public func exposeMethod(namespace: Swift.String, methodName: Swift.String, fn: @escaping Eitri.SharedMethod) throws
-  public func exposeNativeNavigationApi(eitriMachineStack: Eitri.EitriMachineStack) throws
+  public func exposeMethod(namespace: Swift::String, methodName: Swift::String, fn: @escaping Eitri::SharedMethod) throws
+  public func exposeNativeNavigationApi(eitriMachineStack: Eitri::EitriMachineStack) throws
 }
 public struct RawBridge {
-  public func exposeMethodsWithListener(methods: [Eitri.ExposedMethodDescriptor], listener: @escaping Eitri.DynamicMethodRawEventListener) throws
-  public func resolveMethodExecution(promiseId: Swift.String, data: Swift.String) throws
-  public func rejectMethodExecution(promiseId: Swift.String, data: Swift.String) throws
+  public func exposeMethodsWithListener(methods: [Eitri::ExposedMethodDescriptor], listener: @escaping Eitri::DynamicMethodRawEventListener) throws
+  public func resolveMethodExecution(promiseId: Swift::String, data: Swift::String) throws
+  public func rejectMethodExecution(promiseId: Swift::String, data: Swift::String) throws
 }
 public protocol EitriTabViewDelegate : AnyObject {
-  func reportSelectedItem(idx: Swift.Int) -> Swift.Bool
-  func reportSafeArea(height: Swift.Double)
+  func reportSelectedItem(idx: Swift::Int) -> Swift::Bool
+  func reportSafeArea(height: Swift::Double)
 }
-public protocol EitriCustomTabUI : UIKit.UIView {
-  func receiveDelegate(delegate: any Eitri.EitriTabViewDelegate)
-  func adjustPosition(parentView: UIKit.UIView)
-  func scrollDirectionChanged(directionChangeInfos: Eitri.ScrollDirectionChangedModel) throws
-  func changeVisibility(show: Swift.Bool) throws
-  func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
-  func updateTabBadge(updateTabBadgeInput: Eitri.UpdateTabBadgeInput) throws
+public protocol EitriCustomTabUI : UIKit::UIView {
+  func receiveDelegate(delegate: any Eitri::EitriTabViewDelegate)
+  func adjustPosition(parentView: UIKit::UIView)
+  func scrollDirectionChanged(directionChangeInfos: Eitri::ScrollDirectionChangedModel) throws
+  func changeVisibility(show: Swift::Bool) throws
+  func changeCurrentTab(changeCurrentTabOptions: Eitri::ChangeCurrentTabOptions) throws
+  func updateTabBadge(updateTabBadgeInput: Eitri::UpdateTabBadgeInput) throws
 }
-extension Eitri.EitriCustomTabUI {
-  public func changeCurrentTab(changeCurrentTabOptions: Eitri.ChangeCurrentTabOptions) throws
-  public func updateTabBadge(updateTabBadgeInput: Eitri.UpdateTabBadgeInput) throws
+extension Eitri::EitriCustomTabUI {
+  public func changeCurrentTab(changeCurrentTabOptions: Eitri::ChangeCurrentTabOptions) throws
+  public func updateTabBadge(updateTabBadgeInput: Eitri::UpdateTabBadgeInput) throws
+}
+public enum EitriMachineLevel {
+  case root
+  case inner
+  public static func == (a: Eitri::EitriMachineLevel, b: Eitri::EitriMachineLevel) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
 }
 public class EitriMachineStack {
-  public init(defaultEitriMachineInstance: Eitri.EitriMachine?)
-  public func peek() -> Eitri.EitriMachine?
-  public func pop() -> Eitri.EitriMachine?
-  public func get(id: Swift.String) -> Eitri.EitriMachine?
-  public func createReplicaInstance() async throws -> Eitri.EitriMachine
-  public func createReplicaInstanceFromRoot() async throws -> Eitri.EitriMachine
-  public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri.SharedMethodParams) async throws -> Eitri.EitriMachine
+  public init(defaultEitriMachineInstance: Eitri::EitriMachine?)
+  public func peek() -> Eitri::EitriMachine?
+  public func pop() -> Eitri::EitriMachine?
+  public func get(id: Swift::String) -> Eitri::EitriMachine?
+  public func all() -> [Eitri::EitriMachine]
+  public func createReplicaInstance(level: Eitri::EitriMachineLevel = .root) async throws -> Eitri::EitriMachine
+  public func createReplicaInstanceFromRoot() async throws -> Eitri::EitriMachine
+  public func register(_ eitriMachine: Eitri::EitriMachine, level: Eitri::EitriMachineLevel = .root)
+  public func createReplicaAndRunFromExposedMethods(_ sharedMethodParams: Eitri::SharedMethodParams) async throws -> Eitri::EitriMachine
   @objc deinit
 }
-public struct BottomBarChangeOptionsModel : Swift.Codable {
-  public let index: Swift.Int?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct BottomBarChangeOptionsModel : Swift::Codable {
+  public let index: Swift::Int?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public typealias OnCriticalUpdateRequiredListener = () throws -> Swift.Void
+public typealias OnCriticalUpdateRequiredListener = () throws -> Swift::Void
 public struct RunInFrameOutput {
-  public let viewController: UIKit.UIViewController
+  public let viewController: UIKit::UIViewController
 }
 @_hasMissingDesignatedInitializers public class EitriOpenService {
   @objc deinit
 }
-extension UIKit.UIGestureRecognizer {
-  @_Concurrency.MainActor public static func withFn(_ closure: @escaping () -> Swift.Void) -> Self
+extension UIKit::UIGestureRecognizer {
+  @_Concurrency::MainActor public static func withFn(_ closure: @escaping () -> Swift::Void) -> Self
 }
-public enum ScrollDirection : Swift.String, Swift.Codable {
+public enum ScrollDirection : Swift::String, Swift::Codable {
   case up
   case down
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  public init?(rawValue: Swift::String)
+  public typealias RawValue = Swift::String
+  public var rawValue: Swift::String {
     get
   }
 }
-public struct ScrollDirectionChangedModel : Swift.Codable {
-  public var direction: Eitri.ScrollDirection
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct ScrollDirectionChangedModel : Swift::Codable {
+  public var direction: Eitri::ScrollDirection
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class EitriViewControllerUtils {
-  public static func topView(base: UIKit.UIViewController? = EitriViewControllerUtils.getRootViewController(), depth: Swift.Int = 0, searchInsideBottomBars: Swift.Bool = true) -> UIKit.UIViewController?
-  public static func getRootViewController() -> UIKit.UIViewController?
-  public static func getKeyWindow() -> UIKit.UIWindow?
-  public static func configureModalForIPad(viewControllerToBePresented: UIKit.UIViewController, sourceViewController: UIKit.UIViewController)
-  public static func presentOnTopOncePresenterIsFree(_ viewControllerToBePresented: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public static func topView(base: UIKit::UIViewController? = EitriViewControllerUtils.getRootViewController(), depth: Swift::Int = 0, searchInsideBottomBars: Swift::Bool = true) -> UIKit::UIViewController?
+  public static func getRootViewController() -> UIKit::UIViewController?
+  public static func getKeyWindow() -> UIKit::UIWindow?
+  public static func configureModalForIPad(viewControllerToBePresented: UIKit::UIViewController, sourceViewController: UIKit::UIViewController)
+  public static func presentOnTopOncePresenterIsFree(_ viewControllerToBePresented: UIKit::UIViewController, animated: Swift::Bool = true, completion: (() -> Swift::Void)? = nil)
   @objc deinit
 }
 public class HttpService {
-  public init(httpClient: Foundation.URLSession)
-  public func request(_ httpMethodInput: Eitri.CallHttpMethodInput) async throws -> Eitri.HttpResponse
-  public func requestStream(_ httpMethodInput: Eitri.CallHttpMethodInput, eventBus: Eitri.SharedMethodEventBus, channelName: Swift.String) async throws -> Eitri.HttpStreamResponse
-  public func download(_ downloadInput: Eitri.DownloadInput, completionHandler: @escaping @Sendable (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) throws
+  public init(httpClient: Foundation::URLSession)
+  public func request(_ httpMethodInput: Eitri::CallHttpMethodInput) async throws -> Eitri::HttpResponse
+  public func requestStream(_ httpMethodInput: Eitri::CallHttpMethodInput, eventBus: Eitri::SharedMethodEventBus, channelName: Swift::String) async throws -> Eitri::HttpStreamResponse
+  public func download(_ downloadInput: Eitri::DownloadInput, completionHandler: @escaping @Sendable (Foundation::URL?, Foundation::URLResponse?, (any Swift::Error)?) -> Swift::Void) throws
   @objc deinit
 }
 public struct EitriMachineInstanceManagerContext {
-  public var mainMachine: Eitri.EitriMachine
-  public var mainStack: Eitri.EitriMachineStack
+  public var mainMachine: Eitri::EitriMachine
+  public var mainStack: Eitri::EitriMachineStack
 }
 @_hasMissingDesignatedInitializers public class EitriMachineInstanceManager {
-  public static func start() -> Eitri.EitriMachineInstanceManagerContext
-  public static func getCurrentContext() -> Eitri.EitriMachineInstanceManagerContext?
-  public static func getCurrentContextOrError() throws -> Eitri.EitriMachineInstanceManagerContext
+  public static func start() -> Eitri::EitriMachineInstanceManagerContext
+  public static func getCurrentContext() -> Eitri::EitriMachineInstanceManagerContext?
+  public static func getCurrentContextOrError() throws -> Eitri::EitriMachineInstanceManagerContext
+  @_Concurrency::MainActor public static func resolveCurrentEitriMachine() -> Eitri::EitriMachine?
   @objc deinit
 }
-public typealias OnDeviceShakeListener = (_ currentViewController: UIKit.UIViewController) throws -> Swift.Void
-public struct Theme : Swift.Codable {
-  public init(backgroundColor: Swift.String? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public typealias OnDeviceShakeListener = (_ currentViewController: UIKit::UIViewController) throws -> Swift::Void
+public struct Theme : Swift::Codable {
+  public init(backgroundColor: Swift::String? = nil)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct ThemeConfig : Swift.Codable {
-  public init(light: Eitri.Theme? = nil, dark: Eitri.Theme? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct ThemeConfig : Swift::Codable {
+  public init(light: Eitri::Theme? = nil, dark: Eitri::Theme? = nil)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+public struct Contact {
+  public let id: Swift::String
+  public let displayName: Swift::String
+  public let structuredName: Eitri::ContactStructuredName?
+  public let phones: [Eitri::ContactPhone]
+  public let emails: [Eitri::ContactEmail]
+  public let addresses: [Eitri::ContactAddress]
+  public let organization: Eitri::ContactOrganization?
+}
+public struct ContactStructuredName {
+  public let prefix: Swift::String?
+  public let givenName: Swift::String?
+  public let middleName: Swift::String?
+  public let familyName: Swift::String?
+  public let suffix: Swift::String?
+  public let phoneticGiven: Swift::String?
+  public let phoneticMiddle: Swift::String?
+  public let phoneticFamily: Swift::String?
+}
+public struct ContactPhone {
+  public let number: Swift::String
+  public let normalizedNumber: Swift::String?
+  public let type: Swift::String
+  public let customLabel: Swift::String?
+}
+public struct ContactEmail {
+  public let address: Swift::String
+  public let type: Swift::String
+  public let customLabel: Swift::String?
+}
+public struct ContactAddress {
+  public let formatted: Swift::String?
+  public let street: Swift::String?
+  public let poBox: Swift::String?
+  public let neighborhood: Swift::String?
+  public let city: Swift::String?
+  public let region: Swift::String?
+  public let postcode: Swift::String?
+  public let country: Swift::String?
+  public let type: Swift::String
+  public let customLabel: Swift::String?
+}
+public struct ContactOrganization {
+  public let company: Swift::String?
+  public let title: Swift::String?
+  public let department: Swift::String?
 }
 public struct SafeAreaInsets {
 }
-public typealias OnStopListener = (_ instanceId: Swift.String) throws -> Swift.Void
+public typealias OnStopListener = (_ instanceId: Swift::String) throws -> Swift::Void
 public struct AlternativeInfrastructure {
-  public init(configEndpoint: Swift.String? = nil)
+  public init(configEndpoint: Swift::String? = nil)
 }
 public struct MultiWorkspaceContext {
-  public var enabled: Swift.Bool
-  public var albCookie: Swift.String?
+  public var enabled: Swift::Bool
+  public var albCookie: Swift::String?
 }
 public struct SuperAppContext {
-  public var version: Swift.String
-  public var environmentKey: Swift.String
-  public var debugMode: Swift.Bool
-  public var multiWorkspaceContext: Eitri.MultiWorkspaceContext
-  public var forceLanguage: Swift.String?
-  public var safeAreaInsets: Eitri.SafeAreaInsets?
-  public var showWorkspaceBanner: Swift.Bool
-  public var theme: Eitri.ThemeConfig?
+  public var version: Swift::String
+  public var environmentKey: Swift::String
+  public var debugMode: Swift::Bool
+  public var multiWorkspaceContext: Eitri::MultiWorkspaceContext
+  public var forceLanguage: Swift::String?
+  public var safeAreaInsets: Eitri::SafeAreaInsets?
+  public var showWorkspaceBanner: Swift::Bool
+  public var theme: Eitri::ThemeConfig?
 }
 public class EitriBottomTabView {
-  public init(_ mainEitriMachine: Eitri.EitriMachine)
-  @_Concurrency.MainActor public func run(_ tabViewInput: Eitri.TabViewInput) async throws
-  public func getEitriMachineList() -> [Eitri.EitriMachine]
-  public func getCurrentEitriMachine() -> Eitri.EitriMachine?
-  public func getMainView() -> UIKit.UIViewController?
+  public init(_ mainEitriMachine: Eitri::EitriMachine, machineStack: Eitri::EitriMachineStack)
+  @_Concurrency::MainActor public func run(_ tabViewInput: Eitri::TabViewInput) async throws
+  public func getEitriMachineList() -> [Eitri::EitriMachine]
+  public func getCurrentEitriMachine() -> Eitri::EitriMachine?
+  public func getMainView() -> UIKit::UIViewController?
   @objc deinit
 }
-public enum SuperAppErrors : Swift.Error {
+public enum SuperAppErrors : Swift::Error {
   case alreadyInitialized
   case unableToConfigureWhileRunningEitriApps
   case mustCallConfigureBeforeRunEitriApp
   case mustCallConfigureBeforeCallForceLanguage
   case eitriEnvironmentKeyMissing
   case invalidResourceToOpen
-  public static func == (a: Eitri.SuperAppErrors, b: Eitri.SuperAppErrors) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: Eitri::SuperAppErrors, b: Eitri::SuperAppErrors) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
-extension Eitri.HttpMethod : Swift.Equatable {}
-extension Eitri.HttpMethod : Swift.Hashable {}
-extension Eitri.HttpMethod : Swift.RawRepresentable {}
-extension Eitri.HttpRequestError : Swift.Equatable {}
-extension Eitri.HttpRequestError : Swift.Hashable {}
-extension Eitri.httpMethodInputError : Swift.Equatable {}
-extension Eitri.httpMethodInputError : Swift.Hashable {}
-extension Eitri.BiometricType : Swift.Equatable {}
-extension Eitri.BiometricType : Swift.Hashable {}
-extension Eitri.BiometricType : Swift.RawRepresentable {}
-extension Eitri.BiometricCheckStatus : Swift.Equatable {}
-extension Eitri.BiometricCheckStatus : Swift.Hashable {}
-extension Eitri.BiometricResult : Swift.Equatable {}
-extension Eitri.BiometricResult : Swift.Hashable {}
-extension Eitri.HttpServiceError : Swift.Equatable {}
-extension Eitri.HttpServiceError : Swift.Hashable {}
-extension Eitri.ScrollDirection : Swift.Equatable {}
-extension Eitri.ScrollDirection : Swift.Hashable {}
-extension Eitri.ScrollDirection : Swift.RawRepresentable {}
-extension Eitri.SuperAppErrors : Swift.Equatable {}
-extension Eitri.SuperAppErrors : Swift.Hashable {}
+extension Eitri::HttpMethod : Swift::Equatable {}
+extension Eitri::HttpMethod : Swift::Hashable {}
+extension Eitri::HttpMethod : Swift::RawRepresentable {}
+extension Eitri::HttpRequestError : Swift::Equatable {}
+extension Eitri::HttpRequestError : Swift::Hashable {}
+extension Eitri::httpMethodInputError : Swift::Equatable {}
+extension Eitri::httpMethodInputError : Swift::Hashable {}
+extension Eitri::BiometricType : Swift::Equatable {}
+extension Eitri::BiometricType : Swift::Hashable {}
+extension Eitri::BiometricType : Swift::RawRepresentable {}
+extension Eitri::BiometricCheckStatus : Swift::Equatable {}
+extension Eitri::BiometricCheckStatus : Swift::Hashable {}
+extension Eitri::BiometricResult : Swift::Equatable {}
+extension Eitri::BiometricResult : Swift::Hashable {}
+extension Eitri::HttpServiceError : Swift::Equatable {}
+extension Eitri::HttpServiceError : Swift::Hashable {}
+extension Eitri::EitriMachineLevel : Swift::Equatable {}
+extension Eitri::EitriMachineLevel : Swift::Hashable {}
+extension Eitri::ScrollDirection : Swift::Equatable {}
+extension Eitri::ScrollDirection : Swift::Hashable {}
+extension Eitri::ScrollDirection : Swift::RawRepresentable {}
+extension Eitri::SuperAppErrors : Swift::Equatable {}
+extension Eitri::SuperAppErrors : Swift::Hashable {}

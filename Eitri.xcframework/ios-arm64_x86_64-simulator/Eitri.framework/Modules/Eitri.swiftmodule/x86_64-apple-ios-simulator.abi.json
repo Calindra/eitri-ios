@@ -9485,7 +9485,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(tabViewLayout:tabViewItemList:navControllerToPush:allowBackNavigationOnRoot:)",
+            "printedName": "init(tabViewLayout:tabViewItemList:navControllerToPush:allowBackNavigationOnRoot:initialTabIndex:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9534,11 +9534,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5Eitri12TabViewInputV03tabC6Layout0eC8ItemList19navControllerToPush25allowBackNavigationOnRootAcA0bcF0V_SayAA0bcG0VGSo012UINavigationJ0CSgSbtcfc",
-            "mangledName": "$s5Eitri12TabViewInputV03tabC6Layout0eC8ItemList19navControllerToPush25allowBackNavigationOnRootAcA0bcF0V_SayAA0bcG0VGSo012UINavigationJ0CSgSbtcfc",
+            "usr": "s:5Eitri12TabViewInputV03tabC6Layout0eC8ItemList19navControllerToPush25allowBackNavigationOnRoot07initialB5IndexAcA0bcF0V_SayAA0bcG0VGSo012UINavigationJ0CSgSbSitcfc",
+            "mangledName": "$s5Eitri12TabViewInputV03tabC6Layout0eC8ItemList19navControllerToPush25allowBackNavigationOnRoot07initialB5IndexAcA0bcF0V_SayAA0bcG0VGSo012UINavigationJ0CSgSbSitcfc",
             "moduleName": "Eitri",
             "declAttributes": [
               "AccessControl"
@@ -19787,7 +19794,7 @@
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
-      "value": "38"
+      "value": "39"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/SuperApp.swift",
@@ -20709,9 +20716,16 @@
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Model\/TabViewItem.swift",
       "kind": "BooleanLiteral",
-      "offset": 466,
+      "offset": 895,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Model\/TabViewItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 933,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/CacheService.swift",
@@ -20857,6 +20871,13 @@
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriBottomTabViewUIViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriBottomTabViewUIViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7530,
       "length": 1,
       "value": "0"
     },
@@ -21191,43 +21212,57 @@
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "FloatLiteral",
-      "offset": 1605,
+      "offset": 1995,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1662,
+      "offset": 2052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1701,
+      "offset": 2091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 2302,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10274,
+      "offset": 2692,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 10296,
+      "offset": 2977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Views\/EitriAppLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11051,
       "length": 1,
       "value": "0"
     },
@@ -21342,6 +21377,27 @@
       "offset": 77,
       "length": 21,
       "value": "\"EitriAppHttpService\""
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Implementation\/EitriAppHttpService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Implementation\/EitriAppHttpService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 534,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Implementation\/EitriAppHttpService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1457,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/Eitri\/eitri-ios\/Eitri\/Services\/Model\/EitriAppDataModel.swift",

@@ -272,7 +272,7 @@ public struct HttpErrorResponse {
 public struct HttpErrorRequest {
 }
 public struct TabViewInput {
-  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil, allowBackNavigationOnRoot: Swift.Bool = false)
+  public init(tabViewLayout: Eitri.TabViewLayout, tabViewItemList: [Eitri.TabViewItem], navControllerToPush: UIKit.UINavigationController? = nil, allowBackNavigationOnRoot: Swift.Bool = false, initialTabIndex: Swift.Int = 0)
 }
 public struct TabViewLayout {
   public init(customTab: any Eitri.EitriCustomTabUI)
